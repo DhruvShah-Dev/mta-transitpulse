@@ -1,0 +1,140 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
+  "name": "962b56504d2a5284a122",
+  "position": {
+    "x": 50,
+    "y": 175,
+    "z": 4000,
+    "height": 550,
+    "width": 880,
+    "tabOrder": 4
+  },
+  "visual": {
+    "visualType": "scatterChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "rpt_dim_line"
+                    }
+                  },
+                  "Property": "line_id"
+                }
+              },
+              "queryRef": "rpt_dim_line.line_id",
+              "nativeQueryRef": "line_id",
+              "active": true
+            }
+          ]
+        },
+        "Series": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "rpt_priority_2025"
+                    }
+                  },
+                  "Property": "priority_quadrant"
+                }
+              },
+              "queryRef": "rpt_priority_2025.priority_quadrant",
+              "nativeQueryRef": "priority_quadrant"
+            }
+          ]
+        },
+        "Size": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "rpt_customer_month_line_period"
+                    }
+                  },
+                  "Property": "2025 Priority Passenger Trips"
+                }
+              },
+              "queryRef": "rpt_customer_month_line_period.2025 Priority Passenger Trips",
+              "nativeQueryRef": "2025 Priority Passenger Trips"
+            }
+          ]
+        },
+        "X": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "rpt_customer_month_line_period"
+                    }
+                  },
+                  "Property": "2025 Priority CJTP %"
+                }
+              },
+              "queryRef": "rpt_customer_month_line_period.2025 Priority CJTP %",
+              "nativeQueryRef": "2025 Priority CJTP %",
+              "active": true
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "rpt_customer_month_line_period"
+                    }
+                  },
+                  "Property": "2025 Priority Net Minutes (M)"
+                }
+              },
+              "queryRef": "rpt_customer_month_line_period.2025 Priority Net Minutes (M)",
+              "nativeQueryRef": "2025 Priority Net Minutes (M)"
+            }
+          ]
+        }
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Customer reliability vs passenger-time burden'"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "13D"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

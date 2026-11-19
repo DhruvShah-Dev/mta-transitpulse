@@ -1,0 +1,38 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.9.0/schema.json",
+  "name": "9cdb6f9329ca5a50aada",
+  "position": {
+    "x": 52,
+    "y": 112,
+    "z": 2000,
+    "height": 48,
+    "width": 1450,
+    "tabOrder": 2
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "FIXED 2025 SCORECARD  |  Proposed weights: reliability 40% · burden 40% · service 20%",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI",
+                      "fontSize": "17px",
+                      "color": "#507188"
+                    }
+                  }
+                ],
+                "horizontalTextAlignment": "left"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

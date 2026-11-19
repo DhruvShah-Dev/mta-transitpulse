@@ -1,0 +1,35 @@
+table rpt_dim_line
+	lineageTag: aac87d25-3c3b-4306-9c54-78d199a82dab
+
+	column line_id
+		dataType: string
+		isKey
+		lineageTag: 3880f9fb-213f-442d-8d19-f6c1d4440e3b
+		summarizeBy: none
+		sourceColumn: line_id
+
+	column line_label
+		dataType: string
+		lineageTag: 19549d81-92ae-45a4-af65-1ce4fee6cc82
+		summarizeBy: none
+		sourceColumn: line_label
+
+	column is_shuttle
+		dataType: boolean
+		lineageTag: f9d6632b-28ce-4fb8-bcb1-4bc11b214de0
+		summarizeBy: none
+		sourceColumn: is_shuttle
+
+	partition rpt_dim_line = m
+		mode: import
+		source =
+				let
+				    Encoded = Text.Combine({
+				        "H4sIAAAAAAACCjXJ2wqCQBSF4fugd/ABFoTna80DhApaIHQjplLipOLo+2c1Cwb+b68R/dhVfQvxragfnUAvK/na1lV0x4MOHVEt5E4DBmnCJC1YpA2bdOCQLlzSg0f68MkzzmSAgAwRkhEiMkZMXu7YnzoSJGSKlMxKZKdSa6b3XC+9nEbtuUzbzO8cOVmgIK+aZYwtVG7L9tuiQYxQ4VZMzQCV//YBg/35/00BAAA="
+				    }, ""),
+				    Source = Csv.Document(Binary.Decompress(Binary.FromText(Encoded, BinaryEncoding.Base64), Compression.GZip), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Headers, {{"line_id", type text}, {"line_label", type text}, {"is_shuttle", type logical}}, "en-US")
+				in
+				    Typed
+

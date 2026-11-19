@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "TransitPulse"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "edc6097f-c49d-452c-af48-76526daa6b5a"
+  }
+}

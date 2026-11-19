@@ -1,0 +1,158 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.9.0/schema.json",
+  "name": "23a60dda926857e1a47c",
+  "position": {
+    "x": 50,
+    "y": 735,
+    "z": 10000,
+    "height": 260,
+    "width": 1810,
+    "tabOrder": 10
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "rpt_dim_line"
+                    }
+                  },
+                  "Property": "line_id"
+                }
+              },
+              "queryRef": "rpt_dim_line.line_id",
+              "nativeQueryRef": "line_id"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "rpt_customer_month_line_period"
+                    }
+                  },
+                  "Property": "CJTP %"
+                }
+              },
+              "queryRef": "rpt_customer_month_line_period.CJTP %",
+              "nativeQueryRef": "CJTP %"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "rpt_customer_month_line_period"
+                    }
+                  },
+                  "Property": "AJT Minutes Per Trip"
+                }
+              },
+              "queryRef": "rpt_customer_month_line_period.AJT Minutes Per Trip",
+              "nativeQueryRef": "AJT Minutes Per Trip"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "rpt_customer_month_line_period"
+                    }
+                  },
+                  "Property": "APT Minutes Per Trip"
+                }
+              },
+              "queryRef": "rpt_customer_month_line_period.APT Minutes Per Trip",
+              "nativeQueryRef": "APT Minutes Per Trip"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "rpt_customer_month_line_period"
+                    }
+                  },
+                  "Property": "ATT Minutes Per Trip"
+                }
+              },
+              "queryRef": "rpt_customer_month_line_period.ATT Minutes Per Trip",
+              "nativeQueryRef": "ATT Minutes Per Trip"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "rpt_customer_month_line_period"
+                    }
+                  },
+                  "Property": "Net Additional Passenger Minutes (M)"
+                }
+              },
+              "queryRef": "rpt_customer_month_line_period.Net Additional Passenger Minutes (M)",
+              "nativeQueryRef": "Net Additional Passenger Minutes (M)"
+            }
+          ]
+        }
+      }
+    },
+    "objects": {
+      "columnHeaders": [
+        {
+          "properties": {
+            "autoSizeColumnWidth": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "columnAdjustment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'growToFit'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Journey outcomes by line'"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "13D"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

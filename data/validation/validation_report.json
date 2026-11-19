@@ -1,0 +1,469 @@
+{
+  "passed": true,
+  "check_count": 51,
+  "failed_count": 0,
+  "source_exceptions": {
+    "service_delivered_over_100_percent_rows": 42,
+    "service_delivered_max_percent": 104.295051353875,
+    "customer_line_months_without_weekday_incident_row": [
+      {
+        "month": "2025-04-01",
+        "comparison_line": "S 42nd"
+      }
+    ],
+    "major_event_unassigned_line_rows": 8
+  },
+  "checks": [
+    {
+      "check": "customer_journey: raw SHA-256",
+      "passed": true,
+      "detail": "b7a1e62f87837262667efacc3f6b3343ff3ab85ef4ff8d2cb13481d861588497"
+    },
+    {
+      "check": "customer_journey: schema",
+      "passed": true,
+      "detail": [
+        "month",
+        "division",
+        "line",
+        "period",
+        "num_passengers",
+        "additional_platform_time",
+        "additional_train_time",
+        "total_apt",
+        "total_att",
+        "over_five_mins",
+        "over_five_mins_perc",
+        "customer_journey_time"
+      ]
+    },
+    {
+      "check": "customer_journey: row count",
+      "passed": true,
+      "detail": "raw=2300 cleaned=2300"
+    },
+    {
+      "check": "customer_journey: 48 target months",
+      "passed": true,
+      "detail": "2022-01-01 to 2025-12-01"
+    },
+    {
+      "check": "customer_journey: unique raw grain",
+      "passed": true,
+      "detail": 0
+    },
+    {
+      "check": "customer_journey: clean source-row IDs",
+      "passed": true,
+      "detail": 2300
+    },
+    {
+      "check": "customer_journey: mapped lines",
+      "passed": true,
+      "detail": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "JZ",
+        "L",
+        "M",
+        "N",
+        "Q",
+        "R",
+        "S 42nd",
+        "S Fkln",
+        "S Rock",
+        "W"
+      ]
+    },
+    {
+      "check": "customer_journey: deterministic clean rebuild",
+      "passed": true,
+      "detail": [
+        "source_row_id",
+        "month",
+        "division",
+        "line",
+        "period",
+        "num_passengers",
+        "additional_platform_time",
+        "additional_train_time",
+        "total_apt",
+        "total_att",
+        "over_five_mins",
+        "over_five_mins_perc",
+        "customer_journey_time",
+        "canonical_line",
+        "comparison_line",
+        "mapping_status",
+        "ajt_minutes_per_trip",
+        "net_additional_passenger_minutes",
+        "cjt_percent",
+        "over_five_percent"
+      ]
+    },
+    {
+      "check": "customer_journey: numeric date range",
+      "passed": true,
+      "detail": "2022-01-01 to 2025-12-01"
+    },
+    {
+      "check": "delay_incidents: raw SHA-256",
+      "passed": true,
+      "detail": "70a572ac8b6364a34090bcffa3ae850f44612d7b36a895b3e4c9572bcbc16f6c"
+    },
+    {
+      "check": "delay_incidents: schema",
+      "passed": true,
+      "detail": [
+        "month",
+        "division",
+        "line",
+        "day_type",
+        "reporting_category",
+        "incidents"
+      ]
+    },
+    {
+      "check": "delay_incidents: row count",
+      "passed": true,
+      "detail": "raw=15043 cleaned=15043"
+    },
+    {
+      "check": "delay_incidents: 48 target months",
+      "passed": true,
+      "detail": "2022-01-01 to 2025-12-01"
+    },
+    {
+      "check": "delay_incidents: unique raw grain",
+      "passed": true,
+      "detail": 0
+    },
+    {
+      "check": "delay_incidents: clean source-row IDs",
+      "passed": true,
+      "detail": 15043
+    },
+    {
+      "check": "delay_incidents: mapped lines",
+      "passed": true,
+      "detail": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "JZ",
+        "L",
+        "M",
+        "NW",
+        "Q",
+        "R",
+        "S 42nd",
+        "S Fkln",
+        "S Rock"
+      ]
+    },
+    {
+      "check": "delay_incidents: deterministic clean rebuild",
+      "passed": true,
+      "detail": [
+        "source_row_id",
+        "month",
+        "division",
+        "line",
+        "day_type",
+        "reporting_category",
+        "incidents",
+        "canonical_line",
+        "comparison_line",
+        "mapping_status",
+        "category_status"
+      ]
+    },
+    {
+      "check": "delay_incidents: numeric date range",
+      "passed": true,
+      "detail": "2022-01-01 to 2025-12-01"
+    },
+    {
+      "check": "major_incidents: raw SHA-256",
+      "passed": true,
+      "detail": "84558ce2dcc957039032019f29ce9e16d23aa243259bab3dfb3e830a57659e04"
+    },
+    {
+      "check": "major_incidents: schema",
+      "passed": true,
+      "detail": [
+        "month",
+        "division",
+        "line",
+        "day_type",
+        "category",
+        "count"
+      ]
+    },
+    {
+      "check": "major_incidents: row count",
+      "passed": true,
+      "detail": "raw=1920 cleaned=1920"
+    },
+    {
+      "check": "major_incidents: 48 target months",
+      "passed": true,
+      "detail": "2022-01-01 to 2025-12-01"
+    },
+    {
+      "check": "major_incidents: unique raw grain",
+      "passed": true,
+      "detail": 0
+    },
+    {
+      "check": "major_incidents: clean source-row IDs",
+      "passed": true,
+      "detail": 1920
+    },
+    {
+      "check": "major_incidents: mapped lines",
+      "passed": true,
+      "detail": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "JZ",
+        "L",
+        "M",
+        "NW",
+        "Q",
+        "R",
+        "S 42nd",
+        "S Fkln",
+        "S Rock",
+        "UNASSIGNED"
+      ]
+    },
+    {
+      "check": "major_incidents: deterministic clean rebuild",
+      "passed": true,
+      "detail": [
+        "source_row_id",
+        "month",
+        "division",
+        "line",
+        "day_type",
+        "category",
+        "count",
+        "canonical_line",
+        "comparison_line",
+        "mapping_status"
+      ]
+    },
+    {
+      "check": "major_incidents: numeric date range",
+      "passed": true,
+      "detail": "2022-01-01 to 2025-12-01"
+    },
+    {
+      "check": "service_delivered: raw SHA-256",
+      "passed": true,
+      "detail": "375ec8c531c8defe9d538765f81519ce41f9dc6d84ce35937ce072ee096205ab"
+    },
+    {
+      "check": "service_delivered: schema",
+      "passed": true,
+      "detail": [
+        "month",
+        "division",
+        "line",
+        "day_type",
+        "num_sched_trains",
+        "num_actual_trains",
+        "service_delivered"
+      ]
+    },
+    {
+      "check": "service_delivered: row count",
+      "passed": true,
+      "detail": "raw=2212 cleaned=2212"
+    },
+    {
+      "check": "service_delivered: 48 target months",
+      "passed": true,
+      "detail": "2022-01-01 to 2025-12-01"
+    },
+    {
+      "check": "service_delivered: unique raw grain",
+      "passed": true,
+      "detail": 0
+    },
+    {
+      "check": "service_delivered: clean source-row IDs",
+      "passed": true,
+      "detail": 2212
+    },
+    {
+      "check": "service_delivered: mapped lines",
+      "passed": true,
+      "detail": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "JZ",
+        "L",
+        "M",
+        "N",
+        "Q",
+        "R",
+        "S 42nd",
+        "S Fkln",
+        "S Rock",
+        "W"
+      ]
+    },
+    {
+      "check": "service_delivered: deterministic clean rebuild",
+      "passed": true,
+      "detail": [
+        "source_row_id",
+        "month",
+        "division",
+        "line",
+        "day_type",
+        "num_sched_trains",
+        "num_actual_trains",
+        "service_delivered",
+        "canonical_line",
+        "comparison_line",
+        "mapping_status",
+        "service_delivered_percent"
+      ]
+    },
+    {
+      "check": "service_delivered: numeric date range",
+      "passed": true,
+      "detail": "2022-01-01 to 2025-12-01"
+    },
+    {
+      "check": "all raw records retained",
+      "passed": true,
+      "detail": 21475
+    },
+    {
+      "check": "customer percentages and identities",
+      "passed": true,
+      "detail": "weighted fields reconcile"
+    },
+    {
+      "check": "customer percentage bounds",
+      "passed": true,
+      "detail": "CJTP 70.978 to 99.989%"
+    },
+    {
+      "check": "incident counts and blank category",
+      "passed": true,
+      "detail": "blank categories=2149"
+    },
+    {
+      "check": "major counts and unassigned lines",
+      "passed": true,
+      "detail": "unassigned=8"
+    },
+    {
+      "check": "service count ratio and source scale",
+      "passed": true,
+      "detail": "raw = count ratio / 100"
+    },
+    {
+      "check": "service percentage nonnegative",
+      "passed": true,
+      "detail": "67.204 to 104.295%"
+    },
+    {
+      "check": "N/W source mapping",
+      "passed": true,
+      "detail": "N+W only at comparison grain"
+    },
+    {
+      "check": "shuttle alias mapping",
+      "passed": true,
+      "detail": "MTA GTFS route IDs"
+    },
+    {
+      "check": "mart unique keys and no row multiplication",
+      "passed": true,
+      "detail": "1102 line-months"
+    },
+    {
+      "check": "mart passenger and minute reconciliation",
+      "passed": true,
+      "detail": "source totals equal mart totals"
+    },
+    {
+      "check": "incident join exception preserved",
+      "passed": true,
+      "detail": [
+        {
+          "month": "2025-04-01",
+          "comparison_line": "S 42nd"
+        }
+      ]
+    },
+    {
+      "check": "service join coverage",
+      "passed": true,
+      "detail": "missing=0"
+    },
+    {
+      "check": "major-event missing kept distinct",
+      "passed": true,
+      "detail": "no record=299"
+    },
+    {
+      "check": "incident and service source totals unchanged",
+      "passed": true,
+      "detail": "detail sums reconcile before join"
+    }
+  ]
+}

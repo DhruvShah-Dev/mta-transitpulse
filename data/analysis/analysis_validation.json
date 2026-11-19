@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "checks": {
+    "annual_customer_rows": true,
+    "annual_passenger_reconciliation": true,
+    "annual_minutes_reconciliation": true,
+    "2025_scorecard_groups": true,
+    "2025_priority_intersection": true,
+    "incident_missing_not_zero": true,
+    "relationship_population": true,
+    "complete_year_yoy": true,
+    "seasonality_four_year_coverage": true,
+    "category_association_population": true,
+    "01_exploratory_analysis_executed": true,
+    "02_relationship_analysis_executed": true,
+    "03_priority_analysis_executed": true
+  }
+}

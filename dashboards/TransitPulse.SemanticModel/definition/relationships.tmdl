@@ -1,0 +1,49 @@
+relationship d21a21e0-a291-560b-ac9b-e2995fa2955d
+	fromColumn: rpt_customer_month_line_period.month
+	toColumn: rpt_dim_month.month
+
+relationship d76b15eb-410b-5956-9d87-a4efdc38e2f9
+	fromColumn: rpt_delay_month_line_category.month
+	toColumn: rpt_dim_month.month
+
+relationship 481739fc-3243-5015-bfe5-18bac5525ea5
+	fromColumn: rpt_major_month_line_category.month
+	toColumn: rpt_dim_month.month
+
+relationship f4a405d3-cfb1-537a-9a2b-0c0dc7dfee41
+	fromColumn: rpt_service_month_line_daytype.month
+	toColumn: rpt_dim_month.month
+
+relationship 9d0a6d0d-21e2-5f11-87c4-aeba837eb165
+	fromColumn: rpt_customer_month_line_period.line_id
+	toColumn: rpt_dim_line.line_id
+
+relationship f059b884-a75f-5037-a6eb-564d9fe7da35
+	fromColumn: rpt_delay_month_line_category.line_id
+	toColumn: rpt_dim_line.line_id
+
+relationship 828e8a31-99d0-5870-a0a1-58f4146033cb
+	fromColumn: rpt_major_month_line_category.line_id
+	toColumn: rpt_dim_line.line_id
+
+relationship b6902e28-becb-53b6-8e70-22261d0ba48e
+	fromColumn: rpt_service_month_line_daytype.line_id
+	toColumn: rpt_dim_line.line_id
+
+relationship bcb6f592-85fb-5d5e-9a2f-535ac216faf3
+	fromColumn: rpt_priority_2025.line_id
+	toColumn: rpt_dim_line.line_id
+
+relationship d7604e48-36a9-5471-8b1d-3caa72aa00cf
+	fromColumn: rpt_delay_month_line_category.delay_category
+	toColumn: rpt_dim_delay_category.delay_category
+
+relationship 7666da00-dbba-589e-b124-f563339def86
+	fromColumn: rpt_major_month_line_category.major_category
+	toColumn: rpt_dim_major_category.major_category
+
+relationship f6c713a8-ce7a-46cc-ac07-5c1b8ac08523
+	joinOnDateBehavior: datePartOnly
+	fromColumn: rpt_dim_month.month
+	toColumn: LocalDateTable_eb6410d5-4369-417f-b3a9-d701c82307c8.Date
+

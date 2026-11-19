@@ -1,0 +1,40 @@
+{
+  "year": 2025,
+  "eligible_groups": 23,
+  "weights": {
+    "baseline": {
+      "reliability": 0.4,
+      "burden": 0.4,
+      "service": 0.2
+    },
+    "equal": {
+      "reliability": 0.3333333333333333,
+      "burden": 0.3333333333333333,
+      "service": 0.3333333333333333
+    },
+    "reliability_focused": {
+      "reliability": 0.6,
+      "burden": 0.25,
+      "service": 0.15
+    },
+    "burden_focused": {
+      "reliability": 0.25,
+      "burden": 0.6,
+      "service": 0.15
+    },
+    "service_focused": {
+      "reliability": 0.25,
+      "burden": 0.25,
+      "service": 0.5
+    }
+  },
+  "quadrant_cutoffs": {
+    "cjt_percent_median": 84.9497920596477,
+    "net_additional_passenger_minutes_median": 161361313.3266308
+  },
+  "incident_coverage_incomplete": [
+    "S 42nd"
+  ],
+  "service_scoring_rule": "Raw annual ratio retained; percentile of lower ratios. Values above 100% are valid source observations.",
+  "incident_scoring_rule": "Counts are diagnostic only; no commensurate all-weekday exposure denominator."
+}

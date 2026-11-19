@@ -1,0 +1,54 @@
+table rpt_dim_month
+	lineageTag: 6f366bc6-fdea-4f7c-905b-a02ef0a63c94
+
+	column month
+		dataType: dateTime
+		isKey
+		formatString: Long Date
+		lineageTag: a0ab8e0c-c3ea-4238-99fc-32cb1bf845e3
+		summarizeBy: none
+		sourceColumn: month
+
+		variation Variation
+			isDefault
+			relationship: f6c713a8-ce7a-46cc-ac07-5c1b8ac08523
+			defaultHierarchy: LocalDateTable_eb6410d5-4369-417f-b3a9-d701c82307c8.'Date Hierarchy'
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column year
+		dataType: int64
+		lineageTag: eaaad787-7648-41ad-9350-841ad5fa8bca
+		summarizeBy: sum
+		sourceColumn: year
+
+		annotation SummarizationSetBy = Automatic
+
+	column month_number
+		dataType: int64
+		lineageTag: d24ef6fa-806c-4795-bb12-adc5e1765eba
+		summarizeBy: sum
+		sourceColumn: month_number
+
+		annotation SummarizationSetBy = Automatic
+
+	column month_label
+		dataType: string
+		lineageTag: 4ae4a7aa-430b-452a-9304-1a111a22145f
+		summarizeBy: none
+		sourceColumn: month_label
+		sortByColumn: month
+
+	partition rpt_dim_month = m
+		mode: import
+		source =
+				let
+				    Encoded = Text.Combine({
+				        "H4sIAAAAAAACClXQTWrDMBBA4X2hd+gBpmDrz/YyELoIpF30AMUOol3YTghxIbePTdAbCbQY8TEgvek83/7kHvurTNv4My/TENNl7Ic4vr6Yypj3ql6PbKPUcujnt21MZjAjH3EozGJWjv21MIc52V1K85hf9+6FBSzIYSnf0mDNamNhLdbKbvktrMM6+Y6X3OpK/17J1+lWYBamls/zf4FapjayjydFq0mtJrXJDEZSzGIkxRxGUsxjJMUCRlKswUiKtRhJsQ4jaTKS2iwpmIUhKahlNOkTnSZ1mtQlMxhJMYuRFHMYSTGPkRQLGEmxBiMp1mIkxTqMpMlI6rKkYBaGpKCW0aRP9JrUa1KfzGAkxSxGUsxhJMU8RlIsYCTFGoykWIuRFOswkiYjqc+SglkYkoJaRpOu+ACJZLk1cQUAAA=="
+				    }, ""),
+				    Source = Csv.Document(Binary.Decompress(Binary.FromText(Encoded, BinaryEncoding.Base64), Compression.GZip), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Headers, {{"month", type date}, {"year", Int64.Type}, {"month_number", Int64.Type}, {"month_label", type text}}, "en-US")
+				in
+				    Typed
+

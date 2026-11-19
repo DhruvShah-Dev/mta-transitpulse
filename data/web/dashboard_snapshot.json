@@ -1,0 +1,1512 @@
+{
+  "surface": "dashboard",
+  "title": "MTA TransitPulse",
+  "status": "reviewed",
+  "buildStatus": "complete",
+  "generatedAt": "2026-11-19T23:40:07.127035+00:00",
+  "filters": [],
+  "queries": {
+    "annual_system": {
+      "rows": [
+        {
+          "year": "2022",
+          "passengerTrips": 1371067393.8761876,
+          "lateTrips": 220982508.99637014,
+          "netMinutes": 2499061344.5224013,
+          "cjtPercent": 83.88244735573329,
+          "ajtMinutes": 1.8227122573874555
+        },
+        {
+          "year": "2023",
+          "passengerTrips": 1568015973.7577546,
+          "lateTrips": 239213051.08376646,
+          "netMinutes": 2817114661.5860343,
+          "cjtPercent": 84.74422103554903,
+          "ajtMinutes": 1.7966109457640353
+        },
+        {
+          "year": "2024",
+          "passengerTrips": 1561674268.116061,
+          "lateTrips": 243912756.11953232,
+          "netMinutes": 2913953201.5817842,
+          "cjtPercent": 84.3813296345224,
+          "ajtMinutes": 1.8659161267330455
+        },
+        {
+          "year": "2025",
+          "passengerTrips": 1858048389.1415603,
+          "lateTrips": 271229908.8593025,
+          "netMinutes": 3240546696.0872755,
+          "cjtPercent": 85.4024302895247,
+          "ajtMinutes": 1.744059366281868
+        }
+      ],
+      "source": {
+        "label": "MTA Open Data; validated TransitPulse snapshot",
+        "files": [
+          "data/analysis/monthly_system.csv"
+        ],
+        "links": [
+          {
+            "label": "Customer Journey-Focused Metrics",
+            "url": "https://data.ny.gov/d/r7qk-6tcy"
+          },
+          {
+            "label": "Delay-Causing Incidents",
+            "url": "https://data.ny.gov/d/g937-7k7c"
+          },
+          {
+            "label": "Service Delivered",
+            "url": "https://data.ny.gov/d/32ch-sei3"
+          }
+        ],
+        "filters": [
+          "January 2022–December 2025; historical snapshot retrieved 19 November 2026"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "Customer journey reliability",
+            "definition": "Passenger-weighted weekday customer journey performance; 6 a.m.–11 p.m. unlinked train trips.",
+            "sourceLineage": [
+              {
+                "files": [
+                  "data/analysis/monthly_system.csv"
+                ]
+              }
+            ],
+            "formula": "100 × (1 − sum(over_five_trips) / sum(passenger_trips))"
+          }
+        ]
+      }
+    },
+    "monthly_system": {
+      "rows": [
+        {
+          "month": "2022-01-01",
+          "year": 2022,
+          "passengerTrips": 114378900.13965988,
+          "lateTrips": 19179392.498029545,
+          "netMinutes": 185493196.40390795,
+          "cjtPercent": 83.23170403403866,
+          "ajtMinutes": 1.6217431377414497
+        },
+        {
+          "month": "2022-02-01",
+          "year": 2022,
+          "passengerTrips": 80947879.3027334,
+          "lateTrips": 13241841.908235293,
+          "netMinutes": 141416279.95253524,
+          "cjtPercent": 83.64152091160695,
+          "ajtMinutes": 1.7470041361263922
+        },
+        {
+          "month": "2022-03-01",
+          "year": 2022,
+          "passengerTrips": 115063640.09057926,
+          "lateTrips": 18515418.597804666,
+          "netMinutes": 208749315.33126754,
+          "cjtPercent": 83.90854088813013,
+          "ajtMinutes": 1.8142074695962858
+        },
+        {
+          "month": "2022-04-01",
+          "year": 2022,
+          "passengerTrips": 111729743.12325573,
+          "lateTrips": 18199554.50348151,
+          "netMinutes": 208689455.10684204,
+          "cjtPercent": 83.7110925034487,
+          "ajtMinutes": 1.8678057361737983
+        },
+        {
+          "month": "2022-05-01",
+          "year": 2022,
+          "passengerTrips": 111770092.21633327,
+          "lateTrips": 17986641.099096633,
+          "netMinutes": 196972741.41348913,
+          "cjtPercent": 83.90746509872862,
+          "ajtMinutes": 1.7623027547677461
+        },
+        {
+          "month": "2022-06-01",
+          "year": 2022,
+          "passengerTrips": 116576649.12455131,
+          "lateTrips": 19046492.497478485,
+          "netMinutes": 206993858.1789663,
+          "cjtPercent": 83.66182881347956,
+          "ajtMinutes": 1.7756030880404927
+        },
+        {
+          "month": "2022-07-01",
+          "year": 2022,
+          "passengerTrips": 107318099.64728616,
+          "lateTrips": 17647363.596884727,
+          "netMinutes": 201596682.90304187,
+          "cjtPercent": 83.55602302418241,
+          "ajtMinutes": 1.8784965776100546
+        },
+        {
+          "month": "2022-08-01",
+          "year": 2022,
+          "passengerTrips": 118683471.89184785,
+          "lateTrips": 18296961.102584727,
+          "netMinutes": 205546203.29457262,
+          "cjtPercent": 84.58339580825701,
+          "ajtMinutes": 1.7318856620733154
+        },
+        {
+          "month": "2022-09-01",
+          "year": 2022,
+          "passengerTrips": 107299598.52429774,
+          "lateTrips": 17163041.996255398,
+          "netMinutes": 201409949.92503944,
+          "cjtPercent": 84.0045608443084,
+          "ajtMinutes": 1.8770801819862413
+        },
+        {
+          "month": "2022-10-01",
+          "year": 2022,
+          "passengerTrips": 132190473.61812054,
+          "lateTrips": 20979301.000728782,
+          "netMinutes": 252946596.4959201,
+          "cjtPercent": 84.12949100906091,
+          "ajtMinutes": 1.913500947327315
+        },
+        {
+          "month": "2022-11-01",
+          "year": 2022,
+          "passengerTrips": 128429050.19971123,
+          "lateTrips": 20446097.79940915,
+          "netMinutes": 247967104.75893298,
+          "cjtPercent": 84.07984971654402,
+          "ajtMinutes": 1.9307711485317092
+        },
+        {
+          "month": "2022-12-01",
+          "year": 2022,
+          "passengerTrips": 126679795.99781106,
+          "lateTrips": 20280402.396381237,
+          "netMinutes": 241279960.75788605,
+          "cjtPercent": 83.99081539669383,
+          "ajtMinutes": 1.9046443740883132
+        },
+        {
+          "month": "2023-01-01",
+          "year": 2023,
+          "passengerTrips": 128350717.84772561,
+          "lateTrips": 18294042.50329398,
+          "netMinutes": 216501071.77232823,
+          "cjtPercent": 85.74683273295136,
+          "ajtMinutes": 1.6867928392047138
+        },
+        {
+          "month": "2023-02-01",
+          "year": 2023,
+          "passengerTrips": 109770600.43930152,
+          "lateTrips": 15908568.397728804,
+          "netMinutes": 180268999.88906425,
+          "cjtPercent": 85.50744157901772,
+          "ajtMinutes": 1.6422338874673947
+        },
+        {
+          "month": "2023-03-01",
+          "year": 2023,
+          "passengerTrips": 138264969.5973997,
+          "lateTrips": 21134119.30071628,
+          "netMinutes": 255972092.93713087,
+          "cjtPercent": 84.71476950217061,
+          "ajtMinutes": 1.8513155840012916
+        },
+        {
+          "month": "2023-04-01",
+          "year": 2023,
+          "passengerTrips": 123310028.81747986,
+          "lateTrips": 17639936.696273927,
+          "netMinutes": 200462245.43773082,
+          "cjtPercent": 85.69464554875412,
+          "ajtMinutes": 1.6256767382193185
+        },
+        {
+          "month": "2023-05-01",
+          "year": 2023,
+          "passengerTrips": 138789450.18740103,
+          "lateTrips": 21731661.40175515,
+          "netMinutes": 256051657.45156923,
+          "cjtPercent": 84.34199330539037,
+          "ajtMinutes": 1.8448928006115337
+        },
+        {
+          "month": "2023-06-01",
+          "year": 2023,
+          "passengerTrips": 141847889.5420074,
+          "lateTrips": 21238083.799868487,
+          "netMinutes": 247697176.29321548,
+          "cjtPercent": 85.02756447879405,
+          "ajtMinutes": 1.746216860137785
+        },
+        {
+          "month": "2023-07-01",
+          "year": 2023,
+          "passengerTrips": 127050651.8848927,
+          "lateTrips": 19407334.202632308,
+          "netMinutes": 220688926.2496816,
+          "cjtPercent": 84.72472678045347,
+          "ajtMinutes": 1.737015300398653
+        },
+        {
+          "month": "2023-08-01",
+          "year": 2023,
+          "passengerTrips": 136755279.5263089,
+          "lateTrips": 21017451.10281408,
+          "netMinutes": 264276763.56180423,
+          "cjtPercent": 84.6313420764346,
+          "ajtMinutes": 1.9324794222000243
+        },
+        {
+          "month": "2023-09-01",
+          "year": 2023,
+          "passengerTrips": 108177842.28659607,
+          "lateTrips": 16826522.305541154,
+          "netMinutes": 194557545.6096197,
+          "cjtPercent": 84.44550015985476,
+          "ajtMinutes": 1.7984971921900372
+        },
+        {
+          "month": "2023-10-01",
+          "year": 2023,
+          "passengerTrips": 146739785.17851412,
+          "lateTrips": 22765441.986526463,
+          "netMinutes": 280821586.68590623,
+          "cjtPercent": 84.48584209195107,
+          "ajtMinutes": 1.9137385702471683
+        },
+        {
+          "month": "2023-11-01",
+          "year": 2023,
+          "passengerTrips": 139467064.20643947,
+          "lateTrips": 20984772.496641394,
+          "netMinutes": 237668834.14466023,
+          "cjtPercent": 84.95359989396516,
+          "ajtMinutes": 1.704121582374906
+        },
+        {
+          "month": "2023-12-01",
+          "year": 2023,
+          "passengerTrips": 129491694.24368787,
+          "lateTrips": 22265116.889974404,
+          "netMinutes": 262147761.55332327,
+          "cjtPercent": 82.80575675527567,
+          "ajtMinutes": 2.024436880561564
+        },
+        {
+          "month": "2024-01-01",
+          "year": 2024,
+          "passengerTrips": 128265938.86593485,
+          "lateTrips": 21297120.89691829,
+          "netMinutes": 268123381.27778155,
+          "cjtPercent": 83.39612130452005,
+          "ajtMinutes": 2.090370862665477
+        },
+        {
+          "month": "2024-02-01",
+          "year": 2024,
+          "passengerTrips": 106183621.45124362,
+          "lateTrips": 17068074.89571398,
+          "netMinutes": 203139786.4914608,
+          "cjtPercent": 83.92588738033282,
+          "ajtMinutes": 1.9130990609953586
+        },
+        {
+          "month": "2024-03-01",
+          "year": 2024,
+          "passengerTrips": 125441398.49950004,
+          "lateTrips": 20517078.30724358,
+          "netMinutes": 248569748.36140907,
+          "cjtPercent": 83.64409313618633,
+          "ajtMinutes": 1.9815607234512758
+        },
+        {
+          "month": "2024-04-01",
+          "year": 2024,
+          "passengerTrips": 138953592.81395364,
+          "lateTrips": 21170414.704658866,
+          "netMinutes": 251397687.29142177,
+          "cjtPercent": 84.76439919548957,
+          "ajtMinutes": 1.809220490095716
+        },
+        {
+          "month": "2024-05-01",
+          "year": 2024,
+          "passengerTrips": 137484442.08722472,
+          "lateTrips": 21065921.203908063,
+          "netMinutes": 253637484.12781727,
+          "cjtPercent": 84.67759632719523,
+          "ajtMinutes": 1.8448449895654462
+        },
+        {
+          "month": "2024-06-01",
+          "year": 2024,
+          "passengerTrips": 127461436.40247537,
+          "lateTrips": 19153901.502240457,
+          "netMinutes": 219414607.99753398,
+          "cjtPercent": 84.97278703045554,
+          "ajtMinutes": 1.7214195461025954
+        },
+        {
+          "month": "2024-07-01",
+          "year": 2024,
+          "passengerTrips": 136117318.0880514,
+          "lateTrips": 20865801.7996002,
+          "netMinutes": 245216660.86540234,
+          "cjtPercent": 84.67072221765157,
+          "ajtMinutes": 1.801509641166871
+        },
+        {
+          "month": "2024-08-01",
+          "year": 2024,
+          "passengerTrips": 120437192.81737377,
+          "lateTrips": 18455960.30058261,
+          "netMinutes": 216313009.34522125,
+          "cjtPercent": 84.67586310437466,
+          "ajtMinutes": 1.7960648557562264
+        },
+        {
+          "month": "2024-09-01",
+          "year": 2024,
+          "passengerTrips": 123819241.00558,
+          "lateTrips": 19386111.11099333,
+          "netMinutes": 230588054.11812025,
+          "cjtPercent": 84.34321600297996,
+          "ajtMinutes": 1.8622958131986018
+        },
+        {
+          "month": "2024-10-01",
+          "year": 2024,
+          "passengerTrips": 143250149.41521835,
+          "lateTrips": 21739691.60907466,
+          "netMinutes": 246396295.77684492,
+          "cjtPercent": 84.82396584030012,
+          "ajtMinutes": 1.7200421555069507
+        },
+        {
+          "month": "2024-11-01",
+          "year": 2024,
+          "passengerTrips": 135583672.0195656,
+          "lateTrips": 20913474.25315368,
+          "netMinutes": 268405441.52967244,
+          "cjtPercent": 84.57522654340286,
+          "ajtMinutes": 1.9796295345278727
+        },
+        {
+          "month": "2024-12-01",
+          "year": 2024,
+          "passengerTrips": 138676264.64993954,
+          "lateTrips": 22279205.535444617,
+          "netMinutes": 262751044.39909825,
+          "cjtPercent": 83.93437724063017,
+          "ajtMinutes": 1.8947081179491
+        },
+        {
+          "month": "2025-01-01",
+          "year": 2025,
+          "passengerTrips": 165384128.50008202,
+          "lateTrips": 25086497.17489195,
+          "netMinutes": 293736329.0727682,
+          "cjtPercent": 84.831375657139,
+          "ajtMinutes": 1.7760853579890077
+        },
+        {
+          "month": "2025-02-01",
+          "year": 2025,
+          "passengerTrips": 128129757.04820915,
+          "lateTrips": 19435296.24657333,
+          "netMinutes": 228665825.9260939,
+          "cjtPercent": 84.83155147226202,
+          "ajtMinutes": 1.7846426247421807
+        },
+        {
+          "month": "2025-03-01",
+          "year": 2025,
+          "passengerTrips": 142207211.4961176,
+          "lateTrips": 20073105.739499215,
+          "netMinutes": 233299425.29251805,
+          "cjtPercent": 85.88460772958253,
+          "ajtMinutes": 1.6405597356002397
+        },
+        {
+          "month": "2025-04-01",
+          "year": 2025,
+          "passengerTrips": 163001547.70964622,
+          "lateTrips": 22994398.896524195,
+          "netMinutes": 268859901.03291076,
+          "cjtPercent": 85.89314075870985,
+          "ajtMinutes": 1.649431583998389
+        },
+        {
+          "month": "2025-05-01",
+          "year": 2025,
+          "passengerTrips": 154407036.5937628,
+          "lateTrips": 21405654.216377497,
+          "netMinutes": 242512116.9778467,
+          "cjtPercent": 86.13686611142295,
+          "ajtMinutes": 1.5706027544320016
+        },
+        {
+          "month": "2025-06-01",
+          "year": 2025,
+          "passengerTrips": 147939010.11397555,
+          "lateTrips": 21366730.24578941,
+          "netMinutes": 250522876.46296453,
+          "cjtPercent": 85.55706826121927,
+          "ajtMinutes": 1.6934199861818464
+        },
+        {
+          "month": "2025-07-01",
+          "year": 2025,
+          "passengerTrips": 165250830.25234225,
+          "lateTrips": 26432255.283835053,
+          "netMinutes": 356511484.703963,
+          "cjtPercent": 84.00476702993122,
+          "ajtMinutes": 2.157396027357689
+        },
+        {
+          "month": "2025-08-01",
+          "year": 2025,
+          "passengerTrips": 148701881.92204997,
+          "lateTrips": 20942112.31422603,
+          "netMinutes": 246231430.91931242,
+          "cjtPercent": 85.91671333036392,
+          "ajtMinutes": 1.6558729972791317
+        },
+        {
+          "month": "2025-09-01",
+          "year": 2025,
+          "passengerTrips": 140857522.7588005,
+          "lateTrips": 19945152.90052271,
+          "netMinutes": 239698059.98628056,
+          "cjtPercent": 85.84019333161488,
+          "ajtMinutes": 1.7017057753935594
+        },
+        {
+          "month": "2025-10-01",
+          "year": 2025,
+          "passengerTrips": 177045599.7934723,
+          "lateTrips": 26647240.778089408,
+          "netMinutes": 334554234.47021484,
+          "cjtPercent": 84.94893925114546,
+          "ajtMinutes": 1.8896500950064838
+        },
+        {
+          "month": "2025-11-01",
+          "year": 2025,
+          "passengerTrips": 149882384.19556424,
+          "lateTrips": 21458193.336277485,
+          "netMinutes": 252574974.02595475,
+          "cjtPercent": 85.6833119839626,
+          "ajtMinutes": 1.685154498852906
+        },
+        {
+          "month": "2025-12-01",
+          "year": 2025,
+          "passengerTrips": 175241478.75753787,
+          "lateTrips": 25443271.726696253,
+          "netMinutes": 293380037.216448,
+          "cjtPercent": 85.4810220119751,
+          "ajtMinutes": 1.6741472355546902
+        }
+      ],
+      "source": {
+        "label": "MTA Open Data; validated TransitPulse snapshot",
+        "files": [
+          "data/analysis/monthly_system.csv"
+        ],
+        "links": [
+          {
+            "label": "Customer Journey-Focused Metrics",
+            "url": "https://data.ny.gov/d/r7qk-6tcy"
+          },
+          {
+            "label": "Delay-Causing Incidents",
+            "url": "https://data.ny.gov/d/g937-7k7c"
+          },
+          {
+            "label": "Service Delivered",
+            "url": "https://data.ny.gov/d/32ch-sei3"
+          }
+        ],
+        "filters": [
+          "January 2022–December 2025; historical snapshot retrieved 19 November 2026"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "Monthly customer journey reliability",
+            "definition": "Monthly passenger-weighted weekday journey performance from the validated system summary.",
+            "sourceLineage": [
+              {
+                "files": [
+                  "data/analysis/monthly_system.csv"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "priority_2025": {
+      "rows": [
+        {
+          "line": "F",
+          "cjtPercent": 81.74539305658418,
+          "netMinutesM": 231.98341009514763,
+          "ajtMinutes": 1.9070236283945314,
+          "delayIncidents": 4021,
+          "servicePercent": 91.62866992882562,
+          "score": 90.0,
+          "rank": 1,
+          "rankBest": 1,
+          "rankWorst": 2,
+          "quadrant": "High burden / Poor reliability",
+          "incidentMonths": 12,
+          "serviceMonths": 12
+        },
+        {
+          "line": "B",
+          "cjtPercent": 78.74115080970418,
+          "netMinutesM": 173.54877169678798,
+          "ajtMinutes": 2.5701951416511326,
+          "delayIncidents": 2087,
+          "servicePercent": 91.11172136024533,
+          "score": 84.54545454545455,
+          "rank": 2,
+          "rankBest": 1,
+          "rankWorst": 3,
+          "quadrant": "High burden / Poor reliability",
+          "incidentMonths": 12,
+          "serviceMonths": 12
+        },
+        {
+          "line": "Q",
+          "cjtPercent": 79.84359500863614,
+          "netMinutesM": 203.64986028761194,
+          "ajtMinutes": 2.237333626823022,
+          "delayIncidents": 2823,
+          "servicePercent": 94.47745277269958,
+          "score": 81.81818181818181,
+          "rank": 3,
+          "rankBest": 2,
+          "rankWorst": 4,
+          "quadrant": "High burden / Poor reliability",
+          "incidentMonths": 12,
+          "serviceMonths": 12
+        },
+        {
+          "line": "R",
+          "cjtPercent": 82.62913499086696,
+          "netMinutesM": 180.3432123258506,
+          "ajtMinutes": 1.7185512378120882,
+          "delayIncidents": 1855,
+          "servicePercent": 90.33357588755698,
+          "score": 74.54545454545456,
+          "rank": 4,
+          "rankBest": 3,
+          "rankWorst": 5,
+          "quadrant": "High burden / Poor reliability",
+          "incidentMonths": 12,
+          "serviceMonths": 12
+        },
+        {
+          "line": "D",
+          "cjtPercent": 79.62558831497924,
+          "netMinutesM": 148.08342892191075,
+          "ajtMinutes": 2.042427830816234,
+          "delayIncidents": 2774,
+          "servicePercent": 93.39112487100103,
+          "score": 69.0909090909091,
+          "rank": 5,
+          "rankBest": 4,
+          "rankWorst": 10,
+          "quadrant": "Lower burden / Poor reliability",
+          "incidentMonths": 12,
+          "serviceMonths": 12
+        },
+        {
+          "line": "NW",
+          "cjtPercent": 84.70002492453,
+          "netMinutesM": 197.98163488646165,
+          "ajtMinutes": 1.7019688168595313,
+          "delayIncidents": 3640,
+          "servicePercent": 93.17831798278726,
+          "score": 68.18181818181819,
+          "rank": 6,
+          "rankBest": 4,
+          "rankWorst": 7,
+          "quadrant": "High burden / Poor reliability",
+          "incidentMonths": 12,
+          "serviceMonths": 12
+        },
+        {
+          "line": "E",
+          "cjtPercent": 85.16771850224994,
+          "netMinutesM": 180.36963715317154,
+          "ajtMinutes": 1.6963614014474322,
+          "delayIncidents": 2548,
+          "servicePercent": 92.25065274151436,
+          "score": 63.63636363636364,
+          "rank": 7,
+          "rankBest": 6,
+          "rankWorst": 8,
+          "quadrant": "High burden / Better reliability",
+          "incidentMonths": 12,
+          "serviceMonths": 12
+        },
+        {
+          "line": "M",
+          "cjtPercent": 80.73564104054815,
+          "netMinutesM": 125.80794252858746,
+          "ajtMinutes": 2.057519114310134,
+          "delayIncidents": 1719,
+          "servicePercent": 93.35294904373411,
+          "score": 62.727272727272734,
+          "rank": 8,
+          "rankBest": 6,
+          "rankWorst": 12,
+          "quadrant": "Lower burden / Poor reliability",
+          "incidentMonths": 12,
+          "serviceMonths": 12
+        },
+        {
+          "line": "2",
+          "cjtPercent": 84.9497920596477,
+          "netMinutesM": 161.3613133266308,
+          "ajtMinutes": 1.830730575040736,
+          "delayIncidents": 3613,
+          "servicePercent": 93.21652065081352,
+          "score": 54.54545454545455,
+          "rank": 9,
+          "rankBest": 9,
+          "rankWorst": 13,
+          "quadrant": "Lower burden / Better reliability",
+          "incidentMonths": 12,
+          "serviceMonths": 12
+        },
+        {
+          "line": "A",
+          "cjtPercent": 84.18750727312147,
+          "netMinutesM": 168.52066221148985,
+          "ajtMinutes": 1.5388737592532136,
+          "delayIncidents": 3412,
+          "servicePercent": 96.09708201650763,
+          "score": 54.54545454545455,
+          "rank": 9,
+          "rankBest": 9,
+          "rankWorst": 14,
+          "quadrant": "High burden / Poor reliability",
+          "incidentMonths": 12,
+          "serviceMonths": 12
+        },
+        {
+          "line": "1",
+          "cjtPercent": 89.00905876632717,
+          "netMinutesM": 231.49927428228762,
+          "ajtMinutes": 1.6934279474709626,
+          "delayIncidents": 3212,
+          "servicePercent": 96.144578313253,
+          "score": 51.81818181818182,
+          "rank": 11,
+          "rankBest": 7,
+          "rankWorst": 15,
+          "quadrant": "High burden / Better reliability",
+          "incidentMonths": 12,
+          "serviceMonths": 12
+        },
+        {
+          "line": "6",
+          "cjtPercent": 89.65381884408023,
+          "netMinutesM": 224.5269473130593,
+          "ajtMinutes": 1.5680986885320563,
+          "delayIncidents": 4056,
+          "servicePercent": 95.9572400388727,
+          "score": 50.909090909090914,
+          "rank": 12,
+          "rankBest": 8,
+          "rankWorst": 16,
+          "quadrant": "High burden / Better reliability",
+          "incidentMonths": 12,
+          "serviceMonths": 12
+        },
+        {
+          "line": "7",
+          "cjtPercent": 89.78466982871244,
+          "netMinutesM": 200.13914174035423,
+          "ajtMinutes": 1.630658343313834,
+          "delayIncidents": 1921,
+          "servicePercent": 93.61796556009232,
+          "score": 50.0,
+          "rank": 13,
+          "rankBest": 9,
+          "rankWorst": 17,
+          "quadrant": "High burden / Better reliability",
+          "incidentMonths": 12,
+          "serviceMonths": 12
+        },
+        {
+          "line": "5",
+          "cjtPercent": 87.37330489585769,
+          "netMinutesM": 121.79272259092745,
+          "ajtMinutes": 1.5159975928536042,
+          "delayIncidents": 2214,
+          "servicePercent": 91.15395174328158,
+          "score": 45.45454545454545,
+          "rank": 14,
+          "rankBest": 9,
+          "rankWorst": 14,
+          "quadrant": "Lower burden / Better reliability",
+          "incidentMonths": 12,
+          "serviceMonths": 12
+        },
+        {
+          "line": "C",
+          "cjtPercent": 84.64976519264505,
+          "netMinutesM": 116.96811556476926,
+          "ajtMinutes": 1.7687813260803869,
+          "delayIncidents": 2032,
+          "servicePercent": 94.68283582089552,
+          "score": 44.54545454545455,
+          "rank": 15,
+          "rankBest": 12,
+          "rankWorst": 16,
+          "quadrant": "Lower burden / Poor reliability",
+          "incidentMonths": 12,
+          "serviceMonths": 12
+        },
+        {
+          "line": "G",
+          "cjtPercent": 81.84064656737335,
+          "netMinutesM": 88.13253815548131,
+          "ajtMinutes": 2.1729676181646482,
+          "delayIncidents": 2123,
+          "servicePercent": 96.01168126825198,
+          "score": 44.54545454545455,
+          "rank": 15,
+          "rankBest": 10,
+          "rankWorst": 18,
+          "quadrant": "Lower burden / Poor reliability",
+          "incidentMonths": 12,
+          "serviceMonths": 12
+        },
+        {
+          "line": "4",
+          "cjtPercent": 87.94003325418248,
+          "netMinutesM": 139.67851442148188,
+          "ajtMinutes": 1.337862403566262,
+          "delayIncidents": 2767,
+          "servicePercent": 95.2051282051282,
+          "score": 38.18181818181818,
+          "rank": 17,
+          "rankBest": 15,
+          "rankWorst": 18,
+          "quadrant": "Lower burden / Better reliability",
+          "incidentMonths": 12,
+          "serviceMonths": 12
+        },
+        {
+          "line": "JZ",
+          "cjtPercent": 82.05342402043982,
+          "netMinutesM": 72.19943942199252,
+          "ajtMinutes": 1.7148341959614026,
+          "delayIncidents": 1711,
+          "servicePercent": 97.55608379141286,
+          "score": 37.27272727272727,
+          "rank": 18,
+          "rankBest": 13,
+          "rankWorst": 19,
+          "quadrant": "Lower burden / Poor reliability",
+          "incidentMonths": 12,
+          "serviceMonths": 12
+        },
+        {
+          "line": "L",
+          "cjtPercent": 90.36440031083286,
+          "netMinutesM": 163.23451620622637,
+          "ajtMinutes": 1.8275915388185286,
+          "delayIncidents": 1626,
+          "servicePercent": 96.72058048562974,
+          "score": 29.090909090909093,
+          "rank": 19,
+          "rankBest": 17,
+          "rankWorst": 21,
+          "quadrant": "High burden / Better reliability",
+          "incidentMonths": 12,
+          "serviceMonths": 12
+        },
+        {
+          "line": "3",
+          "cjtPercent": 88.02713816393941,
+          "netMinutesM": 102.50258316181527,
+          "ajtMinutes": 1.510925184908056,
+          "delayIncidents": 2027,
+          "servicePercent": 95.3933974691629,
+          "score": 28.18181818181818,
+          "rank": 20,
+          "rankBest": 18,
+          "rankWorst": 20,
+          "quadrant": "Lower burden / Better reliability",
+          "incidentMonths": 12,
+          "serviceMonths": 12
+        },
+        {
+          "line": "S Rock",
+          "cjtPercent": 86.82847787083497,
+          "netMinutesM": 0.3334243995833921,
+          "ajtMinutes": 0.6341750932519011,
+          "delayIncidents": 433,
+          "servicePercent": 100.91710758377425,
+          "score": 16.363636363636363,
+          "rank": 21,
+          "rankBest": 20,
+          "rankWorst": 21,
+          "quadrant": "Lower burden / Better reliability",
+          "incidentMonths": 12,
+          "serviceMonths": 12
+        },
+        {
+          "line": "S Fkln",
+          "cjtPercent": 95.20675219297068,
+          "netMinutesM": 2.3943657923623203,
+          "ajtMinutes": 0.46603044351676376,
+          "delayIncidents": 66,
+          "servicePercent": 99.32417702201874,
+          "score": 5.454545454545455,
+          "rank": 22,
+          "rankBest": 22,
+          "rankWorst": 23,
+          "quadrant": "Lower burden / Better reliability",
+          "incidentMonths": 12,
+          "serviceMonths": 12
+        },
+        {
+          "line": "S 42nd",
+          "cjtPercent": 99.18377383450596,
+          "netMinutesM": 5.495239603284482,
+          "ajtMinutes": 0.27495431206820437,
+          "delayIncidents": 35,
+          "servicePercent": 99.72044263249855,
+          "score": 4.545454545454546,
+          "rank": 23,
+          "rankBest": 22,
+          "rankWorst": 23,
+          "quadrant": "Lower burden / Better reliability",
+          "incidentMonths": 11,
+          "serviceMonths": 12
+        }
+      ],
+      "source": {
+        "label": "MTA Open Data; validated TransitPulse snapshot",
+        "files": [
+          "data/analysis/line_priority_2025.csv",
+          "reports/PRIORITIZATION_METHOD.md"
+        ],
+        "links": [
+          {
+            "label": "Customer Journey-Focused Metrics",
+            "url": "https://data.ny.gov/d/r7qk-6tcy"
+          },
+          {
+            "label": "Delay-Causing Incidents",
+            "url": "https://data.ny.gov/d/g937-7k7c"
+          },
+          {
+            "label": "Service Delivered",
+            "url": "https://data.ny.gov/d/32ch-sei3"
+          }
+        ],
+        "filters": [
+          "January 2022–December 2025; historical snapshot retrieved 19 November 2026"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "Proposed investigation priority",
+            "definition": "2025 rank among 23 comparison groups using proposed 40% reliability, 40% passenger burden, and 20% peak service weights. This is an investigation screen, not an impact estimate.",
+            "sourceLineage": [
+              {
+                "files": [
+                  "data/analysis/line_priority_2025.csv",
+                  "reports/PRIORITIZATION_METHOD.md"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "line_history": {
+      "rows": [
+        {
+          "line": "F",
+          "year": "2022",
+          "cjtPercent": 81.64014795927518
+        },
+        {
+          "line": "F",
+          "year": "2023",
+          "cjtPercent": 82.15207666598299
+        },
+        {
+          "line": "F",
+          "year": "2024",
+          "cjtPercent": 81.37007451762564
+        },
+        {
+          "line": "F",
+          "year": "2025",
+          "cjtPercent": 81.74539305658418
+        },
+        {
+          "line": "B",
+          "year": "2022",
+          "cjtPercent": 76.18489706621985
+        },
+        {
+          "line": "B",
+          "year": "2023",
+          "cjtPercent": 77.71329692815688
+        },
+        {
+          "line": "B",
+          "year": "2024",
+          "cjtPercent": 76.28854243460506
+        },
+        {
+          "line": "B",
+          "year": "2025",
+          "cjtPercent": 78.74115080970418
+        },
+        {
+          "line": "Q",
+          "year": "2022",
+          "cjtPercent": 78.89020320497218
+        },
+        {
+          "line": "Q",
+          "year": "2023",
+          "cjtPercent": 80.14629151036975
+        },
+        {
+          "line": "Q",
+          "year": "2024",
+          "cjtPercent": 79.64586075635269
+        },
+        {
+          "line": "Q",
+          "year": "2025",
+          "cjtPercent": 79.84359500863614
+        },
+        {
+          "line": "R",
+          "year": "2022",
+          "cjtPercent": 79.8293587236079
+        },
+        {
+          "line": "R",
+          "year": "2023",
+          "cjtPercent": 81.05681935742987
+        },
+        {
+          "line": "R",
+          "year": "2024",
+          "cjtPercent": 80.55991049185222
+        },
+        {
+          "line": "R",
+          "year": "2025",
+          "cjtPercent": 82.62913499086696
+        },
+        {
+          "line": "D",
+          "year": "2022",
+          "cjtPercent": 76.15682719459113
+        },
+        {
+          "line": "D",
+          "year": "2023",
+          "cjtPercent": 77.34122923937569
+        },
+        {
+          "line": "D",
+          "year": "2024",
+          "cjtPercent": 76.9330216241501
+        },
+        {
+          "line": "D",
+          "year": "2025",
+          "cjtPercent": 79.62558831497924
+        },
+        {
+          "line": "NW",
+          "year": "2022",
+          "cjtPercent": 83.27317222913078
+        },
+        {
+          "line": "NW",
+          "year": "2023",
+          "cjtPercent": 83.737947051928
+        },
+        {
+          "line": "NW",
+          "year": "2024",
+          "cjtPercent": 84.24548722177678
+        },
+        {
+          "line": "NW",
+          "year": "2025",
+          "cjtPercent": 84.70002492453
+        },
+        {
+          "line": "E",
+          "year": "2022",
+          "cjtPercent": 82.08907419480333
+        },
+        {
+          "line": "E",
+          "year": "2023",
+          "cjtPercent": 84.33605915327304
+        },
+        {
+          "line": "E",
+          "year": "2024",
+          "cjtPercent": 86.12407428403768
+        },
+        {
+          "line": "E",
+          "year": "2025",
+          "cjtPercent": 85.16771850224994
+        },
+        {
+          "line": "M",
+          "year": "2022",
+          "cjtPercent": 78.04423287534846
+        },
+        {
+          "line": "M",
+          "year": "2023",
+          "cjtPercent": 79.95296271352328
+        },
+        {
+          "line": "M",
+          "year": "2024",
+          "cjtPercent": 79.62302011687572
+        },
+        {
+          "line": "M",
+          "year": "2025",
+          "cjtPercent": 80.73564104054815
+        },
+        {
+          "line": "2",
+          "year": "2022",
+          "cjtPercent": 86.0656728949249
+        },
+        {
+          "line": "2",
+          "year": "2023",
+          "cjtPercent": 86.15386215549816
+        },
+        {
+          "line": "2",
+          "year": "2024",
+          "cjtPercent": 84.96337290995359
+        },
+        {
+          "line": "2",
+          "year": "2025",
+          "cjtPercent": 84.9497920596477
+        },
+        {
+          "line": "A",
+          "year": "2022",
+          "cjtPercent": 79.99898191222698
+        },
+        {
+          "line": "A",
+          "year": "2023",
+          "cjtPercent": 81.20207601965117
+        },
+        {
+          "line": "A",
+          "year": "2024",
+          "cjtPercent": 81.46564895877337
+        },
+        {
+          "line": "A",
+          "year": "2025",
+          "cjtPercent": 84.18750727312147
+        },
+        {
+          "line": "1",
+          "year": "2022",
+          "cjtPercent": 89.48596358567548
+        },
+        {
+          "line": "1",
+          "year": "2023",
+          "cjtPercent": 88.81750988247285
+        },
+        {
+          "line": "1",
+          "year": "2024",
+          "cjtPercent": 88.11145662565826
+        },
+        {
+          "line": "1",
+          "year": "2025",
+          "cjtPercent": 89.00905876632717
+        },
+        {
+          "line": "6",
+          "year": "2022",
+          "cjtPercent": 88.00920364492977
+        },
+        {
+          "line": "6",
+          "year": "2023",
+          "cjtPercent": 88.50866290211376
+        },
+        {
+          "line": "6",
+          "year": "2024",
+          "cjtPercent": 86.96800864897605
+        },
+        {
+          "line": "6",
+          "year": "2025",
+          "cjtPercent": 89.65381884408023
+        },
+        {
+          "line": "7",
+          "year": "2022",
+          "cjtPercent": 88.19361399951988
+        },
+        {
+          "line": "7",
+          "year": "2023",
+          "cjtPercent": 88.69817962160099
+        },
+        {
+          "line": "7",
+          "year": "2024",
+          "cjtPercent": 89.77443949146137
+        },
+        {
+          "line": "7",
+          "year": "2025",
+          "cjtPercent": 89.78466982871244
+        },
+        {
+          "line": "5",
+          "year": "2022",
+          "cjtPercent": 86.27542498810953
+        },
+        {
+          "line": "5",
+          "year": "2023",
+          "cjtPercent": 87.83297575514678
+        },
+        {
+          "line": "5",
+          "year": "2024",
+          "cjtPercent": 86.95291398557094
+        },
+        {
+          "line": "5",
+          "year": "2025",
+          "cjtPercent": 87.37330489585769
+        },
+        {
+          "line": "C",
+          "year": "2022",
+          "cjtPercent": 78.96281303501841
+        },
+        {
+          "line": "C",
+          "year": "2023",
+          "cjtPercent": 81.16616420204163
+        },
+        {
+          "line": "C",
+          "year": "2024",
+          "cjtPercent": 82.35317044539971
+        },
+        {
+          "line": "C",
+          "year": "2025",
+          "cjtPercent": 84.64976519264505
+        },
+        {
+          "line": "G",
+          "year": "2022",
+          "cjtPercent": 82.80301267881998
+        },
+        {
+          "line": "G",
+          "year": "2023",
+          "cjtPercent": 82.15227811322275
+        },
+        {
+          "line": "G",
+          "year": "2024",
+          "cjtPercent": 82.48079260715681
+        },
+        {
+          "line": "G",
+          "year": "2025",
+          "cjtPercent": 81.84064656737335
+        },
+        {
+          "line": "4",
+          "year": "2022",
+          "cjtPercent": 86.63396806193356
+        },
+        {
+          "line": "4",
+          "year": "2023",
+          "cjtPercent": 87.86551767334643
+        },
+        {
+          "line": "4",
+          "year": "2024",
+          "cjtPercent": 87.10928776633764
+        },
+        {
+          "line": "4",
+          "year": "2025",
+          "cjtPercent": 87.94003325418248
+        },
+        {
+          "line": "JZ",
+          "year": "2022",
+          "cjtPercent": 81.8525002612928
+        },
+        {
+          "line": "JZ",
+          "year": "2023",
+          "cjtPercent": 82.07230717820605
+        },
+        {
+          "line": "JZ",
+          "year": "2024",
+          "cjtPercent": 80.24213383351484
+        },
+        {
+          "line": "JZ",
+          "year": "2025",
+          "cjtPercent": 82.05342402043982
+        },
+        {
+          "line": "L",
+          "year": "2022",
+          "cjtPercent": 92.42783284310285
+        },
+        {
+          "line": "L",
+          "year": "2023",
+          "cjtPercent": 92.06298418298363
+        },
+        {
+          "line": "L",
+          "year": "2024",
+          "cjtPercent": 91.18133668365863
+        },
+        {
+          "line": "L",
+          "year": "2025",
+          "cjtPercent": 90.36440031083286
+        },
+        {
+          "line": "3",
+          "year": "2022",
+          "cjtPercent": 88.8356207775785
+        },
+        {
+          "line": "3",
+          "year": "2023",
+          "cjtPercent": 88.77221903289737
+        },
+        {
+          "line": "3",
+          "year": "2024",
+          "cjtPercent": 88.34547543723203
+        },
+        {
+          "line": "3",
+          "year": "2025",
+          "cjtPercent": 88.02713816393941
+        },
+        {
+          "line": "S Rock",
+          "year": "2022",
+          "cjtPercent": 90.66476632875016
+        },
+        {
+          "line": "S Rock",
+          "year": "2023",
+          "cjtPercent": 90.28462700895662
+        },
+        {
+          "line": "S Rock",
+          "year": "2024",
+          "cjtPercent": 89.66264487873336
+        },
+        {
+          "line": "S Rock",
+          "year": "2025",
+          "cjtPercent": 86.82847787083497
+        },
+        {
+          "line": "S Fkln",
+          "year": "2022",
+          "cjtPercent": 96.79809748218585
+        },
+        {
+          "line": "S Fkln",
+          "year": "2023",
+          "cjtPercent": 95.70340305932157
+        },
+        {
+          "line": "S Fkln",
+          "year": "2024",
+          "cjtPercent": 95.86287126742889
+        },
+        {
+          "line": "S Fkln",
+          "year": "2025",
+          "cjtPercent": 95.20675219297068
+        },
+        {
+          "line": "S 42nd",
+          "year": "2023",
+          "cjtPercent": 98.91059312451503
+        },
+        {
+          "line": "S 42nd",
+          "year": "2024",
+          "cjtPercent": 98.56815802453349
+        },
+        {
+          "line": "S 42nd",
+          "year": "2025",
+          "cjtPercent": 99.18377383450596
+        }
+      ],
+      "source": {
+        "label": "MTA Open Data; validated TransitPulse snapshot",
+        "files": [
+          "data/analysis/line_priority_2025.csv"
+        ],
+        "links": [
+          {
+            "label": "Customer Journey-Focused Metrics",
+            "url": "https://data.ny.gov/d/r7qk-6tcy"
+          },
+          {
+            "label": "Delay-Causing Incidents",
+            "url": "https://data.ny.gov/d/g937-7k7c"
+          },
+          {
+            "label": "Service Delivered",
+            "url": "https://data.ny.gov/d/32ch-sei3"
+          }
+        ],
+        "filters": [
+          "January 2022–December 2025; historical snapshot retrieved 19 November 2026"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "Line customer journey reliability",
+            "definition": "Annual customer journey performance for the 23 scorecard comparison groups; 2022 42nd Street Shuttle coverage is incomplete.",
+            "sourceLineage": [
+              {
+                "files": [
+                  "data/analysis/line_priority_2025.csv"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "delay_categories_2025": {
+      "rows": [
+        {
+          "category": "Police & Medical",
+          "incidents": 16215,
+          "months": 12
+        },
+        {
+          "category": "Infrastructure & Equipment",
+          "incidents": 13692,
+          "months": 12
+        },
+        {
+          "category": "Planned ROW Work",
+          "incidents": 9569,
+          "months": 12
+        },
+        {
+          "category": "Operating Conditions",
+          "incidents": 8051,
+          "months": 12
+        },
+        {
+          "category": "Crew Availability",
+          "incidents": 4210,
+          "months": 12
+        },
+        {
+          "category": "External Factors",
+          "incidents": 978,
+          "months": 12
+        },
+        {
+          "category": "(Unspecified)",
+          "incidents": 0,
+          "months": 12
+        }
+      ],
+      "source": {
+        "label": "MTA Open Data; validated TransitPulse snapshot",
+        "files": [
+          "data/powerbi/rpt_delay_month_line_category.csv"
+        ],
+        "links": [
+          {
+            "label": "Customer Journey-Focused Metrics",
+            "url": "https://data.ny.gov/d/r7qk-6tcy"
+          },
+          {
+            "label": "Delay-Causing Incidents",
+            "url": "https://data.ny.gov/d/g937-7k7c"
+          },
+          {
+            "label": "Service Delivered",
+            "url": "https://data.ny.gov/d/32ch-sei3"
+          }
+        ],
+        "filters": [
+          "January 2022–December 2025; historical snapshot retrieved 19 November 2026"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "Weekday delay-causing incidents",
+            "definition": "2025 weekday incident counts by reporting category. Counts are diagnostic workload, not exposure-adjusted risk.",
+            "sourceLineage": [
+              {
+                "files": [
+                  "data/powerbi/rpt_delay_month_line_category.csv"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

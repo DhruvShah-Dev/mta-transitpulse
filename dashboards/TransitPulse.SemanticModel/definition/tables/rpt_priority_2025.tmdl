@@ -1,0 +1,317 @@
+table rpt_priority_2025
+	lineageTag: 6b022acf-f757-4856-9f00-54494b7573b7
+
+	column line_id
+		dataType: string
+		lineageTag: 12ed2564-bf87-4def-a1a7-0679f605f8dc
+		summarizeBy: none
+		sourceColumn: line_id
+
+	column customer_months
+		dataType: int64
+		lineageTag: f669a3aa-c782-4fe8-9171-42a0021219a4
+		summarizeBy: none
+		sourceColumn: customer_months
+
+	column passenger_trips
+		dataType: double
+		isHidden
+		lineageTag: ea26865f-1763-4ae6-8c95-83f79c7db210
+		summarizeBy: none
+		sourceColumn: passenger_trips
+
+	column trips_over_five_minutes
+		dataType: double
+		lineageTag: ca9c911c-ce5b-4dad-b142-075a47b67545
+		summarizeBy: none
+		sourceColumn: trips_over_five_minutes
+
+	column cjt_percent
+		dataType: double
+		lineageTag: 264835ea-d6bf-47be-80f9-ac9452a78cda
+		summarizeBy: none
+		sourceColumn: cjt_percent
+
+	column platform_minutes
+		dataType: double
+		isHidden
+		lineageTag: ff797870-20f3-4eaf-9243-066ecaf14775
+		summarizeBy: none
+		sourceColumn: platform_minutes
+
+	column train_minutes
+		dataType: double
+		isHidden
+		lineageTag: cdd64959-8cec-4187-ad79-77e7bcf1fead
+		summarizeBy: none
+		sourceColumn: train_minutes
+
+	column net_additional_passenger_minutes
+		dataType: double
+		isHidden
+		lineageTag: 93ff738f-e1c1-454c-9b22-d5319e96d412
+		summarizeBy: none
+		sourceColumn: net_additional_passenger_minutes
+
+	column ajt_minutes_per_trip
+		dataType: double
+		lineageTag: abfd0251-35df-4926-8fff-6580764c1606
+		summarizeBy: none
+		sourceColumn: ajt_minutes_per_trip
+
+	column cjt_2022_percent
+		dataType: double
+		lineageTag: a8696a8d-9f40-4817-94bd-01cae53ab7ae
+		summarizeBy: none
+		sourceColumn: cjt_2022_percent
+
+	column cjt_2023_percent
+		dataType: double
+		lineageTag: 938b1274-347a-4047-a3b9-1ac3679802e8
+		summarizeBy: none
+		sourceColumn: cjt_2023_percent
+
+	column cjt_2024_percent
+		dataType: double
+		lineageTag: 6700aebe-e3a5-44d7-81f5-2b5ddaa06d9d
+		summarizeBy: none
+		sourceColumn: cjt_2024_percent
+
+	column ajt_2022_minutes_per_trip
+		dataType: double
+		lineageTag: bb1c5ad1-a2d4-4608-9752-431f1015086e
+		summarizeBy: none
+		sourceColumn: ajt_2022_minutes_per_trip
+
+	column ajt_2023_minutes_per_trip
+		dataType: double
+		lineageTag: 308ba0f8-ba13-4f64-b6f5-a9fccb35c5d5
+		summarizeBy: none
+		sourceColumn: ajt_2023_minutes_per_trip
+
+	column ajt_2024_minutes_per_trip
+		dataType: double
+		lineageTag: 54b5c009-98ae-4129-b85f-cd4d2ee77b7c
+		summarizeBy: none
+		sourceColumn: ajt_2024_minutes_per_trip
+
+	column cjt_yoy_change_pp
+		dataType: double
+		lineageTag: 0024c6cf-d240-47d2-b01f-fecc994187ff
+		summarizeBy: none
+		sourceColumn: cjt_yoy_change_pp
+
+	column cjt_since_2022_change_pp
+		dataType: double
+		lineageTag: fdd0b020-8bde-41f4-8271-3a3747571418
+		summarizeBy: none
+		sourceColumn: cjt_since_2022_change_pp
+
+	column incident_months
+		dataType: int64
+		lineageTag: 47d1f1fc-6db8-4e22-9ba8-1fe3f52fc61a
+		summarizeBy: none
+		sourceColumn: incident_months
+
+	column weekday_delay_incidents
+		dataType: int64
+		lineageTag: 57461be3-c33f-446e-8a9f-7174e835b1e1
+		summarizeBy: none
+		sourceColumn: weekday_delay_incidents
+
+	column major_incident_record_months
+		dataType: double
+		lineageTag: daabad48-2ab7-46f3-98ff-76cd49c118c2
+		summarizeBy: none
+		sourceColumn: major_incident_record_months
+
+	column weekday_major_incidents
+		dataType: double
+		lineageTag: 39995c2e-9198-4159-a6c7-79a0c6ea2074
+		summarizeBy: none
+		sourceColumn: weekday_major_incidents
+
+	column service_months
+		dataType: int64
+		lineageTag: b4905e83-4182-448a-8a77-096bc5dd0d83
+		summarizeBy: none
+		sourceColumn: service_months
+
+	column scheduled_peak_trains
+		dataType: int64
+		isHidden
+		lineageTag: e1f41165-8f8e-413e-8e13-be23438dbef9
+		summarizeBy: none
+		sourceColumn: scheduled_peak_trains
+
+	column actual_peak_trains
+		dataType: int64
+		isHidden
+		lineageTag: 0b219688-fd30-46ae-8f7c-45b5e1d38ea3
+		summarizeBy: none
+		sourceColumn: actual_peak_trains
+
+	column service_delivered_percent
+		dataType: double
+		lineageTag: a4083ebb-977b-41b2-b2b3-73bae004d678
+		summarizeBy: none
+		sourceColumn: service_delivered_percent
+
+	column service_rows_over_100_percent
+		dataType: int64
+		lineageTag: 5b21110d-0486-417f-9b77-2b641d075411
+		summarizeBy: none
+		sourceColumn: service_rows_over_100_percent
+
+	column reliability_concern_score
+		dataType: double
+		lineageTag: 28c6d918-c135-4c85-94da-aeda483b4565
+		summarizeBy: none
+		sourceColumn: reliability_concern_score
+
+	column passenger_burden_score
+		dataType: double
+		lineageTag: 61bd19f8-0b28-4cde-9ffe-db58796536d1
+		summarizeBy: none
+		sourceColumn: passenger_burden_score
+
+	column operational_risk_score
+		dataType: double
+		lineageTag: cf86f8f1-8a2c-42d1-b73a-9c250c39a7de
+		summarizeBy: none
+		sourceColumn: operational_risk_score
+
+	column incident_coverage_complete
+		dataType: boolean
+		lineageTag: 69e6911c-65fb-40ca-85c9-b7f05d2972fc
+		summarizeBy: none
+		sourceColumn: incident_coverage_complete
+
+	column service_coverage_complete
+		dataType: boolean
+		lineageTag: 8a268897-6286-4884-ad1f-fc41df1becbc
+		summarizeBy: none
+		sourceColumn: service_coverage_complete
+
+	column priority_quadrant
+		dataType: string
+		lineageTag: 815fa972-f375-4b50-b787-a6b60b69da30
+		summarizeBy: none
+		sourceColumn: priority_quadrant
+
+	column pareto_customer_frontier
+		dataType: boolean
+		lineageTag: d355bac8-b79b-44ef-8949-bcde58e6b201
+		summarizeBy: none
+		sourceColumn: pareto_customer_frontier
+
+	column score_baseline
+		dataType: double
+		lineageTag: 4e1198a2-de3a-4a5e-a854-beed393c6079
+		summarizeBy: none
+		sourceColumn: score_baseline
+
+	column rank_baseline
+		dataType: int64
+		lineageTag: e7f34678-5d7e-4931-89fe-591ba88e8a82
+		summarizeBy: none
+		sourceColumn: rank_baseline
+
+	column score_equal
+		dataType: double
+		lineageTag: 0c36209b-805c-45d6-b5d7-fdc6b0dba784
+		summarizeBy: none
+		sourceColumn: score_equal
+
+	column rank_equal
+		dataType: int64
+		lineageTag: c7dbce90-07fa-4009-aedd-3ee468b1d874
+		summarizeBy: none
+		sourceColumn: rank_equal
+
+	column score_reliability_focused
+		dataType: double
+		lineageTag: 7cb5963a-3e05-4e22-81c6-67a182cccc15
+		summarizeBy: none
+		sourceColumn: score_reliability_focused
+
+	column rank_reliability_focused
+		dataType: int64
+		lineageTag: 9da3c5ae-6ac7-412d-8848-d51acb5939dd
+		summarizeBy: none
+		sourceColumn: rank_reliability_focused
+
+	column score_burden_focused
+		dataType: double
+		lineageTag: 55803fdd-4b11-49e2-8e70-a63f4e08d592
+		summarizeBy: none
+		sourceColumn: score_burden_focused
+
+	column rank_burden_focused
+		dataType: int64
+		lineageTag: c3b7ce79-69fa-4f62-a5db-b3c5062a5a78
+		summarizeBy: none
+		sourceColumn: rank_burden_focused
+
+	column score_service_focused
+		dataType: double
+		lineageTag: 313e1dc4-fa3c-4631-b2c2-db74e76cbeb0
+		summarizeBy: none
+		sourceColumn: score_service_focused
+
+	column rank_service_focused
+		dataType: int64
+		lineageTag: 7ff2a62d-cac7-4e7a-9589-96fac7b6b471
+		summarizeBy: none
+		sourceColumn: rank_service_focused
+
+	column rank_best_case
+		dataType: int64
+		lineageTag: 124daa2b-302a-42b8-ba16-13353b22174e
+		summarizeBy: none
+		sourceColumn: rank_best_case
+
+	column rank_worst_case
+		dataType: int64
+		lineageTag: dc28910c-cc38-49b5-9d46-44abd7f03355
+		summarizeBy: none
+		sourceColumn: rank_worst_case
+
+	column rank_range
+		dataType: int64
+		lineageTag: 44791400-ff3c-41fc-881b-2b1028b4f9a8
+		summarizeBy: none
+		sourceColumn: rank_range
+
+	column score_year
+		dataType: int64
+		lineageTag: 9ae68ab4-14da-4a93-91e3-6d5eb71ee4e6
+		summarizeBy: none
+		sourceColumn: score_year
+
+	column review_status
+		dataType: string
+		lineageTag: 5035c319-e5c9-4e10-b934-fb0c27642607
+		summarizeBy: none
+		sourceColumn: review_status
+
+	partition rpt_priority_2025 = m
+		mode: import
+		source =
+				let
+				    Encoded = Text.Combine({
+				        "H4sIAAAAAAACCq2bbW8bSXaFvw8w/8E/oNyp95eP2SSTINgNks0CAfJF4EgcD9ey6FC0jfn3ec5tSia7Ka81WHNMS8VmdXXdU+eec6vmfvewvdndudtPj8f9h+3h5sP+4fjro/u4eXzcPryj4XjYfXx09n6z/0zDL7vP25sPu4dPx+2ju/3r8ebj9nC7fTi6j/eb4y/7w4fnD4+Hze7h+beH7fFmc3e3O+72D5v7m693eLpgQ1+nn9Wn3dluEH2Mz3c5NaRlQ35u2Dx9ZdXZ5um7L32Srw/gt/1vN7e/bhjtzce55XH3cLud7/L1A9p2d4zgaRK/bLfv7za/3dxt73l/+vTRfdj8dX94/v3msL3dH+6WX7q86NE9bg+fd9zzdNnj7a/bu0/32ztGunl/Y1PNFN4eP2luz5qevscgCNzBvjDP09Mnh/2XU2iD98+fHrh+8/Pufnfk2fc87eHh5pGBbs+w8fOnA4M7Ne/55uYU3MPu8f2p+fkxb3WLDTN1u//w8X573D4PYP3Jx8Nuf9Cd/+/T5u6wEbg2h+1xf/OM018OzMNue3B2l5ufN4+M92HruPj919/mD7f0cj9/Mv84N58/4S97et7ezRdd++B0m/mBL65etM0XPj3axZVXG3/ePjI3DHj+9cv+cPH7QeA6dfrbdnMgLp932y83j8fN8dPjjz8EF6ILqTafSwpTKaXW7KsLxccSQp5abL741l0fk/fDl95qTbGF5kKubcQY4jRSaSP46HpuvvkappRrHrV0F1PIY8SWp9hj5MvJhamOlGMbuXH5qLGq89zLqKn0UlvJ3K5PPbTiR+8xt9iLWgIjYoCx0DPfoiPGOEqrLYxcfFffjV5ird33EVothaY+6ojZR59zq54ReJr4KQYetfbh6f2tn/hw+NwDg+uJB9XUpKj58ZN3qfPGLzGEWlz0KQ836hRyLq2nkGKJYzjvYtScnb/cKFMuZ6987aK/HD5t57d/27379c0Mizf/",
+				        "8OYP2+Nxe3hzBir30+ae+BYeLJy9GGdwuU487NeXouSyn4Y/exH04mqdUj1/uXb9wqY3Agkg3J/2D7vj/sCw7nabdw/7x+2PP0TNSu/MZRppKrGlnBrTThSAVJyK5x8PpnqeRh5AxhPp3OiX77QSMpORCWBiDAp1Dc1PpefaG1MVKvAMTPCksCbfFdDkGxECHnTAt3qdfAU4sXODSGBoCCX1GkMpefQw37ym1CKPNUoqg25yDomfGTZ91RKFHs+IFEnQC8iFseEDKC8+lcgnAooP4BTQeKGkl+zeBqDJjyCQ5weMpRp4GDf/gpscT+ABnYAHEHbHZEWgFBm57/QYAU8R0uytLRCSzgDyx/0XEPEdCMnTOexYC8OVNjFvZy+1pSkvwh6uNSanlX0OGmLo6YBP8ssA0Ry42jrdsYgGSy7UmF0PmlWCyaSx5NPQCvdMeiJexGTkAEjhmJ6IfS8FRHXmlJXX8pgaVEJkuDn35b+eJqDSA8EjaCX4AYH1zOL2REN0kkqNvjWeeWaT1iCv4el1NJ6ElsQsaSgtJhY43UAZBDuH0Llr1hywkgn7aPBEy3riIObKnj8CJ3QghKTQhbWW4ogCr9pAR+76jYcDPMPw4EUPhDuOE0BYLQHSZEiiDaYhca86mLFu7NKmS95o17hkvY5fD54I3V7wC4N1iUfzX19R/DLWlyZrrVO5GIV1QLK4wKSj47nv+DKCsmUp6NvnmMsURiWMSbmrDHICc1JYc5BNcr1BMt4n+DjDiWQSxYqVPybBBQyyGFnQ5JZJuYMGek/02GGiic+IbBfJEEAIBFZTxqlRnKJuyCyVFJEEqjZ1MgxppiUlPLu7gNebkmRqNaufCLyLUl3W1dYEDY0CFjp/vFFarqFUMiJPljog8kZyzFBn4ZCPqg3JwxxFdJQ7b32mlNrmDAU2DEMJ8DPTwNYwBN0Gcq+9B2EoLRJHuAaYvMhZ5XdAKK0gxK0UiHH+skb4+oJYhAlduUhw",
+				        "5XqKCgaj9DKAiuUoUMGyLBMkQPzFzZ716huBBRI5o0kUwUQ0idVAi6AIHJqg5FqJbCPoCeYiGSVYhRmiqeYoggvkNfjEIB8tb8FBZYxWgEOBtbIhKEIvJCjSpQewhiA4QkRcJKe6rgEZA0TCeM3AiTCJklAJUAM+A2c2EmrkJtM/ulthRRYSCt8Nyi8IGkhMU+TJqWRYERpf6m0MZgCYI54MQWD+lKbSCUER0oWToGY3glLpAOWZ2wcShle4FmngCqbGIlK/A0BrEDJSEpM/JyGFUSNfZit0z3JQaqzEiJQ1rKuXEWMJPGQAKGkyido9ycGJHrgTeI2SkE1hHejQJNYATN0LDqiATDYCwJEWyWcEMzBgiQ6JCVQu056hAJY8KEdIDIWnwC6jE2IuJW1ZmkJ1E8dK+uGOlqbQC1DSQL8GOMYgU0UjNZusLaaCvYgqStlXJUmyHaIHeS9tC7p1N30LQMIpdMUQXJxqLzwomIJtLYpo7CxuItPiCXK1lZS9CRwhxj/lrcZERjRbEeeAySgW7r3FKsSEdYpY4WONqtdr4iU7WObInRx9/pJggV385f1Re3WlmPo1ELJwdfU3RHEz+EQWLQuHRQ7XN0srsZBWfJJzQQam2VhB8bWOTt4IMVs6IgkEaXlpEWSLgz/AAUBEQCIFzIGgTHhAIqscBasoVmQIlBBSGhWVsnmmIRk6yDeB9awW7gRbQXlVXdr9ISz0Fr1xqcVcWikjcukvVctZXVpoMI7epHqN4PCMcBC52COgmRBJY/DvpX1AEPJHV0FABb82yFvF8h+tJOATgMqJclIbUHioqD6UcdUIQavAn6SM0f91gY6+Wt5lFdPfgyDdTO4K/j57SRMnxLPS1VIG15dEtCW3b8DkH2dhM/C5XrHqWBpWJ99iJjCaE/M9ZI3kX+xTiUqyjZgoIKQjj412GCwzDCshlsj08lPI46jswYrEYsB6sAX80C1XaGEmpSZ4Jsj6DXiJD8MAs5BS",
+				        "1+QyanIjZCCXbdPN8q+WGCETAkCfaEANP0chkYETUhxdErpbYP3nYk38HOA8mBPP5SRY+RXXnLHapCSnh2OcypNYuNxn751tDU0mO095CTAp/Qbz3nzTA0tyHuMMgKQuQXIFEVcU9Esg+c/9/rtt1WmE2Cu/+mxNIOirfCluLDf9raT0h9lJlYhjknLITLTWa2b9wzQ4Oyy/1IRrXRiAsTW9onLuydrMwGTCVEW6wM3habAzTCQTy4pvwp0UZ1OJpkopgF16tYRAQgMHmHCHYCItkmuEK1ilOEaDnoqqsyARJFG4JsobR0JMSsL+RyhE7r5YWsBvC0Cy2lK8OD4PWzrZA5ISOIZRom4WJ6VJnLWKQaj9Zl+DnnhywQeuS7OV6loTZ2iJsn9QDWrHVAzfFdh9VKlLlOJ14Roz63LNdwPErukrfJj0WzBGVAKMF1B0QRNZELJi6YUe5pWePNJPu8Pj8c3u4fP28bh7Z1XTH3/4JwMHlDBUkkOzaVEUaVxV0ZAicIIUH8OrGZ0gH1EJPxCFsRsMDVUTGSQJBlQ1EZk1aAUGVj8BSHQghUhRpUzuY2oVeyJMgLPUEcvgjsxCEynJSzuJNkRUYE4FOOLsuFEiAsCSQBB+EUJGDY2i1d8x8/BdlMsjjQ0IQhXJoSaSiuGU7EAHwgaQK1ZHVFBZDQ54M44SEapV9aIyYyOdqnhQqj8loAETgkjvyKqV3JuYAe5f5kLM9/CGLfoXVe0L7JFX6JCrWVMEjUrMF75eFLhAhhheVb+F1TbmtI9eZpN/1iVNlS0iRsZFgpBrYBPZI5wJOkVcjLAgPbDeyPoq5mJ0uCkpnek1612lHtBJXCGAwC/YkCpjl1URy3QOJFEBTRGThZe9QFAjT7ORCd+LVsJlfSetAVE/OAaFyNOha3Dc0AKiBDQbYJTeqjgB5ZGNXhhAU9kO46+ScTXqwrPgnWEkzLfIDODi5yt50kyWI2uDYXJtFC2FeeoI7skRPddl",
+				        "ACjrOKpwhTxBeHEP5JoXqYKXNWesQ7pmmtdip16iEsHj6kJYD1e1CBdt2B4PyC+9ONy3ylakYvtgRs1fNod32+P27nwob+YdhB9/+JdZu2gzIEk3Fy1LeXTkIPM3ea263PBnvUABJBUtbZa5FVyQO9nIBGtJ+ua+rHQwBXzgaIQHF8EpcA6iK4guZD0tLyXpCIy7DGkUm7BqvVWQ5fBNKkEFOKogw4WVt3IwfgSz1tHKzYBAgsnaJ4DKqiAl3I5uBNBVi0kSSgnBQg9oXFIo+eUt/oKPeFYktFQQZIEdbVivrHINMv6EIO1hGIJQCyfGAbkkWMDnhqgMpS6XSGJNckhrvKxLwGvF+2p9uwQhC1BbAfXiD20ImeXNBZdFoZEr/QrmzpzRy7zz08xOpISK70FD4iGilEZEqBIzBogm8CXaAzcliSQz3E3GKFroXTilY2pAl7RPxahPcBIYgfHJVwPeEeFLt8xlOCCCNYHpMDqCk/quwlEb6GAyYxeUcO5eISITajunq1bnVYcjcBBHNmuNV4Ir4BOAOO8aoFkAo3hnJoqgai+ITUi0PqS78UZJSQtnb5Ul7BlNDJnEhURjPbAu6myun71RfSrokXkRv6OYkJH/g6qRV2YN/RVYzNJmLTpeJ2SGZUwZxIuKXVfbijmieDFfJqEXdIyEzss65l9PFQaWIdIUs8OyQhY3mQqsTSX9NzLRvBpgfpmSppqdMiYLnDU7tVnQAA4RfxhtUgRxK9pk0F6dSpN40a7aPFFvyiXaPaC3bECQ9cWhcycE5BM0yFtSwPxb1ALfgNzqmxJYMGjgypMqL56JMoWEkO3yy3JOoVkVF5FFvtFWGKrFNpQMh9UDe2BbxswzKt5U7XhCKiYOpWh5JPHJqdIbTHxL5jfzQ2i0zqC7yuGq9LbVgr1Sh7lSuvv7aBpl5POX5EgpV9JQshqAFXyXgsc2mLQ0X6aTf/9fA0y0MmfXFqMfVaJB5YNIrq6kFQzqnCoK",
+				        "esS2ghMrHMPcVU1vkxY8zkW3SfIfkra8wx/QMJPJ5dobGHLMCjRLGoKBOZSLtIHNJOJfPT9LgBtgvACnuh+0hsoGuwwjzDVovm+klMEOVyS9kqUcFHATaLPZolkJIztYdhGkq1KjNAgO40Bga2N7aD+Lzq1WgqmH0vDEcwWqyWqKSk6AwYzpnVE4FoVmCGMl787cuWu7jlfqLleaXguYdAWYTtt8F38k0KWCl3W6pB2ny2LL0z7UldZgu1H1ZQD90TYHBoaCGSeMGRmQJRo8OgROU92EOHXxoeqwLPHAtGnGEH8dDDGVqkRoE8oVQqmdnUlKuUkY43kQumhiQlSRkMm2sGMzgQLqAA75YWi5NHVLLgPKSS1cP5T2eFeqlouFsuAFfoUfBSEip7osGIAxg5V3oDVUdsfeB0HNinCIlaydVJKUFSK1IYmjU/QiI8cOure6HwlLRaFIgull9hDxVOtN4UkLa3lF/J4X67Tolf46uWg0paNlwOKViskVHnq1lInLG83bjld2SNHxq8MS0cp5S7RzscgoevsxfMs+/cn8tk6k8EAQiwqjVnwP0jOqqOURaEDJqiKXlAB81nXmplUKBQPTgEJ0MsX2sYksVo4gVZawpr8oxWTVSTohzGagCmIF/yGYBBmoTirOEeCgL0DqXM0r0Q4wIFC1a24GDgNlGaIVwhS12V0lUoJRyFy7kyDOcwEGbhP1YAQhTMhQ/s32xIPoSFRTlb5UyUCUw4Jd9SGepo8T84zTtuRTOQZbr7w/sjcLxQihasSv9tfdNbWy3hBYu51XW6glw2UJ25Uz04bN5ZYkFsqV1XWCQL7MWkpWJuS+QTn/8T9z+oYZ5AOU7L3t9wSrp6skN+QukYqyM0hQH3WyRckHA1WhI2E3JStjoENYyrSoioYq5e5wj2pqeUJr5KoTSzrbgniGb2ov2iznIdOkanJD0OCF7ZBXAqg6mOVVHeq6d7Q96BgZmfYnTeQkwEj2YcjD9h4b",
+				        "KkeyWRlIatwkcVWWpV9uBVjd7BPQ+tpySrblCOGpOl2HykAxjPnMTPYz3dQn9cv3i0MglyrcKFsGng6uZAKcv0Iua9mzbnllzfeazcaN14vDVq5ctVctXFRn5NpXTdnpym/sYP+XpkJbuWRwXDMug+7RnMgQ7cewnOB+6UuWOhmECGtDUFZZ6V4GJ2qbUAenWP1NQU9KuMKUhLJtMQ4ofYpWDhlWXZOsxjOhKFWeFdUQd/l6IqsikZgN5Qp8SpBZRxeLarK0e5NRjsoUOkYDBnFeokvt40/gVhsJgj3YjyIfiBTM862sTU36VWFYleooUZxkl+ywlpUFsIh1lsQ9ns5YPR1/iDJqJKnuq0p76KisQ1nKaGDDr/cd18SzhtQrK8ArQ5auQDBbpWJ5XV8e53HxGlyi/X3ZRf35dGRm6ASATip0zIP2VXQKs6veh4v2Ok7HDRXABK9oX1ll0UouLVnbpipwdYkKWFsnriYirfUneakzUTofqRMuXRV+6WKd0wI22BDPbQyNaNeitQokzFF7uSUdGUWU9yYIlTKGxiopFKO5Z1EqwtlqA816Ro7rr1SLHWXoWQ4KOOuYaG220VR1NEYPggYGu9pp0v4CCG6RGaxxljRdCsSKM0+SRkYLScM4TeUlHUnrXRZiSBdfWf6rltlzv5JX2gJpKthq76afv4Sexbmp5sqVNkPUZYUQf6cdpZeJ5b/f5PhwN1eotP79MM/aunYwq/baVLJV9rGzaoPHTrImSVsHQ84naA9x0r4d0rlgXrXZPXTiV9s1XgvQ6ZOIh6o6bqeisgxLoxFNgCrW5nJybmDfgo5CBGgp2NZE15mIIEkiDuAZVUgpOnjTuw7Y4MRUW8HANJ0w1NEJVFijSUU8fREARDtaYzu4SoTehedTC6pccIekJ2vSYVFHfIYhRPvZV9TsImQIrjmWrzvasurErH1ZFNPEzIsTc9a4PC+lY4DX+6RdDPktAPz0/v7BNi8DkdUxSK2w",
+				        "OJQCsjZRYGu5UxXJTifKtAepLZSmg0Y6fplU49VeDoFJ7i3KBbEx6XRuHlkFF20pabvS5EO1Pf1J1dLElOvYUtMzyE2MbqcrbYM4626oTp12AhUxSAKUqVc7KVFVz7XKmqp3iraOhNK7mrQHka2oVhhnURP6CvMGOJC4+tkqL0W5TpVb7f6Ajrd2YAFw48m4XzA+1L6ac3MGbrJh+kmHe8AhegZZ3ZWyrgRg3bLG0+842LuouWpnwukM9OVLrWWxx9hfaBSk+vLAZ/we9Px5f/ve0CMX6RXfbBV9ekQNMsVwOzgiEQWlWnIPjIBXgkEGih6fin2uybawsyJAuJClk9Rt1cEzxF9S1WZCJZJ8ks6O0K3tZ5KoZLu9zlqoNpjt/07QQYlQbYMVPxSRz9IadT6qBaKzTlWatJHO0Dngob2kTJ9RSNHYBDBZ74xsmQ99D51oV10SqOGEsMuqAVXVhzv+HPnl3sKDqjGDsCZNNB9kyCwJQ0/hYof7ipYswBKeqohO7fSOv3K4UQz0zV3GFzESlqomyc9eqd3QGpcwTeaA/Rom4YVWs9jfwsn/A7z+UiAqNgAA"
+				    }, ""),
+				    Source = Csv.Document(Binary.Decompress(Binary.FromText(Encoded, BinaryEncoding.Base64), Compression.GZip), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Headers, {{"line_id", type text}, {"customer_months", Int64.Type}, {"passenger_trips", type number}, {"trips_over_five_minutes", type number}, {"cjt_percent", type number}, {"platform_minutes", type number}, {"train_minutes", type number}, {"net_additional_passenger_minutes", type number}, {"ajt_minutes_per_trip", type number}, {"cjt_2022_percent", type number}, {"cjt_2023_percent", type number}, {"cjt_2024_percent", type number}, {"ajt_2022_minutes_per_trip", type number}, {"ajt_2023_minutes_per_trip", type number}, {"ajt_2024_minutes_per_trip", type number}, {"cjt_yoy_change_pp", type number}, {"cjt_since_2022_change_pp", type number}, {"incident_months", Int64.Type}, {"weekday_delay_incidents", Int64.Type}, {"major_incident_record_months", type number}, {"weekday_major_incidents", type number}, {"service_months", Int64.Type}, {"scheduled_peak_trains", Int64.Type}, {"actual_peak_trains", Int64.Type}, {"service_delivered_percent", type number}, {"service_rows_over_100_percent", Int64.Type}, {"reliability_concern_score", type number}, {"passenger_burden_score", type number}, {"operational_risk_score", type number}, {"incident_coverage_complete", type logical}, {"service_coverage_complete", type logical}, {"priority_quadrant", type text}, {"pareto_customer_frontier", type logical}, {"score_baseline", type number}, {"rank_baseline", Int64.Type}, {"score_equal", type number}, {"rank_equal", Int64.Type}, {"score_reliability_focused", type number}, {"rank_reliability_focused", Int64.Type}, {"score_burden_focused", type number}, {"rank_burden_focused", Int64.Type}, {"score_service_focused", type number}, {"rank_service_focused", Int64.Type}, {"rank_best_case", Int64.Type}, {"rank_worst_case", Int64.Type}, {"rank_range", Int64.Type}, {"score_year", Int64.Type}, {"review_status", type text}}, "en-US")
+				in
+				    Typed
+

@@ -1,0 +1,24 @@
+line_id,line_label,is_shuttle
+1,1,False
+2,2,False
+3,3,False
+4,4,False
+5,5,False
+6,6,False
+7,7,False
+A,A,False
+B,B,False
+C,C,False
+D,D,False
+E,E,False
+F,F,False
+G,G,False
+JZ,JZ,False
+L,L,False
+M,M,False
+NW,N/W comparison group,False
+Q,Q,False
+R,R,False
+S 42nd,S 42nd,True
+S Fkln,S Fkln,True
+S Rock,S Rock,True

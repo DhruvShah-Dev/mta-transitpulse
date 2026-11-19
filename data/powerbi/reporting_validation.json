@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "checks": {
+    "nine_import_tables_and_hashes": true,
+    "dimension_keys_unique": true,
+    "fact_grains_unique": true,
+    "all_fact_keys_resolve": true,
+    "customer_reconciles_to_processed": true,
+    "operations_reconcile_to_processed": true,
+    "reported_2025_kpis": true,
+    "priority_matches_phase_4": true,
+    "missing_incidents_remain_missing": true,
+    "signed_and_over_100_retained": true
+  },
+  "2025_cjt_percent": 85.40243028952472,
+  "2025_net_additional_passenger_minutes": 3240546696.0872755,
+  "scope": "Local PostgreSQL reporting views and exported CSVs; Power BI Desktop not yet validated"
+}

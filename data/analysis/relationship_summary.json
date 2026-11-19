@@ -1,0 +1,13 @@
+{
+  "observations": 1101,
+  "incident_vs_cjt_raw": -0.48589967495825775,
+  "incident_vs_ajt_raw": 0.5363887770129847,
+  "incident_vs_cjt_line_adjusted": -0.4045844790423646,
+  "incident_vs_ajt_line_adjusted": 0.377751504419919,
+  "incident_vs_cjt_line_and_month_adjusted": -0.41053986028260825,
+  "incident_vs_ajt_line_and_month_adjusted": 0.3759709143234501,
+  "incident_vs_next_month_cjt_line_adjusted": -0.29130295331080425,
+  "lagged_observations": 1077,
+  "lines_with_negative_incident_cjt_correlation": 23,
+  "line_count": 23
+}

@@ -1,0 +1,29 @@
+model Model
+	culture: en-IN
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-IN
+	valueFilterBehavior: independent
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_ProTooling = ["DevMode"]
+
+annotation PBI_QueryOrder = ["rpt_customer_month_line_period","rpt_delay_month_line_category","rpt_dim_delay_category","rpt_dim_line","rpt_dim_major_category","rpt_dim_month","rpt_major_month_line_category","rpt_priority_2025","rpt_service_month_line_daytype"]
+
+ref table rpt_customer_month_line_period
+ref table rpt_delay_month_line_category
+ref table rpt_dim_delay_category
+ref table rpt_dim_line
+ref table rpt_dim_major_category
+ref table rpt_dim_month
+ref table rpt_major_month_line_category
+ref table rpt_priority_2025
+ref table rpt_service_month_line_daytype
+ref table DateTableTemplate_2a0f1f61-f64f-430e-8515-13aa67e70a3e
+ref table LocalDateTable_eb6410d5-4369-417f-b3a9-d701c82307c8
+
+ref cultureInfo en-IN
+

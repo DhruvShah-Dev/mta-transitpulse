@@ -1,0 +1,154 @@
+{
+  "retrieved_at_utc": "2026-11-19T17:22:50.551608+00:00",
+  "period_start": "2022-01-01",
+  "period_end_inclusive": "2025-12-31",
+  "datasets": [
+    {
+      "id": "r7qk-6tcy",
+      "title": "MTA Subway Customer Journey-Focused Metrics: Beginning 2015",
+      "page": "https://data.ny.gov/d/r7qk-6tcy",
+      "api_url": "https://data.ny.gov/resource/r7qk-6tcy.csv?%24where=month+%3E%3D+%272022-01-01T00%3A00%3A00%27+AND+month+%3C+%272026-01-01T00%3A00%3A00%27&%24limit=1000000&%24order=month%2Cline",
+      "metadata_url": "https://data.ny.gov/api/views/r7qk-6tcy.json",
+      "csv_file": "data\\raw\\subway_customer_journey.csv",
+      "metadata_file": "data\\metadata\\r7qk-6tcy.json",
+      "rows": 2300,
+      "columns": [
+        "month",
+        "division",
+        "line",
+        "period",
+        "num_passengers",
+        "additional_platform_time",
+        "additional_train_time",
+        "total_apt",
+        "total_att",
+        "over_five_mins",
+        "over_five_mins_perc",
+        "customer_journey_time"
+      ],
+      "bytes": 502342,
+      "sha256": "b7a1e62f87837262667efacc3f6b3343ff3ab85ef4ff8d2cb13481d861588497",
+      "attachments": [
+        {
+          "file": "data\\documentation\\MTA_SubwayCustomerJourneyFocusedMetrics_Overview.pdf",
+          "url": "https://data.ny.gov/api/views/r7qk-6tcy/files/6df4aa7f-70eb-4e44-b1ce-bc4a1ad3379a?download=true",
+          "bytes": 277900,
+          "sha256": "5db07427e8b3a4956f6f436c9bf5b940b35a8d7ffb4ac763968b13cace261a4d"
+        },
+        {
+          "file": "data\\documentation\\MTA_SubwayCustomerJourneyFocusedMetrics_DataDictionary.pdf",
+          "url": "https://data.ny.gov/api/views/r7qk-6tcy/files/b916d86e-edb6-4c4c-90a2-d392ce54236b?download=true",
+          "bytes": 104585,
+          "sha256": "4a5d367617d84da71ddf8aad2945ca933547204f790f72dfdac9ab805dc4eb6c"
+        }
+      ],
+      "api_count": 2300
+    },
+    {
+      "id": "g937-7k7c",
+      "title": "MTA Subway Delay-Causing Incidents: Beginning 2020",
+      "page": "https://data.ny.gov/d/g937-7k7c",
+      "api_url": "https://data.ny.gov/resource/g937-7k7c.csv?%24where=month+%3E%3D+%272022-01-01T00%3A00%3A00%27+AND+month+%3C+%272026-01-01T00%3A00%3A00%27&%24limit=1000000&%24order=month%2Cline",
+      "metadata_url": "https://data.ny.gov/api/views/g937-7k7c.json",
+      "csv_file": "data\\raw\\subway_delay_incidents.csv",
+      "metadata_file": "data\\metadata\\g937-7k7c.json",
+      "rows": 15043,
+      "columns": [
+        "month",
+        "division",
+        "line",
+        "day_type",
+        "reporting_category",
+        "incidents"
+      ],
+      "bytes": 1064564,
+      "sha256": "70a572ac8b6364a34090bcffa3ae850f44612d7b36a895b3e4c9572bcbc16f6c",
+      "attachments": [
+        {
+          "file": "data\\documentation\\MTA_SubwayDelayCausingIncidents_Overview.pdf",
+          "url": "https://data.ny.gov/api/views/g937-7k7c/files/e116cdd8-e5a0-43f1-8805-932915c5f30d?download=true",
+          "bytes": 227395,
+          "sha256": "ed2d659a5f0d7b5caab5f1991f706f9aff862a6a059654fcdbff9b20a2a2aa27"
+        },
+        {
+          "file": "data\\documentation\\MTA_SubwayDelayCausingIncidents_DataDictionary.pdf",
+          "url": "https://data.ny.gov/api/views/g937-7k7c/files/d55cb643-7538-4082-b29b-a87c485a8030?download=true",
+          "bytes": 132297,
+          "sha256": "5400fffe80e6c581941dd530e8a021cd2aec24d1b87ef4cd225b42b458cd82ed"
+        }
+      ],
+      "api_count": 15043
+    },
+    {
+      "id": "ereg-mcvp",
+      "title": "MTA Subway Major Incidents: Beginning 2015",
+      "page": "https://data.ny.gov/d/ereg-mcvp",
+      "api_url": "https://data.ny.gov/resource/ereg-mcvp.csv?%24where=month+%3E%3D+%272022-01-01T00%3A00%3A00%27+AND+month+%3C+%272026-01-01T00%3A00%3A00%27&%24limit=1000000&%24order=month%2Cline",
+      "metadata_url": "https://data.ny.gov/api/views/ereg-mcvp.json",
+      "csv_file": "data\\raw\\subway_major_incidents.csv",
+      "metadata_file": "data\\metadata\\ereg-mcvp.json",
+      "rows": 1920,
+      "columns": [
+        "month",
+        "division",
+        "line",
+        "day_type",
+        "category",
+        "count"
+      ],
+      "bytes": 134078,
+      "sha256": "84558ce2dcc957039032019f29ce9e16d23aa243259bab3dfb3e830a57659e04",
+      "attachments": [
+        {
+          "file": "data\\documentation\\MTA_SubwayMajorIncidents_Overview.pdf",
+          "url": "https://data.ny.gov/api/views/ereg-mcvp/files/00785012-e17c-4fe3-b914-2c04774c3d4c?download=true",
+          "bytes": 146693,
+          "sha256": "c56721fb37471ee0c45d078a7adfc95137169792eace4a898b5418f5d7b72956"
+        },
+        {
+          "file": "data\\documentation\\MTA_SubwayMajorIncidents_DataDictionary.pdf",
+          "url": "https://data.ny.gov/api/views/ereg-mcvp/files/7b594349-4a33-4e2f-ade2-87fc7a474b32?download=true",
+          "bytes": 81108,
+          "sha256": "8b5b78360e87ec451949136b75dbe8e4b2a1e67a0d7a2733e272208d95374e43"
+        }
+      ],
+      "api_count": 1920
+    },
+    {
+      "id": "32ch-sei3",
+      "title": "MTA Subway Service Delivered: Beginning 2015",
+      "page": "https://data.ny.gov/d/32ch-sei3",
+      "api_url": "https://data.ny.gov/resource/32ch-sei3.csv?%24where=month+%3E%3D+%272022-01-01T00%3A00%3A00%27+AND+month+%3C+%272026-01-01T00%3A00%3A00%27&%24limit=1000000&%24order=month%2Cline",
+      "metadata_url": "https://data.ny.gov/api/views/32ch-sei3.json",
+      "csv_file": "data\\raw\\subway_service_delivered.csv",
+      "metadata_file": "data\\metadata\\32ch-sei3.json",
+      "rows": 2212,
+      "columns": [
+        "month",
+        "division",
+        "line",
+        "day_type",
+        "num_sched_trains",
+        "num_actual_trains",
+        "service_delivered"
+      ],
+      "bytes": 183985,
+      "sha256": "375ec8c531c8defe9d538765f81519ce41f9dc6d84ce35937ce072ee096205ab",
+      "attachments": [
+        {
+          "file": "data\\documentation\\MTA_SubwayServiceDelivered_Overview.pdf",
+          "url": "https://data.ny.gov/api/views/32ch-sei3/files/38058192-518a-4117-8132-2d9b3d40c76a?download=true",
+          "bytes": 199364,
+          "sha256": "0140d0f3d528c783a2172e61c262b8419fe32d8f354bc0a632c3f58f3483f5ab"
+        },
+        {
+          "file": "data\\documentation\\MTA_SubwayServiceDelivered_DataDictionary.pdf",
+          "url": "https://data.ny.gov/api/views/32ch-sei3/files/ae41dd1c-c1b3-4bcf-af43-402d1ff04d84?download=true",
+          "bytes": 80033,
+          "sha256": "bc1721760f0146adae8f46256e487268f309f71a29df7d90acef822d39d2a885"
+        }
+      ],
+      "api_count": 2212
+    }
+  ]
+}

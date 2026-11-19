@@ -1,0 +1,1913 @@
+month,line_id,day_type,major_category,major_incidents
+2022-01-01,3,1,Persons on Trackbed/Police/Medical,3
+2022-01-01,2,1,Stations and Structure,2
+2022-01-01,C,2,Persons on Trackbed/Police/Medical,1
+2022-01-01,NW,1,Persons on Trackbed/Police/Medical,1
+2022-01-01,5,1,Persons on Trackbed/Police/Medical,1
+2022-01-01,7,1,Persons on Trackbed/Police/Medical,2
+2022-01-01,4,1,Persons on Trackbed/Police/Medical,1
+2022-01-01,A,1,Persons on Trackbed/Police/Medical,2
+2022-01-01,NW,2,Signals,1
+2022-01-01,Q,2,Track,1
+2022-01-01,F,1,Other,1
+2022-01-01,A,1,Track,2
+2022-01-01,NW,1,Signals,2
+2022-01-01,4,2,Signals,1
+2022-01-01,Q,2,Persons on Trackbed/Police/Medical,1
+2022-01-01,4,2,Other,1
+2022-01-01,5,1,Signals,1
+2022-01-01,Q,1,Signals,1
+2022-01-01,4,1,Signals,1
+2022-01-01,Q,2,Signals,1
+2022-01-01,2,2,Track,1
+2022-01-01,NW,2,Other,1
+2022-01-01,6,1,Persons on Trackbed/Police/Medical,5
+2022-01-01,L,2,Subway Car,1
+2022-01-01,7,1,Signals,1
+2022-01-01,NW,1,Track,2
+2022-01-01,E,1,Signals,1
+2022-01-01,E,1,Stations and Structure,1
+2022-01-01,2,1,Track,1
+2022-01-01,JZ,2,Track,1
+2022-01-01,2,2,Signals,1
+2022-01-01,6,1,Subway Car,1
+2022-01-01,M,2,Persons on Trackbed/Police/Medical,1
+2022-01-01,A,1,Signals,1
+2022-02-01,F,1,Other,2
+2022-02-01,M,1,Persons on Trackbed/Police/Medical,1
+2022-02-01,F,2,Track,1
+2022-02-01,7,1,Persons on Trackbed/Police/Medical,1
+2022-02-01,E,1,Track,3
+2022-02-01,7,1,Subway Car,1
+2022-02-01,5,1,Signals,1
+2022-02-01,6,1,Signals,1
+2022-02-01,4,1,Other,1
+2022-02-01,7,1,Track,1
+2022-02-01,L,1,Persons on Trackbed/Police/Medical,1
+2022-02-01,D,1,Signals,1
+2022-02-01,1,1,Signals,1
+2022-02-01,A,1,Persons on Trackbed/Police/Medical,1
+2022-02-01,6,1,Persons on Trackbed/Police/Medical,2
+2022-02-01,A,1,Stations and Structure,1
+2022-02-01,6,1,Track,2
+2022-02-01,A,1,Signals,3
+2022-02-01,5,1,Persons on Trackbed/Police/Medical,3
+2022-02-01,F,1,Signals,1
+2022-02-01,L,2,Persons on Trackbed/Police/Medical,1
+2022-02-01,L,1,Track,2
+2022-02-01,4,1,Persons on Trackbed/Police/Medical,1
+2022-02-01,3,2,Persons on Trackbed/Police/Medical,1
+2022-02-01,D,2,Signals,1
+2022-02-01,D,1,Stations and Structure,1
+2022-02-01,2,1,Subway Car,1
+2022-02-01,D,1,Subway Car,1
+2022-02-01,R,1,Track,1
+2022-02-01,C,2,Persons on Trackbed/Police/Medical,1
+2022-02-01,Q,1,Stations and Structure,1
+2022-02-01,3,1,Stations and Structure,1
+2022-02-01,2,1,Persons on Trackbed/Police/Medical,2
+2022-02-01,F,1,Persons on Trackbed/Police/Medical,1
+2022-02-01,4,1,Signals,1
+2022-02-01,3,1,Track,1
+2022-02-01,Q,1,Signals,1
+2022-03-01,2,1,Subway Car,1
+2022-03-01,F,2,Persons on Trackbed/Police/Medical,1
+2022-03-01,7,1,Track,1
+2022-03-01,7,1,Subway Car,1
+2022-03-01,L,1,Persons on Trackbed/Police/Medical,1
+2022-03-01,3,2,Stations and Structure,1
+2022-03-01,1,1,Stations and Structure,1
+2022-03-01,B,1,Persons on Trackbed/Police/Medical,1
+2022-03-01,R,1,Signals,2
+2022-03-01,7,1,Persons on Trackbed/Police/Medical,3
+2022-03-01,7,1,Stations and Structure,1
+2022-03-01,Q,1,Track,1
+2022-03-01,1,1,Persons on Trackbed/Police/Medical,1
+2022-03-01,D,1,Signals,1
+2022-03-01,5,1,Signals,1
+2022-03-01,5,1,Other,1
+2022-03-01,M,1,Persons on Trackbed/Police/Medical,1
+2022-03-01,1,1,Track,1
+2022-03-01,7,2,Persons on Trackbed/Police/Medical,1
+2022-03-01,E,1,Signals,1
+2022-03-01,4,1,Other,1
+2022-03-01,F,1,Track,1
+2022-03-01,E,1,Stations and Structure,1
+2022-03-01,2,2,Track,1
+2022-03-01,M,1,Track,1
+2022-03-01,F,1,Signals,1
+2022-03-01,F,1,Other,1
+2022-03-01,2,1,Signals,1
+2022-03-01,L,1,Other,1
+2022-03-01,R,1,Subway Car,1
+2022-03-01,E,1,Track,2
+2022-03-01,F,1,Persons on Trackbed/Police/Medical,1
+2022-03-01,Q,1,Persons on Trackbed/Police/Medical,1
+2022-03-01,Q,1,Stations and Structure,1
+2022-03-01,NW,1,Signals,2
+2022-03-01,D,1,Track,1
+2022-03-01,R,1,Persons on Trackbed/Police/Medical,3
+2022-03-01,3,1,Subway Car,1
+2022-03-01,A,1,Track,1
+2022-03-01,6,1,Persons on Trackbed/Police/Medical,4
+2022-03-01,3,1,Persons on Trackbed/Police/Medical,1
+2022-03-01,D,1,Persons on Trackbed/Police/Medical,1
+2022-03-01,A,1,Subway Car,1
+2022-03-01,7,1,Other,2
+2022-04-01,C,1,Subway Car,1
+2022-04-01,2,1,Signals,1
+2022-04-01,E,1,Persons on Trackbed/Police/Medical,3
+2022-04-01,6,1,Subway Car,1
+2022-04-01,5,1,Persons on Trackbed/Police/Medical,2
+2022-04-01,2,1,Persons on Trackbed/Police/Medical,1
+2022-04-01,3,1,Stations and Structure,1
+2022-04-01,R,1,Persons on Trackbed/Police/Medical,2
+2022-04-01,C,1,Signals,1
+2022-04-01,E,1,Signals,1
+2022-04-01,M,1,Signals,1
+2022-04-01,1,1,Persons on Trackbed/Police/Medical,2
+2022-04-01,3,1,Subway Car,1
+2022-04-01,2,1,Subway Car,1
+2022-04-01,E,2,Signals,1
+2022-04-01,7,1,Signals,1
+2022-04-01,L,1,Signals,1
+2022-04-01,2,1,Stations and Structure,1
+2022-04-01,3,1,Persons on Trackbed/Police/Medical,1
+2022-04-01,D,2,Signals,1
+2022-04-01,F,1,Track,1
+2022-04-01,A,2,Persons on Trackbed/Police/Medical,1
+2022-04-01,Q,2,Persons on Trackbed/Police/Medical,1
+2022-04-01,A,1,Track,1
+2022-04-01,F,1,Signals,1
+2022-04-01,R,1,Signals,1
+2022-04-01,6,1,Persons on Trackbed/Police/Medical,1
+2022-04-01,2,1,Track,3
+2022-04-01,NW,1,Persons on Trackbed/Police/Medical,2
+2022-04-01,M,1,Persons on Trackbed/Police/Medical,1
+2022-04-01,NW,2,Persons on Trackbed/Police/Medical,1
+2022-04-01,F,1,Persons on Trackbed/Police/Medical,1
+2022-04-01,G,2,Track,1
+2022-04-01,7,2,Stations and Structure,1
+2022-05-01,L,1,Stations and Structure,1
+2022-05-01,NW,2,Signals,1
+2022-05-01,E,1,Subway Car,1
+2022-05-01,7,1,Signals,2
+2022-05-01,Q,1,Subway Car,1
+2022-05-01,NW,1,Subway Car,1
+2022-05-01,F,1,Track,1
+2022-05-01,L,1,Other,1
+2022-05-01,6,1,Signals,1
+2022-05-01,D,1,Signals,1
+2022-05-01,C,1,Signals,1
+2022-05-01,6,1,Persons on Trackbed/Police/Medical,1
+2022-05-01,M,1,Persons on Trackbed/Police/Medical,1
+2022-05-01,5,1,Subway Car,1
+2022-05-01,3,1,Track,2
+2022-05-01,1,2,Subway Car,1
+2022-05-01,6,1,Stations and Structure,1
+2022-05-01,5,1,Stations and Structure,1
+2022-05-01,3,1,Persons on Trackbed/Police/Medical,2
+2022-05-01,F,1,Signals,2
+2022-05-01,C,1,Persons on Trackbed/Police/Medical,1
+2022-05-01,A,2,Persons on Trackbed/Police/Medical,1
+2022-05-01,B,1,Persons on Trackbed/Police/Medical,1
+2022-05-01,1,2,Other,1
+2022-05-01,D,1,Track,1
+2022-05-01,2,1,Persons on Trackbed/Police/Medical,1
+2022-05-01,M,1,Stations and Structure,1
+2022-05-01,Q,2,Persons on Trackbed/Police/Medical,1
+2022-05-01,E,1,Signals,1
+2022-05-01,2,1,Signals,1
+2022-05-01,2,2,Persons on Trackbed/Police/Medical,1
+2022-05-01,NW,1,Signals,1
+2022-05-01,F,1,Persons on Trackbed/Police/Medical,1
+2022-05-01,7,1,Stations and Structure,1
+2022-05-01,L,2,Track,1
+2022-05-01,F,1,Stations and Structure,2
+2022-05-01,B,1,Signals,1
+2022-06-01,F,1,Signals,1
+2022-06-01,A,1,Persons on Trackbed/Police/Medical,1
+2022-06-01,2,2,Subway Car,1
+2022-06-01,JZ,1,Track,2
+2022-06-01,D,1,Signals,1
+2022-06-01,NW,2,Track,1
+2022-06-01,6,1,Stations and Structure,1
+2022-06-01,6,1,Persons on Trackbed/Police/Medical,1
+2022-06-01,C,2,Signals,1
+2022-06-01,6,1,Track,1
+2022-06-01,E,1,Persons on Trackbed/Police/Medical,1
+2022-06-01,M,1,Stations and Structure,1
+2022-06-01,F,1,Stations and Structure,1
+2022-06-01,4,1,Signals,1
+2022-06-01,6,1,Signals,1
+2022-06-01,2,1,Subway Car,1
+2022-06-01,7,1,Persons on Trackbed/Police/Medical,1
+2022-06-01,M,1,Persons on Trackbed/Police/Medical,2
+2022-06-01,3,2,Other,1
+2022-06-01,7,1,Other,1
+2022-06-01,E,1,Signals,2
+2022-06-01,5,1,Signals,2
+2022-06-01,B,1,Track,1
+2022-06-01,3,1,Persons on Trackbed/Police/Medical,2
+2022-06-01,1,1,Stations and Structure,1
+2022-06-01,1,2,Persons on Trackbed/Police/Medical,1
+2022-06-01,M,1,Track,1
+2022-06-01,E,1,Stations and Structure,2
+2022-06-01,L,1,Signals,1
+2022-06-01,4,1,Subway Car,1
+2022-06-01,D,1,Other,1
+2022-06-01,7,1,Track,1
+2022-06-01,F,1,Track,1
+2022-06-01,4,1,Track,1
+2022-07-01,5,1,Other,1
+2022-07-01,4,1,Persons on Trackbed/Police/Medical,1
+2022-07-01,C,1,Other,1
+2022-07-01,F,2,Persons on Trackbed/Police/Medical,1
+2022-07-01,F,1,Persons on Trackbed/Police/Medical,1
+2022-07-01,1,1,Track,1
+2022-07-01,G,2,Persons on Trackbed/Police/Medical,1
+2022-07-01,A,1,Stations and Structure,1
+2022-07-01,F,1,Other,1
+2022-07-01,L,1,Stations and Structure,1
+2022-07-01,M,1,Subway Car,1
+2022-07-01,3,1,Track,1
+2022-07-01,4,1,Track,1
+2022-07-01,2,1,Signals,1
+2022-07-01,1,1,Stations and Structure,2
+2022-07-01,7,1,Persons on Trackbed/Police/Medical,1
+2022-07-01,2,2,Subway Car,1
+2022-07-01,B,1,Track,2
+2022-07-01,6,1,Signals,2
+2022-07-01,A,1,Persons on Trackbed/Police/Medical,2
+2022-07-01,2,1,Other,1
+2022-07-01,JZ,1,Persons on Trackbed/Police/Medical,1
+2022-07-01,Q,1,Persons on Trackbed/Police/Medical,3
+2022-07-01,3,1,Signals,1
+2022-07-01,F,1,Track,2
+2022-07-01,A,1,Track,1
+2022-07-01,5,1,Signals,2
+2022-07-01,2,1,Stations and Structure,1
+2022-07-01,4,1,Signals,2
+2022-07-01,F,1,Stations and Structure,1
+2022-08-01,2,1,Persons on Trackbed/Police/Medical,1
+2022-08-01,NW,1,Signals,1
+2022-08-01,E,1,Subway Car,1
+2022-08-01,R,1,Persons on Trackbed/Police/Medical,3
+2022-08-01,A,1,Track,1
+2022-08-01,D,1,Signals,2
+2022-08-01,NW,1,Persons on Trackbed/Police/Medical,1
+2022-08-01,4,1,Persons on Trackbed/Police/Medical,1
+2022-08-01,1,1,Signals,1
+2022-08-01,R,1,Signals,1
+2022-08-01,7,1,Track,2
+2022-08-01,6,1,Signals,1
+2022-08-01,E,1,Signals,1
+2022-08-01,3,1,Persons on Trackbed/Police/Medical,1
+2022-08-01,E,1,Track,1
+2022-08-01,5,1,Subway Car,1
+2022-08-01,R,1,Stations and Structure,1
+2022-08-01,S 42nd,1,Subway Car,1
+2022-08-01,L,2,Signals,1
+2022-08-01,Q,2,Track,1
+2022-08-01,E,2,Other,1
+2022-08-01,F,1,Track,1
+2022-08-01,C,2,Track,1
+2022-08-01,1,1,Persons on Trackbed/Police/Medical,1
+2022-08-01,M,1,Signals,2
+2022-08-01,S 42nd,1,Other,1
+2022-08-01,6,1,Persons on Trackbed/Police/Medical,3
+2022-08-01,5,1,Persons on Trackbed/Police/Medical,2
+2022-09-01,4,1,Persons on Trackbed/Police/Medical,1
+2022-09-01,F,1,Persons on Trackbed/Police/Medical,1
+2022-09-01,E,1,Track,1
+2022-09-01,2,1,Track,2
+2022-09-01,NW,1,Persons on Trackbed/Police/Medical,1
+2022-09-01,R,1,Stations and Structure,1
+2022-09-01,D,1,Other,1
+2022-09-01,Q,1,Persons on Trackbed/Police/Medical,1
+2022-09-01,NW,1,Track,2
+2022-09-01,L,1,Persons on Trackbed/Police/Medical,1
+2022-09-01,6,1,Signals,1
+2022-09-01,2,1,Signals,1
+2022-09-01,L,1,Stations and Structure,1
+2022-09-01,A,1,Persons on Trackbed/Police/Medical,2
+2022-09-01,4,1,Signals,1
+2022-09-01,1,1,Signals,1
+2022-09-01,6,1,Subway Car,1
+2022-09-01,NW,1,Subway Car,1
+2022-09-01,3,1,Signals,1
+2022-09-01,A,1,Signals,2
+2022-09-01,4,2,Track,1
+2022-09-01,2,1,Persons on Trackbed/Police/Medical,1
+2022-09-01,7,1,Track,1
+2022-09-01,E,1,Signals,1
+2022-09-01,B,1,Track,1
+2022-09-01,4,2,Other,1
+2022-09-01,Q,1,Signals,1
+2022-09-01,5,1,Persons on Trackbed/Police/Medical,3
+2022-09-01,D,1,Signals,1
+2022-09-01,E,1,Persons on Trackbed/Police/Medical,1
+2022-09-01,5,1,Other,1
+2022-09-01,M,1,Persons on Trackbed/Police/Medical,2
+2022-09-01,1,1,Other,1
+2022-09-01,1,1,Track,1
+2022-09-01,E,1,Stations and Structure,1
+2022-09-01,A,1,Stations and Structure,1
+2022-09-01,2,1,Subway Car,1
+2022-10-01,S 42nd,1,Subway Car,1
+2022-10-01,A,2,Track,2
+2022-10-01,4,1,Signals,1
+2022-10-01,6,2,Stations and Structure,1
+2022-10-01,3,1,Persons on Trackbed/Police/Medical,1
+2022-10-01,2,1,Persons on Trackbed/Police/Medical,1
+2022-10-01,Q,1,Track,2
+2022-10-01,2,1,Signals,1
+2022-10-01,7,1,Track,1
+2022-10-01,5,1,Subway Car,1
+2022-10-01,F,1,Persons on Trackbed/Police/Medical,1
+2022-10-01,C,2,Persons on Trackbed/Police/Medical,1
+2022-10-01,E,1,Persons on Trackbed/Police/Medical,1
+2022-10-01,4,1,Persons on Trackbed/Police/Medical,1
+2022-10-01,6,1,Other,1
+2022-10-01,7,1,Persons on Trackbed/Police/Medical,1
+2022-10-01,F,1,Signals,1
+2022-10-01,NW,1,Persons on Trackbed/Police/Medical,3
+2022-10-01,3,1,Track,1
+2022-10-01,F,1,Stations and Structure,1
+2022-10-01,D,1,Persons on Trackbed/Police/Medical,1
+2022-10-01,NW,1,Subway Car,1
+2022-10-01,E,1,Signals,2
+2022-10-01,A,1,Persons on Trackbed/Police/Medical,2
+2022-10-01,NW,1,Signals,1
+2022-10-01,6,1,Track,1
+2022-10-01,R,1,Signals,3
+2022-10-01,F,1,Track,1
+2022-10-01,6,1,Subway Car,1
+2022-10-01,2,1,Track,1
+2022-10-01,1,1,Persons on Trackbed/Police/Medical,1
+2022-10-01,L,2,Other,1
+2022-10-01,C,1,Signals,1
+2022-10-01,5,1,Stations and Structure,3
+2022-10-01,7,1,Other,1
+2022-10-01,E,1,Track,1
+2022-10-01,7,1,Signals,1
+2022-10-01,6,1,Persons on Trackbed/Police/Medical,2
+2022-10-01,B,1,Subway Car,1
+2022-10-01,R,1,Persons on Trackbed/Police/Medical,1
+2022-11-01,NW,1,Stations and Structure,1
+2022-11-01,E,1,Track,2
+2022-11-01,R,1,Persons on Trackbed/Police/Medical,1
+2022-11-01,NW,1,Signals,1
+2022-11-01,C,2,Persons on Trackbed/Police/Medical,1
+2022-11-01,D,2,Signals,1
+2022-11-01,6,1,Persons on Trackbed/Police/Medical,1
+2022-11-01,B,1,Track,1
+2022-11-01,NW,1,Subway Car,1
+2022-11-01,4,1,Signals,2
+2022-11-01,7,1,Signals,2
+2022-11-01,NW,1,Track,1
+2022-11-01,D,1,Stations and Structure,1
+2022-11-01,5,1,Signals,2
+2022-11-01,1,1,Persons on Trackbed/Police/Medical,3
+2022-11-01,5,1,Persons on Trackbed/Police/Medical,1
+2022-11-01,L,1,Stations and Structure,1
+2022-11-01,4,2,Stations and Structure,1
+2022-11-01,E,1,Signals,2
+2022-11-01,R,1,Other,1
+2022-11-01,4,1,Other,1
+2022-11-01,5,1,Track,1
+2022-11-01,3,1,Subway Car,1
+2022-11-01,R,1,Signals,1
+2022-11-01,6,1,Stations and Structure,1
+2022-11-01,A,1,Track,1
+2022-11-01,5,1,Other,1
+2022-11-01,4,1,Persons on Trackbed/Police/Medical,4
+2022-11-01,2,1,Signals,5
+2022-11-01,B,1,Persons on Trackbed/Police/Medical,1
+2022-11-01,D,1,Signals,3
+2022-11-01,M,1,Track,1
+2022-11-01,Q,2,Track,1
+2022-11-01,M,1,Other,1
+2022-11-01,A,1,Subway Car,1
+2022-11-01,F,1,Track,1
+2022-11-01,7,1,Track,1
+2022-11-01,2,2,Other,1
+2022-11-01,B,1,Signals,1
+2022-11-01,Q,1,Track,1
+2022-12-01,7,1,Track,1
+2022-12-01,M,1,Signals,2
+2022-12-01,5,1,Subway Car,1
+2022-12-01,L,1,Signals,1
+2022-12-01,4,1,Signals,1
+2022-12-01,6,1,Persons on Trackbed/Police/Medical,1
+2022-12-01,2,1,Other,1
+2022-12-01,3,1,Stations and Structure,1
+2022-12-01,F,1,Stations and Structure,3
+2022-12-01,JZ,1,Track,2
+2022-12-01,A,1,Stations and Structure,1
+2022-12-01,Q,1,Track,1
+2022-12-01,NW,1,Track,1
+2022-12-01,6,1,Other,1
+2022-12-01,4,1,Persons on Trackbed/Police/Medical,2
+2022-12-01,5,1,Persons on Trackbed/Police/Medical,1
+2022-12-01,7,1,Persons on Trackbed/Police/Medical,1
+2022-12-01,D,1,Subway Car,1
+2022-12-01,L,1,Persons on Trackbed/Police/Medical,1
+2022-12-01,2,1,Persons on Trackbed/Police/Medical,1
+2022-12-01,B,1,Signals,1
+2022-12-01,6,1,Subway Car,2
+2022-12-01,C,1,Signals,1
+2022-12-01,F,1,Signals,1
+2022-12-01,3,2,Signals,1
+2022-12-01,JZ,1,Persons on Trackbed/Police/Medical,1
+2022-12-01,F,1,Subway Car,1
+2022-12-01,NW,1,Signals,1
+2022-12-01,Q,1,Signals,3
+2022-12-01,1,1,Persons on Trackbed/Police/Medical,3
+2022-12-01,2,1,Signals,2
+2022-12-01,3,2,Persons on Trackbed/Police/Medical,1
+2022-12-01,E,1,Track,1
+2022-12-01,A,1,Track,1
+2022-12-01,3,2,Stations and Structure,1
+2022-12-01,R,1,Track,2
+2022-12-01,4,1,Track,1
+2022-12-01,E,1,Persons on Trackbed/Police/Medical,1
+2022-12-01,6,1,Track,2
+2022-12-01,1,1,Signals,2
+2023-01-01,4,1,Persons on Trackbed/Police/Medical,2
+2023-01-01,1,1,Signals,1
+2023-01-01,A,1,Signals,2
+2023-01-01,NW,1,Track,1
+2023-01-01,2,2,Persons on Trackbed/Police/Medical,1
+2023-01-01,C,1,Track,2
+2023-01-01,L,1,Persons on Trackbed/Police/Medical,2
+2023-01-01,F,1,Stations and Structure,2
+2023-01-01,4,1,Track,2
+2023-01-01,B,1,Subway Car,1
+2023-01-01,7,1,Track,1
+2023-01-01,R,1,Subway Car,1
+2023-01-01,3,1,Signals,1
+2023-01-01,A,1,Persons on Trackbed/Police/Medical,1
+2023-01-01,R,2,Subway Car,1
+2023-01-01,5,1,Persons on Trackbed/Police/Medical,1
+2023-01-01,5,1,Signals,1
+2023-01-01,3,1,Other,1
+2023-01-01,4,1,Other,1
+2023-01-01,1,1,Stations and Structure,1
+2023-01-01,B,1,Persons on Trackbed/Police/Medical,1
+2023-01-01,6,1,Persons on Trackbed/Police/Medical,1
+2023-01-01,E,1,Persons on Trackbed/Police/Medical,3
+2023-01-01,Q,2,Persons on Trackbed/Police/Medical,1
+2023-01-01,F,1,Persons on Trackbed/Police/Medical,1
+2023-01-01,C,1,Signals,2
+2023-01-01,2,1,Track,3
+2023-01-01,6,1,Track,1
+2023-01-01,5,1,Track,1
+2023-01-01,7,1,Persons on Trackbed/Police/Medical,1
+2023-02-01,Q,1,Other,1
+2023-02-01,L,2,Signals,1
+2023-02-01,2,1,Stations and Structure,1
+2023-02-01,NW,1,Subway Car,2
+2023-02-01,NW,1,Signals,1
+2023-02-01,F,1,Stations and Structure,1
+2023-02-01,5,1,Persons on Trackbed/Police/Medical,1
+2023-02-01,1,1,Persons on Trackbed/Police/Medical,3
+2023-02-01,F,1,Track,4
+2023-02-01,6,1,Persons on Trackbed/Police/Medical,2
+2023-02-01,7,1,Track,1
+2023-02-01,F,1,Signals,1
+2023-02-01,4,1,Subway Car,1
+2023-02-01,7,2,Signals,2
+2023-02-01,NW,1,Persons on Trackbed/Police/Medical,1
+2023-02-01,7,1,Persons on Trackbed/Police/Medical,1
+2023-02-01,NW,1,Track,1
+2023-02-01,F,1,Persons on Trackbed/Police/Medical,1
+2023-02-01,1,1,Track,1
+2023-02-01,E,1,Track,1
+2023-02-01,JZ,2,Persons on Trackbed/Police/Medical,1
+2023-02-01,Q,1,Persons on Trackbed/Police/Medical,2
+2023-02-01,1,1,Other,1
+2023-03-01,A,1,Persons on Trackbed/Police/Medical,1
+2023-03-01,1,1,Signals,1
+2023-03-01,NW,2,Persons on Trackbed/Police/Medical,1
+2023-03-01,4,1,Signals,3
+2023-03-01,3,1,Track,1
+2023-03-01,E,1,Track,2
+2023-03-01,F,1,Subway Car,1
+2023-03-01,D,1,Subway Car,1
+2023-03-01,R,1,Persons on Trackbed/Police/Medical,2
+2023-03-01,L,1,Track,1
+2023-03-01,6,1,Persons on Trackbed/Police/Medical,1
+2023-03-01,4,1,Subway Car,1
+2023-03-01,E,1,Stations and Structure,1
+2023-03-01,C,1,Signals,1
+2023-03-01,L,1,Other,1
+2023-03-01,B,1,Other,1
+2023-03-01,4,2,Signals,1
+2023-03-01,B,1,Track,1
+2023-03-01,7,1,Signals,1
+2023-03-01,B,1,Persons on Trackbed/Police/Medical,2
+2023-03-01,2,1,Signals,1
+2023-03-01,5,1,Signals,2
+2023-03-01,B,1,Subway Car,1
+2023-03-01,F,1,Stations and Structure,1
+2023-03-01,2,1,Track,1
+2023-03-01,5,1,Persons on Trackbed/Police/Medical,1
+2023-03-01,6,1,Signals,1
+2023-03-01,NW,1,Persons on Trackbed/Police/Medical,3
+2023-03-01,7,1,Persons on Trackbed/Police/Medical,3
+2023-03-01,2,1,Other,1
+2023-03-01,C,1,Track,1
+2023-03-01,3,1,Signals,1
+2023-03-01,L,1,Persons on Trackbed/Police/Medical,1
+2023-03-01,E,1,Other,1
+2023-03-01,R,1,Stations and Structure,1
+2023-03-01,5,1,Track,1
+2023-03-01,Q,1,Track,1
+2023-03-01,1,1,Other,1
+2023-04-01,6,1,Persons on Trackbed/Police/Medical,2
+2023-04-01,A,1,Persons on Trackbed/Police/Medical,1
+2023-04-01,3,1,Stations and Structure,1
+2023-04-01,R,1,Track,1
+2023-04-01,F,1,Other,1
+2023-04-01,4,1,Subway Car,1
+2023-04-01,1,1,Signals,1
+2023-04-01,A,2,Other,1
+2023-04-01,7,2,Signals,1
+2023-04-01,E,1,Signals,1
+2023-04-01,4,1,Other,1
+2023-04-01,5,1,Subway Car,1
+2023-04-01,R,1,Persons on Trackbed/Police/Medical,1
+2023-04-01,NW,1,Signals,2
+2023-04-01,1,1,Persons on Trackbed/Police/Medical,2
+2023-04-01,6,1,Other,1
+2023-04-01,Q,1,Persons on Trackbed/Police/Medical,1
+2023-04-01,E,2,Signals,1
+2023-04-01,4,1,Persons on Trackbed/Police/Medical,1
+2023-04-01,E,1,Stations and Structure,1
+2023-04-01,R,1,Signals,2
+2023-04-01,3,1,Persons on Trackbed/Police/Medical,1
+2023-04-01,C,1,Signals,1
+2023-04-01,2,1,Persons on Trackbed/Police/Medical,3
+2023-04-01,3,1,Signals,1
+2023-04-01,F,1,Track,2
+2023-04-01,4,1,Signals,1
+2023-04-01,6,2,Track,1
+2023-04-01,E,1,Persons on Trackbed/Police/Medical,1
+2023-04-01,NW,2,Signals,1
+2023-04-01,2,1,Signals,2
+2023-04-01,7,1,Track,1
+2023-05-01,1,1,Persons on Trackbed/Police/Medical,1
+2023-05-01,E,1,Persons on Trackbed/Police/Medical,3
+2023-05-01,NW,1,Persons on Trackbed/Police/Medical,2
+2023-05-01,D,2,Signals,1
+2023-05-01,Q,1,Track,1
+2023-05-01,3,1,Persons on Trackbed/Police/Medical,1
+2023-05-01,NW,1,Signals,1
+2023-05-01,R,1,Signals,1
+2023-05-01,NW,1,Subway Car,1
+2023-05-01,NW,1,Track,1
+2023-05-01,F,1,Stations and Structure,1
+2023-05-01,NW,1,Stations and Structure,1
+2023-05-01,E,1,Stations and Structure,1
+2023-05-01,E,1,Track,3
+2023-05-01,D,1,Signals,1
+2023-05-01,A,1,Persons on Trackbed/Police/Medical,1
+2023-05-01,4,1,Subway Car,1
+2023-05-01,4,1,Other,1
+2023-05-01,5,1,Track,2
+2023-05-01,6,1,Persons on Trackbed/Police/Medical,1
+2023-05-01,1,1,Stations and Structure,1
+2023-05-01,2,1,Persons on Trackbed/Police/Medical,2
+2023-05-01,7,1,Persons on Trackbed/Police/Medical,1
+2023-05-01,7,1,Track,1
+2023-05-01,L,1,Track,2
+2023-05-01,C,1,Stations and Structure,1
+2023-05-01,JZ,1,Track,1
+2023-05-01,6,1,Other,1
+2023-05-01,4,2,Persons on Trackbed/Police/Medical,2
+2023-05-01,2,1,Track,1
+2023-05-01,5,1,Persons on Trackbed/Police/Medical,1
+2023-05-01,E,1,Signals,3
+2023-05-01,5,1,Subway Car,1
+2023-05-01,B,1,Track,1
+2023-05-01,D,1,Other,1
+2023-05-01,6,1,Signals,2
+2023-05-01,F,1,Track,2
+2023-05-01,4,1,Persons on Trackbed/Police/Medical,2
+2023-05-01,7,1,Stations and Structure,1
+2023-05-01,G,2,Signals,1
+2023-05-01,JZ,1,Persons on Trackbed/Police/Medical,1
+2023-06-01,1,1,Persons on Trackbed/Police/Medical,3
+2023-06-01,L,1,Persons on Trackbed/Police/Medical,2
+2023-06-01,NW,1,Signals,1
+2023-06-01,A,1,Signals,2
+2023-06-01,L,2,Track,1
+2023-06-01,5,1,Signals,1
+2023-06-01,B,1,Other,1
+2023-06-01,NW,1,Persons on Trackbed/Police/Medical,2
+2023-06-01,D,1,Other,1
+2023-06-01,7,1,Track,1
+2023-06-01,G,1,Signals,1
+2023-06-01,R,1,Signals,1
+2023-06-01,7,1,Signals,1
+2023-06-01,6,2,Signals,1
+2023-06-01,A,1,Subway Car,1
+2023-06-01,B,1,Track,1
+2023-06-01,B,1,Signals,1
+2023-06-01,5,1,Persons on Trackbed/Police/Medical,1
+2023-06-01,A,2,Track,1
+2023-06-01,F,1,Signals,1
+2023-06-01,2,1,Subway Car,1
+2023-06-01,M,1,Signals,2
+2023-06-01,E,1,Stations and Structure,1
+2023-06-01,A,1,Track,1
+2023-06-01,M,1,Stations and Structure,1
+2023-06-01,M,1,Persons on Trackbed/Police/Medical,2
+2023-06-01,6,1,Persons on Trackbed/Police/Medical,1
+2023-06-01,L,1,Track,1
+2023-06-01,4,2,Signals,1
+2023-06-01,7,1,Persons on Trackbed/Police/Medical,1
+2023-06-01,E,1,Signals,1
+2023-06-01,5,1,Track,1
+2023-06-01,4,1,Persons on Trackbed/Police/Medical,1
+2023-07-01,D,1,Stations and Structure,1
+2023-07-01,R,1,Stations and Structure,1
+2023-07-01,E,1,Stations and Structure,1
+2023-07-01,5,1,Signals,1
+2023-07-01,D,1,Track,1
+2023-07-01,E,2,Stations and Structure,1
+2023-07-01,2,1,Persons on Trackbed/Police/Medical,3
+2023-07-01,NW,1,Signals,1
+2023-07-01,6,2,Subway Car,1
+2023-07-01,E,1,Persons on Trackbed/Police/Medical,1
+2023-07-01,F,1,Track,1
+2023-07-01,M,1,Persons on Trackbed/Police/Medical,1
+2023-07-01,NW,1,Stations and Structure,1
+2023-07-01,F,1,Stations and Structure,1
+2023-07-01,4,1,Persons on Trackbed/Police/Medical,2
+2023-07-01,G,2,Signals,1
+2023-07-01,4,1,Signals,2
+2023-07-01,6,1,Other,1
+2023-07-01,Q,1,Persons on Trackbed/Police/Medical,1
+2023-07-01,2,1,Signals,3
+2023-07-01,B,1,Persons on Trackbed/Police/Medical,1
+2023-07-01,6,1,Signals,1
+2023-07-01,7,1,Track,2
+2023-07-01,7,2,Persons on Trackbed/Police/Medical,1
+2023-07-01,F,1,Subway Car,1
+2023-07-01,7,1,Stations and Structure,1
+2023-07-01,E,1,Other,1
+2023-07-01,6,1,Persons on Trackbed/Police/Medical,1
+2023-07-01,E,1,Track,2
+2023-07-01,3,1,Signals,1
+2023-07-01,D,1,Persons on Trackbed/Police/Medical,1
+2023-07-01,NW,1,Subway Car,2
+2023-07-01,7,1,Signals,1
+2023-07-01,D,2,Signals,1
+2023-07-01,A,1,Signals,1
+2023-07-01,L,2,Subway Car,1
+2023-07-01,F,1,Signals,2
+2023-07-01,S 42nd,1,Subway Car,1
+2023-07-01,1,1,Signals,2
+2023-07-01,NW,1,Track,2
+2023-08-01,3,2,Persons on Trackbed/Police/Medical,1
+2023-08-01,7,1,Stations and Structure,1
+2023-08-01,7,1,Track,1
+2023-08-01,7,1,Subway Car,1
+2023-08-01,1,1,Persons on Trackbed/Police/Medical,1
+2023-08-01,A,1,Stations and Structure,3
+2023-08-01,E,1,Persons on Trackbed/Police/Medical,1
+2023-08-01,F,1,Signals,1
+2023-08-01,1,1,Other,1
+2023-08-01,A,1,Persons on Trackbed/Police/Medical,1
+2023-08-01,F,1,Track,1
+2023-08-01,3,1,Other,1
+2023-08-01,NW,1,Subway Car,2
+2023-08-01,NW,2,Stations and Structure,1
+2023-08-01,2,1,Persons on Trackbed/Police/Medical,2
+2023-08-01,R,1,Persons on Trackbed/Police/Medical,2
+2023-08-01,6,1,Persons on Trackbed/Police/Medical,1
+2023-08-01,NW,1,Stations and Structure,1
+2023-08-01,D,1,Signals,2
+2023-08-01,A,1,Signals,1
+2023-08-01,2,1,Subway Car,1
+2023-08-01,NW,1,Signals,1
+2023-08-01,6,1,Signals,2
+2023-08-01,5,1,Signals,3
+2023-08-01,6,1,Track,1
+2023-08-01,1,1,Stations and Structure,1
+2023-08-01,L,1,Persons on Trackbed/Police/Medical,1
+2023-08-01,F,1,Subway Car,1
+2023-08-01,C,1,Persons on Trackbed/Police/Medical,1
+2023-09-01,NW,1,Signals,1
+2023-09-01,C,1,Signals,1
+2023-09-01,4,1,Track,1
+2023-09-01,2,1,Other,1
+2023-09-01,B,1,Track,1
+2023-09-01,7,1,Subway Car,1
+2023-09-01,NW,1,Subway Car,1
+2023-09-01,Q,1,Track,1
+2023-09-01,3,1,Signals,1
+2023-09-01,E,1,Stations and Structure,1
+2023-09-01,6,1,Signals,1
+2023-09-01,4,1,Persons on Trackbed/Police/Medical,2
+2023-09-01,5,1,Other,1
+2023-09-01,6,1,Persons on Trackbed/Police/Medical,2
+2023-09-01,D,2,Stations and Structure,1
+2023-09-01,E,1,Signals,2
+2023-09-01,NW,1,Track,1
+2023-09-01,D,1,Persons on Trackbed/Police/Medical,1
+2023-09-01,E,1,Subway Car,1
+2023-09-01,M,1,Subway Car,1
+2023-09-01,A,1,Persons on Trackbed/Police/Medical,2
+2023-09-01,3,1,Persons on Trackbed/Police/Medical,1
+2023-09-01,R,1,Track,2
+2023-09-01,1,1,Signals,2
+2023-09-01,D,1,Track,1
+2023-09-01,2,2,Other,1
+2023-09-01,C,1,Persons on Trackbed/Police/Medical,1
+2023-09-01,F,1,Persons on Trackbed/Police/Medical,1
+2023-09-01,E,1,Track,3
+2023-09-01,B,1,Persons on Trackbed/Police/Medical,2
+2023-09-01,NW,1,Persons on Trackbed/Police/Medical,4
+2023-09-01,7,1,Persons on Trackbed/Police/Medical,2
+2023-09-01,6,1,Track,2
+2023-09-01,2,1,Signals,1
+2023-10-01,7,1,Subway Car,1
+2023-10-01,G,1,Other,1
+2023-10-01,JZ,1,Other,1
+2023-10-01,2,1,Signals,1
+2023-10-01,R,2,Signals,1
+2023-10-01,6,1,Signals,1
+2023-10-01,R,2,Persons on Trackbed/Police/Medical,1
+2023-10-01,3,1,Signals,2
+2023-10-01,D,2,Signals,1
+2023-10-01,2,1,Persons on Trackbed/Police/Medical,2
+2023-10-01,R,1,Signals,1
+2023-10-01,1,2,Subway Car,1
+2023-10-01,JZ,1,Persons on Trackbed/Police/Medical,1
+2023-10-01,7,1,Stations and Structure,1
+2023-10-01,D,1,Persons on Trackbed/Police/Medical,1
+2023-10-01,A,1,Subway Car,1
+2023-10-01,F,1,Persons on Trackbed/Police/Medical,1
+2023-10-01,6,1,Subway Car,1
+2023-10-01,1,1,Persons on Trackbed/Police/Medical,2
+2023-10-01,6,1,Persons on Trackbed/Police/Medical,1
+2023-10-01,5,1,Track,1
+2023-10-01,7,1,Persons on Trackbed/Police/Medical,1
+2023-10-01,7,2,Track,1
+2023-10-01,E,1,Persons on Trackbed/Police/Medical,4
+2023-10-01,1,2,Signals,1
+2023-10-01,5,1,Persons on Trackbed/Police/Medical,2
+2023-10-01,D,1,Subway Car,1
+2023-10-01,JZ,1,Stations and Structure,1
+2023-10-01,2,1,Stations and Structure,3
+2023-10-01,R,1,Track,1
+2023-10-01,2,1,Subway Car,1
+2023-10-01,F,2,Signals,1
+2023-10-01,3,1,Persons on Trackbed/Police/Medical,3
+2023-10-01,6,1,Stations and Structure,1
+2023-10-01,B,1,Other,1
+2023-10-01,NW,1,Persons on Trackbed/Police/Medical,2
+2023-11-01,2,1,Signals,2
+2023-11-01,E,1,Track,1
+2023-11-01,3,1,Persons on Trackbed/Police/Medical,1
+2023-11-01,D,2,Persons on Trackbed/Police/Medical,1
+2023-11-01,L,1,Persons on Trackbed/Police/Medical,1
+2023-11-01,2,1,Persons on Trackbed/Police/Medical,1
+2023-11-01,7,1,Subway Car,1
+2023-11-01,5,1,Persons on Trackbed/Police/Medical,1
+2023-11-01,2,2,Persons on Trackbed/Police/Medical,1
+2023-11-01,F,1,Track,1
+2023-11-01,R,1,Signals,1
+2023-11-01,R,1,Track,1
+2023-11-01,L,2,Subway Car,1
+2023-11-01,4,1,Persons on Trackbed/Police/Medical,2
+2023-11-01,7,1,Other,1
+2023-11-01,5,2,Persons on Trackbed/Police/Medical,1
+2023-11-01,1,1,Other,1
+2023-11-01,7,1,Signals,3
+2023-11-01,2,1,Subway Car,1
+2023-11-01,4,1,Signals,1
+2023-11-01,E,1,Persons on Trackbed/Police/Medical,4
+2023-11-01,NW,1,Persons on Trackbed/Police/Medical,1
+2023-11-01,D,1,Subway Car,1
+2023-11-01,2,1,Other,1
+2023-11-01,NW,1,Track,2
+2023-11-01,6,1,Signals,2
+2023-12-01,7,1,Persons on Trackbed/Police/Medical,3
+2023-12-01,1,1,Track,1
+2023-12-01,C,1,Track,1
+2023-12-01,5,1,Track,2
+2023-12-01,2,1,Track,1
+2023-12-01,2,1,Persons on Trackbed/Police/Medical,1
+2023-12-01,L,2,Persons on Trackbed/Police/Medical,2
+2023-12-01,7,1,Stations and Structure,1
+2023-12-01,F,1,Other,1
+2023-12-01,A,1,Signals,1
+2023-12-01,NW,1,Track,1
+2023-12-01,JZ,1,Persons on Trackbed/Police/Medical,1
+2023-12-01,L,1,Persons on Trackbed/Police/Medical,1
+2023-12-01,NW,1,Other,1
+2023-12-01,E,2,Persons on Trackbed/Police/Medical,1
+2023-12-01,4,1,Other,2
+2023-12-01,A,2,Persons on Trackbed/Police/Medical,1
+2023-12-01,R,1,Signals,1
+2023-12-01,NW,1,Signals,2
+2023-12-01,5,1,Persons on Trackbed/Police/Medical,1
+2023-12-01,2,1,Signals,1
+2023-12-01,6,1,Other,1
+2023-12-01,E,1,Persons on Trackbed/Police/Medical,2
+2023-12-01,2,2,Signals,1
+2023-12-01,4,2,Signals,1
+2023-12-01,Q,1,Persons on Trackbed/Police/Medical,1
+2023-12-01,R,2,Subway Car,1
+2023-12-01,4,1,Signals,2
+2023-12-01,M,1,Persons on Trackbed/Police/Medical,1
+2023-12-01,F,1,Persons on Trackbed/Police/Medical,1
+2023-12-01,NW,1,Persons on Trackbed/Police/Medical,3
+2023-12-01,6,1,Persons on Trackbed/Police/Medical,5
+2023-12-01,JZ,1,Subway Car,1
+2023-12-01,R,1,Persons on Trackbed/Police/Medical,1
+2023-12-01,4,1,Persons on Trackbed/Police/Medical,2
+2023-12-01,A,1,Persons on Trackbed/Police/Medical,3
+2023-12-01,6,1,Signals,3
+2023-12-01,1,2,Other,1
+2024-01-01,L,1,Persons on Trackbed/Police/Medical,1
+2024-01-01,3,1,Signals,1
+2024-01-01,NW,2,Subway Car,1
+2024-01-01,2,1,Subway Car,1
+2024-01-01,C,1,Persons on Trackbed/Police/Medical,1
+2024-01-01,1,1,Subway Car,1
+2024-01-01,1,2,Signals,1
+2024-01-01,S 42nd,1,Subway Car,1
+2024-01-01,L,1,Stations and Structure,1
+2024-01-01,D,1,Subway Car,1
+2024-01-01,E,1,Signals,1
+2024-01-01,7,1,Signals,3
+2024-01-01,5,1,Track,1
+2024-01-01,R,1,Track,1
+2024-01-01,5,1,Persons on Trackbed/Police/Medical,2
+2024-01-01,D,1,Persons on Trackbed/Police/Medical,2
+2024-01-01,B,1,Track,1
+2024-01-01,7,1,Subway Car,1
+2024-01-01,4,2,Track,1
+2024-01-01,NW,1,Persons on Trackbed/Police/Medical,1
+2024-01-01,B,1,Other,1
+2024-01-01,6,1,Stations and Structure,1
+2024-01-01,E,1,Persons on Trackbed/Police/Medical,2
+2024-01-01,B,1,Persons on Trackbed/Police/Medical,1
+2024-01-01,F,1,Signals,1
+2024-01-01,2,1,Other,1
+2024-01-01,NW,1,Track,2
+2024-01-01,7,1,Track,1
+2024-01-01,F,1,Other,1
+2024-01-01,F,1,Track,2
+2024-01-01,1,1,Other,2
+2024-01-01,M,1,Signals,2
+2024-01-01,2,1,Stations and Structure,1
+2024-01-01,A,1,Signals,1
+2024-01-01,7,1,Persons on Trackbed/Police/Medical,2
+2024-01-01,1,1,Persons on Trackbed/Police/Medical,3
+2024-01-01,R,2,Signals,1
+2024-01-01,Q,1,Persons on Trackbed/Police/Medical,2
+2024-01-01,2,1,Signals,1
+2024-01-01,6,1,Persons on Trackbed/Police/Medical,1
+2024-01-01,F,1,Persons on Trackbed/Police/Medical,2
+2024-01-01,3,1,Track,1
+2024-01-01,4,1,Signals,2
+2024-01-01,1,2,Other,2
+2024-01-01,NW,1,Signals,5
+2024-01-01,2,1,Persons on Trackbed/Police/Medical,5
+2024-01-01,L,1,Track,1
+2024-01-01,E,1,Track,2
+2024-01-01,2,1,Track,1
+2024-02-01,4,1,Persons on Trackbed/Police/Medical,1
+2024-02-01,3,2,Persons on Trackbed/Police/Medical,1
+2024-02-01,5,1,Persons on Trackbed/Police/Medical,4
+2024-02-01,1,2,Subway Car,1
+2024-02-01,7,1,Track,2
+2024-02-01,4,2,Persons on Trackbed/Police/Medical,1
+2024-02-01,R,1,Stations and Structure,1
+2024-02-01,1,1,Other,1
+2024-02-01,D,1,Signals,1
+2024-02-01,NW,1,Signals,3
+2024-02-01,L,2,Signals,1
+2024-02-01,NW,1,Subway Car,2
+2024-02-01,Q,1,Track,1
+2024-02-01,6,1,Signals,1
+2024-02-01,3,1,Persons on Trackbed/Police/Medical,1
+2024-02-01,A,1,Signals,1
+2024-02-01,F,1,Track,1
+2024-02-01,D,1,Track,1
+2024-02-01,B,1,Signals,3
+2024-02-01,A,2,Persons on Trackbed/Police/Medical,1
+2024-02-01,F,1,Persons on Trackbed/Police/Medical,3
+2024-02-01,E,1,Persons on Trackbed/Police/Medical,1
+2024-02-01,3,1,Signals,1
+2024-02-01,4,1,Track,1
+2024-02-01,G,1,Persons on Trackbed/Police/Medical,1
+2024-02-01,C,2,Subway Car,1
+2024-02-01,2,1,Persons on Trackbed/Police/Medical,1
+2024-02-01,R,1,Persons on Trackbed/Police/Medical,1
+2024-02-01,F,1,Stations and Structure,3
+2024-02-01,C,1,Persons on Trackbed/Police/Medical,2
+2024-02-01,L,1,Stations and Structure,1
+2024-02-01,2,1,Track,1
+2024-02-01,R,1,Subway Car,1
+2024-02-01,D,1,Other,1
+2024-02-01,E,1,Track,1
+2024-02-01,E,1,Stations and Structure,1
+2024-02-01,NW,1,Persons on Trackbed/Police/Medical,1
+2024-02-01,3,1,Track,1
+2024-02-01,2,1,Signals,1
+2024-02-01,R,1,Signals,1
+2024-02-01,6,2,Stations and Structure,1
+2024-02-01,6,1,Persons on Trackbed/Police/Medical,2
+2024-02-01,R,2,Persons on Trackbed/Police/Medical,1
+2024-03-01,Q,1,Persons on Trackbed/Police/Medical,1
+2024-03-01,6,1,Other,1
+2024-03-01,L,1,Track,1
+2024-03-01,4,1,Persons on Trackbed/Police/Medical,3
+2024-03-01,Q,1,Signals,1
+2024-03-01,4,1,Track,1
+2024-03-01,A,1,Track,2
+2024-03-01,E,1,Subway Car,1
+2024-03-01,JZ,1,Signals,1
+2024-03-01,A,2,Signals,1
+2024-03-01,6,1,Stations and Structure,1
+2024-03-01,NW,1,Persons on Trackbed/Police/Medical,1
+2024-03-01,F,1,Signals,1
+2024-03-01,B,1,Stations and Structure,1
+2024-03-01,D,1,Signals,1
+2024-03-01,D,1,Subway Car,1
+2024-03-01,E,1,Signals,2
+2024-03-01,Q,1,Track,2
+2024-03-01,2,2,Signals,1
+2024-03-01,2,1,Signals,1
+2024-03-01,6,1,Persons on Trackbed/Police/Medical,4
+2024-03-01,7,1,Persons on Trackbed/Police/Medical,1
+2024-03-01,E,1,Stations and Structure,1
+2024-03-01,M,2,Persons on Trackbed/Police/Medical,1
+2024-03-01,E,1,Persons on Trackbed/Police/Medical,1
+2024-03-01,A,1,Signals,4
+2024-03-01,Q,1,Stations and Structure,1
+2024-03-01,3,2,Persons on Trackbed/Police/Medical,1
+2024-03-01,G,1,Persons on Trackbed/Police/Medical,1
+2024-03-01,C,1,Signals,1
+2024-03-01,NW,1,Signals,2
+2024-03-01,B,1,Track,1
+2024-03-01,3,2,Signals,1
+2024-03-01,6,1,Track,1
+2024-03-01,1,1,Other,1
+2024-03-01,6,1,Subway Car,2
+2024-03-01,M,1,Signals,1
+2024-03-01,5,1,Persons on Trackbed/Police/Medical,3
+2024-03-01,3,1,Persons on Trackbed/Police/Medical,2
+2024-03-01,E,1,Track,1
+2024-03-01,NW,1,Subway Car,1
+2024-03-01,6,1,Signals,2
+2024-03-01,2,1,Persons on Trackbed/Police/Medical,3
+2024-03-01,1,1,Signals,2
+2024-03-01,A,1,Persons on Trackbed/Police/Medical,1
+2024-03-01,3,1,Signals,1
+2024-03-01,3,1,Other,1
+2024-03-01,4,1,Signals,1
+2024-04-01,C,1,Persons on Trackbed/Police/Medical,1
+2024-04-01,2,1,Signals,2
+2024-04-01,1,1,Stations and Structure,1
+2024-04-01,D,2,Signals,1
+2024-04-01,4,1,Signals,3
+2024-04-01,NW,1,Persons on Trackbed/Police/Medical,1
+2024-04-01,4,1,Stations and Structure,1
+2024-04-01,E,1,Signals,1
+2024-04-01,7,1,Persons on Trackbed/Police/Medical,2
+2024-04-01,JZ,1,Track,1
+2024-04-01,F,1,Other,1
+2024-04-01,A,1,Persons on Trackbed/Police/Medical,1
+2024-04-01,F,1,Stations and Structure,1
+2024-04-01,F,1,Signals,1
+2024-04-01,5,1,Persons on Trackbed/Police/Medical,1
+2024-04-01,1,1,Signals,1
+2024-04-01,B,1,Track,1
+2024-04-01,7,1,Stations and Structure,1
+2024-04-01,E,1,Track,4
+2024-04-01,F,1,Persons on Trackbed/Police/Medical,1
+2024-04-01,B,1,Subway Car,3
+2024-04-01,7,1,Signals,1
+2024-04-01,R,1,Signals,1
+2024-04-01,7,1,Other,1
+2024-04-01,NW,1,Stations and Structure,1
+2024-04-01,R,1,Persons on Trackbed/Police/Medical,1
+2024-04-01,L,1,Signals,2
+2024-04-01,L,1,Stations and Structure,1
+2024-04-01,R,1,Stations and Structure,1
+2024-04-01,1,1,Persons on Trackbed/Police/Medical,4
+2024-04-01,4,1,Other,1
+2024-04-01,E,1,Persons on Trackbed/Police/Medical,1
+2024-04-01,3,1,Persons on Trackbed/Police/Medical,5
+2024-04-01,L,1,Persons on Trackbed/Police/Medical,2
+2024-04-01,M,1,Track,1
+2024-04-01,D,1,Track,1
+2024-04-01,C,2,Stations and Structure,1
+2024-04-01,6,1,Signals,1
+2024-04-01,Q,2,Persons on Trackbed/Police/Medical,1
+2024-04-01,M,2,Signals,1
+2024-04-01,NW,1,Signals,4
+2024-04-01,2,2,Stations and Structure,1
+2024-04-01,L,1,Track,2
+2024-04-01,3,1,Other,1
+2024-05-01,F,1,Persons on Trackbed/Police/Medical,2
+2024-05-01,A,1,Persons on Trackbed/Police/Medical,1
+2024-05-01,7,1,Signals,1
+2024-05-01,L,1,Track,1
+2024-05-01,4,2,Stations and Structure,1
+2024-05-01,7,1,Persons on Trackbed/Police/Medical,2
+2024-05-01,D,1,Other,1
+2024-05-01,1,1,Signals,1
+2024-05-01,B,1,Persons on Trackbed/Police/Medical,1
+2024-05-01,D,1,Signals,1
+2024-05-01,6,1,Signals,1
+2024-05-01,A,1,Subway Car,1
+2024-05-01,2,1,Persons on Trackbed/Police/Medical,1
+2024-05-01,M,1,Track,1
+2024-05-01,F,1,Stations and Structure,1
+2024-05-01,1,1,Persons on Trackbed/Police/Medical,2
+2024-05-01,4,1,Stations and Structure,1
+2024-05-01,A,1,Other,2
+2024-05-01,C,1,Subway Car,1
+2024-05-01,R,1,Persons on Trackbed/Police/Medical,1
+2024-05-01,NW,1,Track,4
+2024-05-01,3,1,Signals,1
+2024-05-01,7,1,Track,1
+2024-05-01,4,2,Other,1
+2024-05-01,6,1,Persons on Trackbed/Police/Medical,4
+2024-05-01,JZ,1,Track,1
+2024-05-01,NW,1,Persons on Trackbed/Police/Medical,1
+2024-05-01,3,1,Track,1
+2024-05-01,4,1,Signals,1
+2024-05-01,NW,1,Subway Car,1
+2024-05-01,L,1,Signals,1
+2024-05-01,5,1,Persons on Trackbed/Police/Medical,1
+2024-05-01,4,1,Persons on Trackbed/Police/Medical,3
+2024-05-01,Q,1,Signals,1
+2024-05-01,C,1,Persons on Trackbed/Police/Medical,1
+2024-05-01,R,1,Other,1
+2024-05-01,R,1,Track,2
+2024-05-01,C,1,Signals,1
+2024-06-01,5,1,Persons on Trackbed/Police/Medical,1
+2024-06-01,F,1,Persons on Trackbed/Police/Medical,2
+2024-06-01,JZ,1,Signals,2
+2024-06-01,NW,2,Signals,1
+2024-06-01,A,1,Persons on Trackbed/Police/Medical,1
+2024-06-01,2,1,Persons on Trackbed/Police/Medical,2
+2024-06-01,1,1,Signals,1
+2024-06-01,5,1,Track,1
+2024-06-01,F,1,Track,1
+2024-06-01,B,1,Persons on Trackbed/Police/Medical,3
+2024-06-01,6,1,Signals,1
+2024-06-01,M,1,Track,1
+2024-06-01,E,1,Persons on Trackbed/Police/Medical,1
+2024-06-01,Q,1,Other,1
+2024-06-01,L,2,Stations and Structure,1
+2024-06-01,1,1,Subway Car,1
+2024-06-01,5,1,Signals,1
+2024-06-01,6,1,Persons on Trackbed/Police/Medical,2
+2024-06-01,E,1,Subway Car,1
+2024-06-01,2,1,Other,1
+2024-06-01,7,1,Signals,1
+2024-06-01,C,1,Signals,1
+2024-06-01,R,1,Persons on Trackbed/Police/Medical,2
+2024-06-01,NW,1,Persons on Trackbed/Police/Medical,1
+2024-06-01,7,1,Subway Car,1
+2024-06-01,4,1,Persons on Trackbed/Police/Medical,1
+2024-06-01,A,1,Track,1
+2024-06-01,D,2,Persons on Trackbed/Police/Medical,1
+2024-06-01,7,2,Persons on Trackbed/Police/Medical,1
+2024-06-01,2,1,Stations and Structure,1
+2024-06-01,4,1,Signals,1
+2024-06-01,R,2,Signals,1
+2024-06-01,E,1,Track,1
+2024-06-01,L,1,Signals,1
+2024-06-01,S 42nd,1,Subway Car,1
+2024-06-01,A,1,Subway Car,1
+2024-06-01,A,1,Signals,2
+2024-06-01,5,1,Other,2
+2024-06-01,NW,1,Track,1
+2024-06-01,2,1,Signals,1
+2024-06-01,6,2,Signals,1
+2024-06-01,7,1,Track,1
+2024-07-01,NW,1,Track,3
+2024-07-01,L,1,Subway Car,1
+2024-07-01,M,1,Track,3
+2024-07-01,6,1,Track,1
+2024-07-01,A,1,Subway Car,2
+2024-07-01,6,1,Signals,1
+2024-07-01,D,1,Signals,2
+2024-07-01,F,1,Stations and Structure,1
+2024-07-01,7,1,Signals,1
+2024-07-01,2,1,Subway Car,1
+2024-07-01,D,1,Track,1
+2024-07-01,Q,1,Persons on Trackbed/Police/Medical,2
+2024-07-01,4,2,Persons on Trackbed/Police/Medical,1
+2024-07-01,R,1,Stations and Structure,1
+2024-07-01,D,2,Persons on Trackbed/Police/Medical,1
+2024-07-01,1,1,Subway Car,1
+2024-07-01,L,1,Persons on Trackbed/Police/Medical,2
+2024-07-01,4,1,Persons on Trackbed/Police/Medical,2
+2024-07-01,1,1,Other,1
+2024-07-01,JZ,1,Signals,1
+2024-07-01,7,1,Persons on Trackbed/Police/Medical,1
+2024-07-01,F,1,Other,1
+2024-07-01,R,1,Persons on Trackbed/Police/Medical,1
+2024-07-01,F,1,Persons on Trackbed/Police/Medical,1
+2024-07-01,D,1,Persons on Trackbed/Police/Medical,1
+2024-07-01,E,1,Track,3
+2024-07-01,L,1,Signals,1
+2024-07-01,3,1,Persons on Trackbed/Police/Medical,1
+2024-07-01,B,1,Track,1
+2024-07-01,E,1,Subway Car,2
+2024-07-01,5,1,Persons on Trackbed/Police/Medical,1
+2024-07-01,L,1,Stations and Structure,1
+2024-07-01,4,2,Other,1
+2024-07-01,F,1,Signals,3
+2024-07-01,C,2,Subway Car,1
+2024-07-01,1,1,Persons on Trackbed/Police/Medical,1
+2024-07-01,B,1,Other,1
+2024-07-01,5,1,Signals,3
+2024-07-01,B,1,Signals,2
+2024-07-01,5,1,Track,2
+2024-07-01,3,1,Signals,1
+2024-07-01,G,1,Track,1
+2024-07-01,F,1,Track,2
+2024-07-01,M,1,Other,2
+2024-07-01,S Rock,1,Persons on Trackbed/Police/Medical,1
+2024-07-01,1,1,Signals,2
+2024-08-01,B,1,Other,2
+2024-08-01,6,1,Track,3
+2024-08-01,NW,1,Other,1
+2024-08-01,7,1,Stations and Structure,1
+2024-08-01,D,1,Signals,3
+2024-08-01,L,1,Signals,1
+2024-08-01,R,1,Track,2
+2024-08-01,5,1,Persons on Trackbed/Police/Medical,3
+2024-08-01,F,1,Stations and Structure,1
+2024-08-01,L,1,Persons on Trackbed/Police/Medical,2
+2024-08-01,6,1,Persons on Trackbed/Police/Medical,2
+2024-08-01,1,1,Signals,1
+2024-08-01,NW,1,Subway Car,1
+2024-08-01,1,1,Track,1
+2024-08-01,4,1,Persons on Trackbed/Police/Medical,2
+2024-08-01,A,1,Signals,1
+2024-08-01,A,1,Other,1
+2024-08-01,7,2,Persons on Trackbed/Police/Medical,1
+2024-08-01,L,2,Stations and Structure,1
+2024-08-01,B,1,Track,2
+2024-08-01,E,1,Stations and Structure,1
+2024-08-01,Q,1,Persons on Trackbed/Police/Medical,1
+2024-08-01,2,1,Track,1
+2024-08-01,Q,1,Track,1
+2024-08-01,6,1,Subway Car,1
+2024-08-01,S 42nd,1,Subway Car,2
+2024-08-01,3,1,Persons on Trackbed/Police/Medical,2
+2024-08-01,2,1,Signals,3
+2024-08-01,7,1,Track,3
+2024-08-01,F,1,Persons on Trackbed/Police/Medical,2
+2024-08-01,7,1,Persons on Trackbed/Police/Medical,1
+2024-08-01,L,2,Persons on Trackbed/Police/Medical,1
+2024-08-01,C,1,Signals,2
+2024-08-01,JZ,1,Signals,1
+2024-08-01,Q,1,Other,1
+2024-08-01,2,2,Persons on Trackbed/Police/Medical,2
+2024-08-01,M,1,Signals,1
+2024-08-01,2,1,Persons on Trackbed/Police/Medical,2
+2024-08-01,NW,1,Stations and Structure,1
+2024-08-01,E,1,Signals,1
+2024-08-01,E,1,Persons on Trackbed/Police/Medical,1
+2024-08-01,L,1,Stations and Structure,1
+2024-08-01,D,1,Other,1
+2024-08-01,Q,1,Stations and Structure,1
+2024-08-01,NW,1,Signals,2
+2024-08-01,7,1,Signals,3
+2024-08-01,R,1,Stations and Structure,1
+2024-08-01,E,1,Track,2
+2024-09-01,A,1,Signals,1
+2024-09-01,3,1,Persons on Trackbed/Police/Medical,1
+2024-09-01,5,1,Subway Car,1
+2024-09-01,B,1,Persons on Trackbed/Police/Medical,2
+2024-09-01,A,1,Persons on Trackbed/Police/Medical,1
+2024-09-01,B,1,Stations and Structure,1
+2024-09-01,F,1,Track,1
+2024-09-01,4,2,Other,1
+2024-09-01,Q,1,Subway Car,1
+2024-09-01,1,1,Stations and Structure,1
+2024-09-01,1,1,Signals,1
+2024-09-01,C,1,Persons on Trackbed/Police/Medical,1
+2024-09-01,NW,1,Signals,3
+2024-09-01,D,1,Signals,3
+2024-09-01,NW,1,Persons on Trackbed/Police/Medical,1
+2024-09-01,E,1,Track,1
+2024-09-01,M,1,Persons on Trackbed/Police/Medical,1
+2024-09-01,6,1,Track,1
+2024-09-01,S 42nd,1,Subway Car,1
+2024-09-01,6,1,Subway Car,1
+2024-09-01,6,1,Persons on Trackbed/Police/Medical,3
+2024-09-01,B,1,Other,1
+2024-09-01,L,2,Persons on Trackbed/Police/Medical,1
+2024-09-01,M,1,Stations and Structure,1
+2024-09-01,M,1,Subway Car,1
+2024-09-01,3,1,Signals,2
+2024-09-01,R,1,Persons on Trackbed/Police/Medical,2
+2024-09-01,F,1,Persons on Trackbed/Police/Medical,2
+2024-09-01,A,1,Track,1
+2024-09-01,D,1,Subway Car,1
+2024-09-01,L,1,Persons on Trackbed/Police/Medical,2
+2024-09-01,4,1,Persons on Trackbed/Police/Medical,2
+2024-09-01,4,1,Track,2
+2024-09-01,A,1,Subway Car,1
+2024-09-01,F,1,Subway Car,1
+2024-09-01,R,1,Signals,1
+2024-09-01,F,1,Signals,1
+2024-09-01,5,1,Track,1
+2024-09-01,2,1,Signals,1
+2024-09-01,F,2,Signals,1
+2024-09-01,R,1,Other,1
+2024-09-01,1,1,Other,1
+2024-09-01,6,1,Signals,1
+2024-09-01,2,1,Track,2
+2024-09-01,4,2,Subway Car,1
+2024-09-01,NW,1,Subway Car,2
+2024-09-01,E,1,Persons on Trackbed/Police/Medical,1
+2024-09-01,4,1,Signals,1
+2024-09-01,7,1,Track,1
+2024-09-01,G,1,Persons on Trackbed/Police/Medical,1
+2024-09-01,4,1,Subway Car,1
+2024-09-01,1,1,Track,2
+2024-10-01,4,1,Subway Car,1
+2024-10-01,C,1,Other,1
+2024-10-01,7,1,Track,1
+2024-10-01,5,1,Persons on Trackbed/Police/Medical,1
+2024-10-01,F,1,Track,1
+2024-10-01,M,1,Track,1
+2024-10-01,E,1,Signals,1
+2024-10-01,NW,1,Subway Car,5
+2024-10-01,6,1,Signals,1
+2024-10-01,A,1,Subway Car,1
+2024-10-01,1,1,Persons on Trackbed/Police/Medical,1
+2024-10-01,M,1,Other,1
+2024-10-01,3,1,Signals,1
+2024-10-01,A,1,Signals,2
+2024-10-01,R,1,Track,1
+2024-10-01,M,1,Signals,1
+2024-10-01,6,1,Subway Car,2
+2024-10-01,NW,1,Track,2
+2024-10-01,D,1,Signals,1
+2024-10-01,5,1,Track,1
+2024-10-01,R,1,Signals,2
+2024-10-01,B,1,Track,2
+2024-10-01,1,1,Other,1
+2024-10-01,B,1,Signals,1
+2024-10-01,4,1,Persons on Trackbed/Police/Medical,1
+2024-10-01,6,1,Persons on Trackbed/Police/Medical,1
+2024-10-01,B,1,Persons on Trackbed/Police/Medical,2
+2024-10-01,3,2,Persons on Trackbed/Police/Medical,1
+2024-10-01,NW,1,Signals,1
+2024-10-01,5,2,Track,1
+2024-10-01,C,1,Signals,1
+2024-10-01,5,1,Signals,2
+2024-10-01,2,1,Signals,1
+2024-10-01,D,1,Other,1
+2024-10-01,3,1,Track,1
+2024-10-01,2,1,Other,1
+2024-10-01,1,1,Signals,3
+2024-11-01,F,1,Stations and Structure,2
+2024-11-01,6,1,Stations and Structure,2
+2024-11-01,JZ,1,Persons on Trackbed/Police/Medical,1
+2024-11-01,E,1,Subway Car,3
+2024-11-01,5,1,Persons on Trackbed/Police/Medical,3
+2024-11-01,B,1,Persons on Trackbed/Police/Medical,1
+2024-11-01,R,1,Subway Car,1
+2024-11-01,7,2,Signals,1
+2024-11-01,Q,1,Signals,1
+2024-11-01,3,1,Track,1
+2024-11-01,D,1,Signals,1
+2024-11-01,7,1,Persons on Trackbed/Police/Medical,2
+2024-11-01,6,1,Other,2
+2024-11-01,4,2,Track,1
+2024-11-01,B,1,Signals,1
+2024-11-01,5,2,Other,1
+2024-11-01,F,2,Signals,1
+2024-11-01,E,1,Persons on Trackbed/Police/Medical,1
+2024-11-01,D,1,Track,3
+2024-11-01,2,1,Subway Car,2
+2024-11-01,C,1,Persons on Trackbed/Police/Medical,2
+2024-11-01,L,2,Persons on Trackbed/Police/Medical,1
+2024-11-01,2,1,Persons on Trackbed/Police/Medical,2
+2024-11-01,D,1,Persons on Trackbed/Police/Medical,1
+2024-11-01,C,1,Other,1
+2024-11-01,4,2,Persons on Trackbed/Police/Medical,1
+2024-11-01,3,1,Subway Car,1
+2024-11-01,R,1,Signals,1
+2024-11-01,5,2,Subway Car,1
+2024-11-01,E,1,Track,2
+2024-11-01,4,1,Persons on Trackbed/Police/Medical,2
+2024-11-01,4,1,Other,2
+2024-11-01,M,1,Subway Car,1
+2024-11-01,M,1,Signals,1
+2024-11-01,JZ,1,Track,1
+2024-11-01,2,2,Signals,1
+2024-11-01,3,2,Persons on Trackbed/Police/Medical,1
+2024-11-01,4,1,Signals,1
+2024-11-01,6,1,Signals,2
+2024-11-01,7,1,Signals,2
+2024-11-01,6,1,Persons on Trackbed/Police/Medical,4
+2024-11-01,F,1,Subway Car,1
+2024-11-01,2,1,Other,1
+2024-11-01,NW,1,Subway Car,2
+2024-12-01,7,1,Signals,2
+2024-12-01,C,1,Stations and Structure,1
+2024-12-01,5,1,Persons on Trackbed/Police/Medical,3
+2024-12-01,R,1,Signals,3
+2024-12-01,S Fkln,1,Subway Car,1
+2024-12-01,4,1,Signals,2
+2024-12-01,M,1,Signals,2
+2024-12-01,G,1,Track,1
+2024-12-01,5,1,Other,1
+2024-12-01,L,1,Persons on Trackbed/Police/Medical,1
+2024-12-01,Q,2,Persons on Trackbed/Police/Medical,1
+2024-12-01,F,2,Persons on Trackbed/Police/Medical,1
+2024-12-01,D,1,Signals,1
+2024-12-01,NW,1,Subway Car,1
+2024-12-01,1,1,Signals,2
+2024-12-01,R,1,Persons on Trackbed/Police/Medical,1
+2024-12-01,D,1,Persons on Trackbed/Police/Medical,1
+2024-12-01,F,1,Subway Car,6
+2024-12-01,7,1,Persons on Trackbed/Police/Medical,1
+2024-12-01,C,1,Persons on Trackbed/Police/Medical,1
+2024-12-01,F,1,Track,2
+2024-12-01,C,1,Signals,2
+2024-12-01,B,1,Signals,1
+2024-12-01,Q,1,Subway Car,1
+2024-12-01,2,2,Persons on Trackbed/Police/Medical,1
+2024-12-01,L,1,Other,1
+2024-12-01,A,2,Subway Car,1
+2024-12-01,E,1,Subway Car,7
+2024-12-01,3,1,Signals,2
+2024-12-01,Q,1,Persons on Trackbed/Police/Medical,2
+2024-12-01,R,1,Subway Car,5
+2024-12-01,5,1,Stations and Structure,1
+2024-12-01,JZ,1,Signals,1
+2024-12-01,1,1,Other,1
+2024-12-01,Q,1,Track,1
+2024-12-01,7,1,Other,1
+2024-12-01,F,1,Persons on Trackbed/Police/Medical,2
+2024-12-01,1,1,Persons on Trackbed/Police/Medical,1
+2024-12-01,3,1,Subway Car,1
+2024-12-01,3,1,Persons on Trackbed/Police/Medical,1
+2024-12-01,2,1,Track,1
+2024-12-01,D,1,Stations and Structure,1
+2024-12-01,6,1,Persons on Trackbed/Police/Medical,2
+2024-12-01,4,1,Track,1
+2024-12-01,2,1,Subway Car,1
+2024-12-01,NW,1,Track,1
+2024-12-01,2,1,Signals,3
+2024-12-01,2,1,Persons on Trackbed/Police/Medical,3
+2024-12-01,NW,1,Signals,2
+2024-12-01,L,1,Signals,1
+2024-12-01,E,1,Persons on Trackbed/Police/Medical,1
+2025-01-01,6,1,Persons on Trackbed/Police/Medical,8
+2025-01-01,5,1,Other,2
+2025-01-01,4,1,Stations and Structure,1
+2025-01-01,F,1,Persons on Trackbed/Police/Medical,2
+2025-01-01,A,1,Signals,1
+2025-01-01,2,1,Track,1
+2025-01-01,E,1,Track,1
+2025-01-01,D,1,Persons on Trackbed/Police/Medical,1
+2025-01-01,R,1,Subway Car,5
+2025-01-01,3,1,Persons on Trackbed/Police/Medical,2
+2025-01-01,L,2,Track,1
+2025-01-01,4,1,Signals,1
+2025-01-01,7,1,Track,1
+2025-01-01,6,1,Track,1
+2025-01-01,F,1,Subway Car,7
+2025-01-01,4,1,Persons on Trackbed/Police/Medical,1
+2025-01-01,NW,2,Subway Car,1
+2025-01-01,7,1,Persons on Trackbed/Police/Medical,1
+2025-01-01,2,1,Persons on Trackbed/Police/Medical,2
+2025-01-01,F,1,Stations and Structure,1
+2025-01-01,D,1,Signals,1
+2025-01-01,NW,1,Track,3
+2025-01-01,C,1,Subway Car,1
+2025-01-01,Q,1,Track,1
+2025-01-01,F,1,Signals,1
+2025-01-01,5,1,Persons on Trackbed/Police/Medical,1
+2025-01-01,E,2,Persons on Trackbed/Police/Medical,1
+2025-01-01,R,1,Persons on Trackbed/Police/Medical,1
+2025-01-01,L,2,Stations and Structure,1
+2025-01-01,3,1,Track,3
+2025-01-01,NW,1,Signals,1
+2025-01-01,E,1,Subway Car,3
+2025-01-01,6,2,Persons on Trackbed/Police/Medical,1
+2025-01-01,2,1,Subway Car,1
+2025-01-01,2,1,Signals,1
+2025-01-01,L,1,Signals,1
+2025-01-01,L,1,Persons on Trackbed/Police/Medical,1
+2025-01-01,E,1,Signals,1
+2025-01-01,B,1,Persons on Trackbed/Police/Medical,2
+2025-01-01,4,1,Track,1
+2025-02-01,B,1,Subway Car,2
+2025-02-01,1,2,Track,1
+2025-02-01,M,1,Subway Car,1
+2025-02-01,F,1,Stations and Structure,1
+2025-02-01,D,1,Track,1
+2025-02-01,4,1,Track,1
+2025-02-01,2,1,Track,1
+2025-02-01,B,1,Persons on Trackbed/Police/Medical,3
+2025-02-01,C,1,Signals,1
+2025-02-01,NW,1,Persons on Trackbed/Police/Medical,1
+2025-02-01,1,1,Stations and Structure,2
+2025-02-01,1,1,Track,1
+2025-02-01,5,1,Persons on Trackbed/Police/Medical,1
+2025-02-01,4,2,Stations and Structure,1
+2025-02-01,L,1,Signals,1
+2025-02-01,L,1,Persons on Trackbed/Police/Medical,2
+2025-02-01,NW,1,Subway Car,1
+2025-02-01,1,1,Persons on Trackbed/Police/Medical,1
+2025-02-01,5,1,Signals,2
+2025-02-01,M,1,Signals,1
+2025-02-01,7,1,Track,1
+2025-02-01,4,1,Signals,4
+2025-02-01,JZ,1,Signals,1
+2025-02-01,6,1,Persons on Trackbed/Police/Medical,3
+2025-02-01,D,1,Subway Car,3
+2025-02-01,R,1,Persons on Trackbed/Police/Medical,1
+2025-02-01,F,1,Track,3
+2025-02-01,A,1,Persons on Trackbed/Police/Medical,1
+2025-02-01,R,1,Subway Car,6
+2025-02-01,7,1,Persons on Trackbed/Police/Medical,1
+2025-02-01,2,1,Persons on Trackbed/Police/Medical,2
+2025-02-01,R,2,Signals,1
+2025-02-01,E,1,Subway Car,4
+2025-02-01,7,1,Signals,1
+2025-02-01,E,2,Persons on Trackbed/Police/Medical,1
+2025-02-01,E,1,Track,3
+2025-02-01,D,1,Signals,2
+2025-02-01,R,1,Track,2
+2025-02-01,Q,1,Persons on Trackbed/Police/Medical,1
+2025-02-01,E,1,Persons on Trackbed/Police/Medical,1
+2025-02-01,1,1,Signals,1
+2025-03-01,7,1,Persons on Trackbed/Police/Medical,1
+2025-03-01,4,1,Persons on Trackbed/Police/Medical,1
+2025-03-01,1,1,Signals,1
+2025-03-01,A,1,Signals,1
+2025-03-01,B,1,Track,1
+2025-03-01,B,1,Subway Car,2
+2025-03-01,7,1,Track,1
+2025-03-01,6,1,Persons on Trackbed/Police/Medical,1
+2025-03-01,F,1,Persons on Trackbed/Police/Medical,1
+2025-03-01,R,1,Persons on Trackbed/Police/Medical,1
+2025-03-01,2,1,Signals,1
+2025-03-01,F,1,Track,2
+2025-03-01,R,1,Signals,1
+2025-03-01,NW,1,Stations and Structure,1
+2025-03-01,L,1,Persons on Trackbed/Police/Medical,2
+2025-03-01,4,1,Signals,1
+2025-03-01,5,1,Signals,4
+2025-03-01,1,1,Persons on Trackbed/Police/Medical,1
+2025-03-01,NW,1,Track,1
+2025-03-01,F,1,Subway Car,1
+2025-03-01,E,1,Persons on Trackbed/Police/Medical,5
+2025-03-01,2,1,Persons on Trackbed/Police/Medical,2
+2025-03-01,B,1,Signals,1
+2025-03-01,5,1,Stations and Structure,1
+2025-03-01,6,1,Stations and Structure,1
+2025-03-01,D,1,Other,3
+2025-03-01,F,1,Stations and Structure,2
+2025-03-01,C,1,Signals,1
+2025-03-01,E,1,Other,1
+2025-03-01,5,1,Persons on Trackbed/Police/Medical,3
+2025-03-01,2,2,Signals,1
+2025-03-01,A,2,Signals,1
+2025-03-01,JZ,1,Signals,1
+2025-03-01,M,1,Other,1
+2025-03-01,L,1,Subway Car,2
+2025-03-01,Q,1,Subway Car,1
+2025-03-01,NW,1,Signals,2
+2025-03-01,F,2,Persons on Trackbed/Police/Medical,1
+2025-04-01,5,1,Signals,1
+2025-04-01,A,1,Track,1
+2025-04-01,D,1,Track,1
+2025-04-01,3,1,Signals,1
+2025-04-01,F,1,Persons on Trackbed/Police/Medical,1
+2025-04-01,L,1,Stations and Structure,1
+2025-04-01,4,1,Persons on Trackbed/Police/Medical,1
+2025-04-01,L,1,Signals,1
+2025-04-01,6,2,Signals,1
+2025-04-01,NW,1,Subway Car,2
+2025-04-01,F,1,Track,1
+2025-04-01,NW,1,Signals,1
+2025-04-01,7,1,Signals,1
+2025-04-01,Q,1,Subway Car,2
+2025-04-01,7,1,Track,1
+2025-04-01,B,1,Persons on Trackbed/Police/Medical,1
+2025-04-01,2,1,Track,1
+2025-04-01,E,1,Subway Car,2
+2025-04-01,D,1,Persons on Trackbed/Police/Medical,1
+2025-04-01,NW,1,Persons on Trackbed/Police/Medical,1
+2025-04-01,5,1,Persons on Trackbed/Police/Medical,3
+2025-04-01,A,1,Signals,1
+2025-04-01,L,1,Persons on Trackbed/Police/Medical,1
+2025-04-01,6,2,Persons on Trackbed/Police/Medical,1
+2025-04-01,E,1,Track,1
+2025-04-01,7,1,Other,1
+2025-04-01,1,1,Persons on Trackbed/Police/Medical,1
+2025-04-01,F,1,Subway Car,1
+2025-04-01,4,1,Signals,2
+2025-04-01,G,1,Track,1
+2025-04-01,6,1,Persons on Trackbed/Police/Medical,1
+2025-04-01,2,1,Signals,2
+2025-04-01,R,1,Persons on Trackbed/Police/Medical,1
+2025-04-01,7,1,Persons on Trackbed/Police/Medical,2
+2025-04-01,E,1,Signals,1
+2025-04-01,L,1,Track,1
+2025-04-01,6,1,Signals,1
+2025-04-01,R,1,Subway Car,1
+2025-04-01,3,1,Track,1
+2025-04-01,C,1,Track,1
+2025-04-01,NW,1,Track,2
+2025-04-01,6,2,Subway Car,1
+2025-04-01,3,1,Persons on Trackbed/Police/Medical,1
+2025-04-01,C,1,Persons on Trackbed/Police/Medical,1
+2025-05-01,3,2,Track,1
+2025-05-01,1,1,Subway Car,1
+2025-05-01,1,1,Stations and Structure,2
+2025-05-01,A,1,Signals,1
+2025-05-01,R,1,Signals,1
+2025-05-01,3,1,Other,1
+2025-05-01,R,1,Subway Car,1
+2025-05-01,2,1,Signals,1
+2025-05-01,L,1,Persons on Trackbed/Police/Medical,1
+2025-05-01,2,2,Persons on Trackbed/Police/Medical,1
+2025-05-01,E,2,Signals,1
+2025-05-01,7,1,Signals,1
+2025-05-01,A,2,Stations and Structure,1
+2025-05-01,Q,1,Subway Car,1
+2025-05-01,1,1,Track,1
+2025-05-01,M,1,Subway Car,1
+2025-05-01,6,1,Track,2
+2025-05-01,B,1,Persons on Trackbed/Police/Medical,1
+2025-05-01,F,1,Track,2
+2025-05-01,L,1,Track,2
+2025-05-01,B,1,Track,1
+2025-05-01,NW,1,Signals,2
+2025-05-01,E,1,Stations and Structure,1
+2025-05-01,L,2,Persons on Trackbed/Police/Medical,1
+2025-05-01,E,1,Signals,1
+2025-05-01,2,1,Persons on Trackbed/Police/Medical,1
+2025-05-01,Q,1,Signals,1
+2025-05-01,7,1,Track,1
+2025-05-01,1,1,Signals,1
+2025-05-01,4,1,Persons on Trackbed/Police/Medical,2
+2025-05-01,4,1,Track,1
+2025-05-01,NW,1,Stations and Structure,1
+2025-05-01,A,1,Persons on Trackbed/Police/Medical,1
+2025-05-01,F,1,Signals,2
+2025-05-01,M,2,Persons on Trackbed/Police/Medical,1
+2025-05-01,A,1,Stations and Structure,1
+2025-05-01,6,1,Persons on Trackbed/Police/Medical,1
+2025-05-01,D,1,Signals,2
+2025-05-01,5,1,Track,2
+2025-05-01,D,1,Track,1
+2025-05-01,NW,1,Track,1
+2025-05-01,1,1,Persons on Trackbed/Police/Medical,2
+2025-05-01,M,1,Persons on Trackbed/Police/Medical,1
+2025-05-01,4,1,Signals,1
+2025-05-01,5,1,Stations and Structure,1
+2025-06-01,M,1,Stations and Structure,1
+2025-06-01,3,1,Persons on Trackbed/Police/Medical,1
+2025-06-01,2,1,Signals,1
+2025-06-01,D,1,Signals,1
+2025-06-01,2,2,Subway Car,1
+2025-06-01,4,1,Stations and Structure,1
+2025-06-01,F,1,Signals,1
+2025-06-01,B,1,Signals,3
+2025-06-01,5,1,Persons on Trackbed/Police/Medical,1
+2025-06-01,NW,1,Subway Car,1
+2025-06-01,F,1,Other,1
+2025-06-01,NW,1,Persons on Trackbed/Police/Medical,1
+2025-06-01,C,1,Stations and Structure,1
+2025-06-01,5,1,Track,1
+2025-06-01,E,1,Signals,1
+2025-06-01,6,2,Persons on Trackbed/Police/Medical,1
+2025-06-01,3,1,Other,1
+2025-06-01,Q,1,Persons on Trackbed/Police/Medical,1
+2025-06-01,7,1,Subway Car,3
+2025-06-01,1,1,Persons on Trackbed/Police/Medical,1
+2025-06-01,6,1,Persons on Trackbed/Police/Medical,1
+2025-06-01,NW,1,Signals,4
+2025-06-01,R,1,Signals,2
+2025-06-01,A,1,Track,1
+2025-06-01,7,1,Track,1
+2025-06-01,L,1,Signals,1
+2025-06-01,6,1,Signals,2
+2025-06-01,L,1,Subway Car,1
+2025-06-01,M,1,Other,1
+2025-06-01,NW,1,Track,3
+2025-06-01,B,1,Persons on Trackbed/Police/Medical,1
+2025-06-01,7,1,Signals,2
+2025-06-01,4,1,Signals,2
+2025-06-01,R,1,Other,1
+2025-06-01,B,1,Track,1
+2025-06-01,1,1,Other,1
+2025-06-01,F,2,Signals,1
+2025-06-01,6,1,Other,1
+2025-06-01,Q,1,Track,1
+2025-06-01,2,1,Track,1
+2025-06-01,NW,2,Persons on Trackbed/Police/Medical,1
+2025-06-01,S 42nd,1,Subway Car,1
+2025-06-01,NW,2,Signals,1
+2025-06-01,2,1,Subway Car,3
+2025-06-01,F,1,Stations and Structure,1
+2025-06-01,C,1,Persons on Trackbed/Police/Medical,1
+2025-06-01,A,1,Signals,3
+2025-06-01,E,1,Other,1
+2025-06-01,1,1,Track,1
+2025-06-01,7,1,Stations and Structure,2
+2025-07-01,R,1,Stations and Structure,1
+2025-07-01,R,1,Subway Car,1
+2025-07-01,F,1,Signals,2
+2025-07-01,L,2,Subway Car,1
+2025-07-01,E,1,Signals,1
+2025-07-01,R,1,Signals,2
+2025-07-01,M,1,Subway Car,1
+2025-07-01,C,1,Signals,2
+2025-07-01,5,1,Signals,1
+2025-07-01,7,1,Stations and Structure,1
+2025-07-01,D,1,Subway Car,1
+2025-07-01,M,1,Signals,2
+2025-07-01,6,1,Signals,1
+2025-07-01,7,1,Other,2
+2025-07-01,7,1,Signals,1
+2025-07-01,NW,1,Persons on Trackbed/Police/Medical,2
+2025-07-01,1,1,Persons on Trackbed/Police/Medical,3
+2025-07-01,A,1,Track,1
+2025-07-01,6,1,Track,1
+2025-07-01,R,1,Track,2
+2025-07-01,A,2,Signals,1
+2025-07-01,NW,1,Track,1
+2025-07-01,R,1,Persons on Trackbed/Police/Medical,2
+2025-07-01,NW,1,Signals,2
+2025-07-01,2,1,Stations and Structure,1
+2025-07-01,5,1,Track,2
+2025-07-01,E,2,Signals,1
+2025-07-01,7,1,Track,1
+2025-07-01,3,1,Other,1
+2025-07-01,7,1,Persons on Trackbed/Police/Medical,1
+2025-07-01,Q,1,Subway Car,1
+2025-07-01,M,1,Track,1
+2025-07-01,B,1,Track,1
+2025-07-01,A,1,Persons on Trackbed/Police/Medical,2
+2025-07-01,R,2,Persons on Trackbed/Police/Medical,2
+2025-07-01,4,2,Signals,1
+2025-07-01,2,2,Subway Car,1
+2025-07-01,E,1,Persons on Trackbed/Police/Medical,2
+2025-07-01,JZ,1,Track,1
+2025-07-01,Q,1,Persons on Trackbed/Police/Medical,3
+2025-07-01,Q,1,Signals,1
+2025-07-01,L,1,Stations and Structure,1
+2025-07-01,F,1,Stations and Structure,1
+2025-07-01,1,1,Stations and Structure,2
+2025-07-01,E,1,Track,3
+2025-07-01,D,1,Persons on Trackbed/Police/Medical,1
+2025-07-01,D,1,Signals,2
+2025-07-01,B,1,Other,1
+2025-07-01,NW,1,Stations and Structure,1
+2025-08-01,L,1,Persons on Trackbed/Police/Medical,2
+2025-08-01,C,1,Track,1
+2025-08-01,Q,1,Signals,1
+2025-08-01,NW,1,Subway Car,1
+2025-08-01,5,1,Track,1
+2025-08-01,4,1,Signals,2
+2025-08-01,A,1,Other,1
+2025-08-01,5,1,Persons on Trackbed/Police/Medical,2
+2025-08-01,7,2,Signals,1
+2025-08-01,NW,2,Signals,1
+2025-08-01,M,1,Signals,1
+2025-08-01,R,1,Persons on Trackbed/Police/Medical,1
+2025-08-01,F,1,Stations and Structure,1
+2025-08-01,2,1,Other,1
+2025-08-01,D,2,Subway Car,1
+2025-08-01,D,2,Signals,1
+2025-08-01,E,1,Track,1
+2025-08-01,2,1,Signals,1
+2025-08-01,M,1,Track,1
+2025-08-01,3,2,Persons on Trackbed/Police/Medical,1
+2025-08-01,F,1,Subway Car,1
+2025-08-01,5,1,Signals,1
+2025-08-01,R,1,Other,1
+2025-08-01,Q,1,Other,1
+2025-08-01,7,1,Stations and Structure,1
+2025-08-01,2,1,Stations and Structure,1
+2025-08-01,6,1,Persons on Trackbed/Police/Medical,4
+2025-08-01,L,2,Persons on Trackbed/Police/Medical,1
+2025-08-01,L,1,Signals,1
+2025-08-01,3,2,Signals,1
+2025-08-01,NW,1,Stations and Structure,1
+2025-08-01,D,1,Signals,2
+2025-08-01,1,1,Signals,4
+2025-08-01,7,1,Persons on Trackbed/Police/Medical,1
+2025-08-01,NW,1,Persons on Trackbed/Police/Medical,1
+2025-08-01,NW,1,Signals,1
+2025-08-01,4,1,Subway Car,1
+2025-08-01,M,2,Signals,1
+2025-08-01,NW,1,Other,2
+2025-08-01,C,1,Persons on Trackbed/Police/Medical,1
+2025-08-01,E,1,Signals,2
+2025-08-01,E,1,Persons on Trackbed/Police/Medical,1
+2025-08-01,F,1,Signals,1
+2025-09-01,B,1,Persons on Trackbed/Police/Medical,1
+2025-09-01,D,2,Signals,1
+2025-09-01,7,1,Signals,2
+2025-09-01,NW,1,Subway Car,2
+2025-09-01,B,1,Subway Car,1
+2025-09-01,C,1,Persons on Trackbed/Police/Medical,1
+2025-09-01,2,1,Persons on Trackbed/Police/Medical,1
+2025-09-01,3,1,Other,1
+2025-09-01,C,1,Signals,1
+2025-09-01,NW,1,Signals,1
+2025-09-01,A,1,Signals,1
+2025-09-01,D,1,Other,1
+2025-09-01,Q,1,Signals,2
+2025-09-01,4,2,Other,1
+2025-09-01,R,1,Persons on Trackbed/Police/Medical,1
+2025-09-01,4,1,Persons on Trackbed/Police/Medical,1
+2025-09-01,M,1,Persons on Trackbed/Police/Medical,1
+2025-09-01,6,2,Signals,1
+2025-09-01,R,1,Track,1
+2025-09-01,NW,2,Other,1
+2025-09-01,G,1,Signals,1
+2025-09-01,L,1,Persons on Trackbed/Police/Medical,1
+2025-09-01,6,1,Persons on Trackbed/Police/Medical,1
+2025-09-01,R,1,Signals,1
+2025-09-01,5,1,Persons on Trackbed/Police/Medical,1
+2025-09-01,M,1,Subway Car,1
+2025-09-01,R,1,Other,1
+2025-09-01,2,1,Track,4
+2025-09-01,NW,1,Other,1
+2025-09-01,Q,1,Persons on Trackbed/Police/Medical,1
+2025-09-01,F,1,Stations and Structure,1
+2025-09-01,F,1,Signals,1
+2025-09-01,3,1,Persons on Trackbed/Police/Medical,3
+2025-09-01,5,1,Track,2
+2025-09-01,E,1,Signals,2
+2025-09-01,3,1,Track,4
+2025-09-01,NW,1,Track,3
+2025-09-01,A,2,Subway Car,1
+2025-09-01,3,2,Persons on Trackbed/Police/Medical,1
+2025-09-01,R,1,Subway Car,1
+2025-09-01,5,1,Signals,1
+2025-09-01,2,1,Signals,2
+2025-09-01,NW,1,Persons on Trackbed/Police/Medical,1
+2025-10-01,6,1,Signals,1
+2025-10-01,M,1,Other,1
+2025-10-01,4,2,Subway Car,2
+2025-10-01,7,1,Track,1
+2025-10-01,3,1,Persons on Trackbed/Police/Medical,2
+2025-10-01,L,1,Persons on Trackbed/Police/Medical,1
+2025-10-01,NW,1,Signals,1
+2025-10-01,7,1,Stations and Structure,1
+2025-10-01,1,1,Persons on Trackbed/Police/Medical,1
+2025-10-01,F,1,Persons on Trackbed/Police/Medical,1
+2025-10-01,G,1,Stations and Structure,2
+2025-10-01,5,1,Track,1
+2025-10-01,3,1,Track,1
+2025-10-01,Q,1,Subway Car,1
+2025-10-01,R,1,Track,1
+2025-10-01,4,1,Track,1
+2025-10-01,6,2,Persons on Trackbed/Police/Medical,1
+2025-10-01,7,1,Persons on Trackbed/Police/Medical,1
+2025-10-01,B,1,Track,1
+2025-10-01,G,1,Signals,1
+2025-10-01,6,1,Stations and Structure,1
+2025-10-01,E,1,Stations and Structure,2
+2025-10-01,R,1,Subway Car,1
+2025-10-01,E,1,Signals,1
+2025-10-01,D,1,Other,1
+2025-10-01,F,1,Other,1
+2025-10-01,B,1,Other,1
+2025-10-01,F,1,Stations and Structure,1
+2025-10-01,4,2,Persons on Trackbed/Police/Medical,1
+2025-10-01,A,1,Persons on Trackbed/Police/Medical,1
+2025-10-01,6,1,Track,2
+2025-10-01,5,1,Persons on Trackbed/Police/Medical,3
+2025-10-01,D,1,Stations and Structure,1
+2025-10-01,M,1,Track,1
+2025-10-01,A,1,Signals,1
+2025-10-01,L,1,Stations and Structure,1
+2025-10-01,6,1,Persons on Trackbed/Police/Medical,1
+2025-10-01,L,1,Track,1
+2025-10-01,1,1,Signals,2
+2025-10-01,R,1,Stations and Structure,1
+2025-10-01,R,1,Persons on Trackbed/Police/Medical,1
+2025-10-01,D,1,Signals,1
+2025-10-01,3,1,Other,2
+2025-10-01,1,1,Stations and Structure,1
+2025-10-01,A,1,Track,1
+2025-10-01,C,2,Subway Car,1
+2025-10-01,E,1,Track,4
+2025-10-01,F,1,Track,1
+2025-10-01,Q,1,Signals,1
+2025-10-01,Q,1,Track,1
+2025-10-01,NW,1,Track,1
+2025-10-01,2,1,Persons on Trackbed/Police/Medical,4
+2025-10-01,L,1,Subway Car,1
+2025-10-01,NW,1,Subway Car,1
+2025-10-01,A,1,Stations and Structure,2
+2025-10-01,Q,1,Persons on Trackbed/Police/Medical,3
+2025-10-01,R,1,Signals,1
+2025-11-01,5,1,Subway Car,1
+2025-11-01,C,2,Persons on Trackbed/Police/Medical,1
+2025-11-01,2,1,Signals,1
+2025-11-01,D,1,Persons on Trackbed/Police/Medical,1
+2025-11-01,B,1,Track,1
+2025-11-01,3,1,Track,2
+2025-11-01,E,1,Subway Car,1
+2025-11-01,L,1,Subway Car,1
+2025-11-01,R,1,Signals,1
+2025-11-01,7,1,Signals,3
+2025-11-01,7,1,Subway Car,1
+2025-11-01,NW,1,Subway Car,2
+2025-11-01,A,1,Signals,3
+2025-11-01,Q,1,Signals,1
+2025-11-01,5,1,Track,1
+2025-11-01,M,1,Persons on Trackbed/Police/Medical,1
+2025-11-01,F,1,Track,1
+2025-11-01,A,1,Subway Car,1
+2025-11-01,R,1,Persons on Trackbed/Police/Medical,2
+2025-11-01,R,1,Track,1
+2025-11-01,6,1,Persons on Trackbed/Police/Medical,4
+2025-11-01,NW,1,Track,3
+2025-11-01,3,2,Track,1
+2025-11-01,E,1,Track,1
+2025-11-01,1,1,Persons on Trackbed/Police/Medical,3
+2025-11-01,E,1,Stations and Structure,1
+2025-11-01,A,1,Other,1
+2025-11-01,L,1,Persons on Trackbed/Police/Medical,1
+2025-11-01,2,1,Persons on Trackbed/Police/Medical,2
+2025-11-01,4,1,Persons on Trackbed/Police/Medical,1
+2025-11-01,B,1,Signals,1
+2025-11-01,4,2,Other,1
+2025-11-01,NW,1,Persons on Trackbed/Police/Medical,1
+2025-11-01,A,1,Persons on Trackbed/Police/Medical,1
+2025-11-01,3,1,Subway Car,1
+2025-11-01,B,1,Subway Car,1
+2025-11-01,C,1,Signals,1
+2025-12-01,E,1,Track,1
+2025-12-01,Q,1,Track,1
+2025-12-01,C,1,Signals,1
+2025-12-01,L,1,Subway Car,1
+2025-12-01,5,1,Persons on Trackbed/Police/Medical,2
+2025-12-01,5,2,Signals,1
+2025-12-01,M,1,Signals,1
+2025-12-01,R,1,Track,1
+2025-12-01,3,1,Subway Car,1
+2025-12-01,R,1,Persons on Trackbed/Police/Medical,2
+2025-12-01,5,2,Persons on Trackbed/Police/Medical,1
+2025-12-01,E,1,Persons on Trackbed/Police/Medical,1
+2025-12-01,L,2,Stations and Structure,1
+2025-12-01,7,1,Persons on Trackbed/Police/Medical,1
+2025-12-01,1,1,Persons on Trackbed/Police/Medical,2
+2025-12-01,A,1,Stations and Structure,1
+2025-12-01,1,1,Track,2
+2025-12-01,NW,1,Subway Car,2
+2025-12-01,5,1,Track,1
+2025-12-01,F,1,Track,1
+2025-12-01,A,1,Persons on Trackbed/Police/Medical,1
+2025-12-01,JZ,1,Persons on Trackbed/Police/Medical,1
+2025-12-01,E,1,Stations and Structure,1
+2025-12-01,G,1,Signals,1
+2025-12-01,3,2,Persons on Trackbed/Police/Medical,1
+2025-12-01,L,2,Persons on Trackbed/Police/Medical,1
+2025-12-01,2,1,Track,1
+2025-12-01,7,1,Track,1
+2025-12-01,NW,1,Signals,2
+2025-12-01,D,1,Signals,1
+2025-12-01,M,1,Persons on Trackbed/Police/Medical,1
+2025-12-01,E,1,Signals,2
+2025-12-01,7,1,Other,1
+2025-12-01,A,2,Other,1
+2025-12-01,C,1,Track,1
+2025-12-01,B,1,Persons on Trackbed/Police/Medical,1
+2025-12-01,NW,1,Persons on Trackbed/Police/Medical,3
+2025-12-01,2,1,Subway Car,1
+2025-12-01,G,1,Subway Car,1
+2025-12-01,2,1,Other,1
+2025-12-01,NW,2,Track,1
+2025-12-01,F,1,Stations and Structure,1
+2025-12-01,L,1,Persons on Trackbed/Police/Medical,1
+2025-12-01,A,2,Persons on Trackbed/Police/Medical,1
+2025-12-01,7,1,Signals,3
+2025-12-01,NW,1,Track,1
+2025-12-01,6,1,Track,1
+2025-12-01,B,1,Signals,1

@@ -1,0 +1,38 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.9.0/schema.json",
+  "name": "25cf5608dfe65027b95b",
+  "position": {
+    "x": 50,
+    "y": 990,
+    "z": 10000,
+    "height": 48,
+    "width": 1820,
+    "tabOrder": 10
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "2025 cards are fixed annual baselines; line selection applies. Net minutes are signed estimates. Source: MTA open data.",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI",
+                      "fontSize": "16px",
+                      "color": "#5D7182"
+                    }
+                  }
+                ],
+                "horizontalTextAlignment": "left"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

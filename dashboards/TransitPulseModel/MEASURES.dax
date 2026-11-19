@@ -1,0 +1,163 @@
+// Source for the implemented DAX measures in TransitPulse.pbip.
+// Run src/build_pbip_model.py after editing; numeric source columns are hidden.
+// Tables use the exact rpt_* names from MODEL_SPEC.md.
+
+Passenger Trips =
+SUM ( 'rpt_customer_month_line_period'[passenger_trips] )
+
+Trips Over Five Minutes =
+SUM ( 'rpt_customer_month_line_period'[over_five_trips] )
+
+CJTP % =
+IF (
+    [Passenger Trips] > 0,
+    1 - DIVIDE ( [Trips Over Five Minutes], [Passenger Trips] )
+)
+// Format as Percentage, 2 decimals. Expected 2025 system: 85.40%.
+
+Platform Minutes =
+SUM ( 'rpt_customer_month_line_period'[platform_minutes] )
+
+Train Minutes =
+SUM ( 'rpt_customer_month_line_period'[train_minutes] )
+
+Net Additional Passenger Minutes =
+[Platform Minutes] + [Train Minutes]
+// Signed net estimate; display units explicitly. Expected 2025 system: 3.24B.
+
+Net Additional Passenger Minutes (M) =
+DIVIDE ( [Net Additional Passenger Minutes], 1000000 )
+
+APT Minutes Per Trip =
+DIVIDE ( [Platform Minutes], [Passenger Trips] )
+
+ATT Minutes Per Trip =
+DIVIDE ( [Train Minutes], [Passenger Trips] )
+
+AJT Minutes Per Trip =
+DIVIDE ( [Net Additional Passenger Minutes], [Passenger Trips] )
+
+Previous Year CJTP % =
+VAR SelectedYear = SELECTEDVALUE ( 'rpt_dim_month'[year] )
+RETURN
+    IF (
+        NOT ISBLANK ( SelectedYear ) && NOT ISFILTERED ( 'rpt_dim_month'[month] ),
+        CALCULATE (
+            [CJTP %],
+            REMOVEFILTERS ( 'rpt_dim_month' ),
+            'rpt_dim_month'[year] = SelectedYear - 1
+        )
+    )
+
+CJTP YoY Change pp =
+IF (
+    HASONEVALUE ( 'rpt_dim_month'[year] ) && NOT ISFILTERED ( 'rpt_dim_month'[month] ),
+    100 * ( [CJTP %] - [Previous Year CJTP %] )
+)
+// Annual comparison only; blank for month selections. Format as decimal pp.
+
+2025 CJTP % =
+CALCULATE (
+    [CJTP %],
+    REMOVEFILTERS ( 'rpt_dim_month' ),
+    'rpt_dim_month'[year] = 2025
+)
+// Fixed year, retains line filters. Use only with a visible 2025 label.
+
+2025 Net Additional Minutes =
+CALCULATE (
+    [Net Additional Passenger Minutes],
+    REMOVEFILTERS ( 'rpt_dim_month' ),
+    'rpt_dim_month'[year] = 2025
+)
+
+2025 Net Minutes (billions) =
+DIVIDE ( [2025 Net Additional Minutes], 1000000000 )
+// Display as 3.24B, with the title explicitly saying net additional minutes.
+
+2025 vs 2022 System CJTP pp =
+IF (
+    SELECTEDVALUE ( 'rpt_dim_month'[year] ) = 2025
+        && NOT ISFILTERED ( 'rpt_dim_line'[line_id] )
+        && NOT ISFILTERED ( 'rpt_dim_month'[month] ),
+    100 * (
+        CALCULATE ( [CJTP %], REMOVEFILTERS ( 'rpt_dim_month' ), 'rpt_dim_month'[year] = 2025 )
+        - CALCULATE ( [CJTP %], REMOVEFILTERS ( 'rpt_dim_month' ), 'rpt_dim_month'[year] = 2022 )
+    )
+)
+// Reported unadjusted system comparison; 42nd Street Shuttle lacks Jan-Feb 2022.
+// Display only with an explicit "2025 vs 2022 system" label and that caveat.
+
+Weekday Delay Incidents =
+CALCULATE (
+    SUM ( 'rpt_delay_month_line_category'[delay_incidents] ),
+    'rpt_delay_month_line_category'[day_type] = 1
+)
+// Missing source rows yield BLANK, never force them to zero.
+
+Weekday Delay Coverage Months =
+CALCULATE (
+    DISTINCTCOUNT ( 'rpt_delay_month_line_category'[month] ),
+    'rpt_delay_month_line_category'[day_type] = 1
+)
+// Evaluate for one line at a time; April 2025 S 42nd is absent.
+
+Weekday Major Incidents =
+CALCULATE (
+    SUM ( 'rpt_major_month_line_category'[major_incidents] ),
+    'rpt_major_month_line_category'[day_type] = 1
+)
+// Separate sparse positive-event source; BLANK is not confirmed zero.
+
+Weekday Peak Scheduled Trains =
+CALCULATE (
+    SUM ( 'rpt_service_month_line_daytype'[scheduled_peak_trains] ),
+    'rpt_service_month_line_daytype'[day_type] = 1
+)
+
+Weekday Peak Actual Trains =
+CALCULATE (
+    SUM ( 'rpt_service_month_line_daytype'[actual_peak_trains] ),
+    'rpt_service_month_line_daytype'[day_type] = 1
+)
+
+Weekday Peak Service Delivered % =
+DIVIDE ( [Weekday Peak Actual Trains], [Weekday Peak Scheduled Trains] )
+// Can exceed 100%; do not cap. Selected peak timepoints only.
+
+2025 Priority Score =
+IF (
+    NOT ISFILTERED ( 'rpt_dim_month'[year] )
+        && NOT ISFILTERED ( 'rpt_dim_month'[month] ),
+    MAX ( 'rpt_priority_2025'[score_baseline] )
+)
+
+2025 Priority Rank =
+IF (
+    NOT ISFILTERED ( 'rpt_dim_month'[year] )
+        && NOT ISFILTERED ( 'rpt_dim_month'[month] ),
+    MIN ( 'rpt_priority_2025'[rank_baseline] )
+)
+// Use on the fixed-2025 priority page without date slicers.
+
+2025 Priority CJTP % =
+MAX ( 'rpt_priority_2025'[cjt_percent] )
+// Scorecard stores this as 0-100 percent points; format as 0.00, not 0.00%.
+
+2025 Priority Net Minutes =
+SUM ( 'rpt_priority_2025'[net_additional_passenger_minutes] )
+
+2025 Priority Net Minutes (M) =
+DIVIDE ( [2025 Priority Net Minutes], 1000000 )
+
+2025 Priority Passenger Trips =
+MAX ( 'rpt_priority_2025'[passenger_trips] )
+
+2025 Reliability Concern Score =
+MAX ( 'rpt_priority_2025'[reliability_concern_score] )
+
+2025 Passenger Burden Score =
+MAX ( 'rpt_priority_2025'[passenger_burden_score] )
+
+2025 Operational Risk Score =
+MAX ( 'rpt_priority_2025'[operational_risk_score] )

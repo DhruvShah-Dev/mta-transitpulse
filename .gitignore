@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+*.log
+dashboards/**/.pbi/
+dashboards/_blank_page_backup/
+dashboards/desktop_current.png
+dashboards/desktop_refresh_check.png
+dashboards/transitpulse-web/node_modules/
+dashboards/transitpulse-web/dist/
+dashboards/transitpulse-web/.data-app-offline/
+dashboards/TransitPulseModel/codex-model-drafts/
+.mta-local-postgres/

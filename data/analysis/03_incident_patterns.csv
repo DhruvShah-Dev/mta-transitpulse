@@ -1,0 +1,553 @@
+line_id,year,reporting_category,weekday_incidents,months_with_source_rows
+1,2022,Operating Conditions,1212,12
+1,2022,Police & Medical,1145,12
+1,2022,Infrastructure & Equipment,561,12
+1,2022,Planned ROW Work,418,12
+1,2022,Crew Availability,225,12
+1,2022,External Factors,24,12
+2,2022,Operating Conditions,1237,12
+2,2022,Police & Medical,914,12
+2,2022,Infrastructure & Equipment,672,12
+2,2022,Planned ROW Work,401,12
+2,2022,Crew Availability,303,12
+2,2022,External Factors,24,12
+3,2022,Operating Conditions,602,12
+3,2022,Police & Medical,494,12
+3,2022,Infrastructure & Equipment,336,12
+3,2022,Crew Availability,210,12
+3,2022,Planned ROW Work,131,12
+3,2022,External Factors,5,12
+4,2022,Police & Medical,878,12
+4,2022,Operating Conditions,755,12
+4,2022,Infrastructure & Equipment,528,12
+4,2022,Planned ROW Work,323,12
+4,2022,Crew Availability,311,12
+4,2022,External Factors,8,12
+5,2022,Operating Conditions,769,12
+5,2022,Police & Medical,539,12
+5,2022,Infrastructure & Equipment,344,12
+5,2022,Planned ROW Work,246,12
+5,2022,Crew Availability,208,12
+5,2022,External Factors,29,12
+6,2022,Police & Medical,1604,12
+6,2022,Operating Conditions,1601,12
+6,2022,Infrastructure & Equipment,669,12
+6,2022,Planned ROW Work,382,12
+6,2022,Crew Availability,289,12
+6,2022,External Factors,18,12
+7,2022,Infrastructure & Equipment,518,12
+7,2022,Police & Medical,488,12
+7,2022,Crew Availability,427,12
+7,2022,Planned ROW Work,271,12
+7,2022,Operating Conditions,168,12
+7,2022,External Factors,48,12
+A,2022,Police & Medical,1107,12
+A,2022,Infrastructure & Equipment,1089,12
+A,2022,Operating Conditions,1086,12
+A,2022,External Factors,611,12
+A,2022,Planned ROW Work,601,12
+A,2022,Crew Availability,359,12
+B,2022,Operating Conditions,963,12
+B,2022,Police & Medical,417,12
+B,2022,Infrastructure & Equipment,362,12
+B,2022,Planned ROW Work,174,12
+B,2022,Crew Availability,162,12
+B,2022,External Factors,15,12
+C,2022,Operating Conditions,813,12
+C,2022,Police & Medical,701,12
+C,2022,Infrastructure & Equipment,416,12
+C,2022,Crew Availability,145,12
+C,2022,Planned ROW Work,103,12
+C,2022,External Factors,6,12
+D,2022,Operating Conditions,878,12
+D,2022,Police & Medical,828,12
+D,2022,Infrastructure & Equipment,609,12
+D,2022,Planned ROW Work,532,12
+D,2022,Crew Availability,327,12
+D,2022,External Factors,20,12
+E,2022,Operating Conditions,878,12
+E,2022,Infrastructure & Equipment,842,12
+E,2022,Police & Medical,688,12
+E,2022,Planned ROW Work,644,12
+E,2022,Crew Availability,350,12
+E,2022,External Factors,10,12
+F,2022,Infrastructure & Equipment,1100,12
+F,2022,Police & Medical,854,12
+F,2022,Operating Conditions,687,12
+F,2022,Planned ROW Work,671,12
+F,2022,Crew Availability,400,12
+F,2022,External Factors,28,12
+G,2022,Operating Conditions,522,12
+G,2022,Infrastructure & Equipment,328,12
+G,2022,Planned ROW Work,290,12
+G,2022,Police & Medical,205,12
+G,2022,Crew Availability,109,12
+G,2022,External Factors,8,12
+JZ,2022,Operating Conditions,617,12
+JZ,2022,Police & Medical,551,12
+JZ,2022,Infrastructure & Equipment,397,12
+JZ,2022,Planned ROW Work,223,12
+JZ,2022,Crew Availability,183,12
+JZ,2022,External Factors,39,12
+L,2022,Infrastructure & Equipment,392,12
+L,2022,Planned ROW Work,308,12
+L,2022,Police & Medical,262,12
+L,2022,Crew Availability,125,12
+L,2022,Operating Conditions,62,12
+L,2022,External Factors,12,12
+M,2022,Infrastructure & Equipment,616,12
+M,2022,Operating Conditions,613,12
+M,2022,Police & Medical,399,12
+M,2022,Crew Availability,195,12
+M,2022,Planned ROW Work,92,12
+M,2022,External Factors,15,12
+NW,2022,Police & Medical,995,12
+NW,2022,Operating Conditions,987,12
+NW,2022,Infrastructure & Equipment,791,12
+NW,2022,Planned ROW Work,585,12
+NW,2022,Crew Availability,336,12
+NW,2022,External Factors,24,12
+Q,2022,Operating Conditions,953,12
+Q,2022,Police & Medical,777,12
+Q,2022,Infrastructure & Equipment,609,12
+Q,2022,Planned ROW Work,460,12
+Q,2022,Crew Availability,213,12
+Q,2022,External Factors,45,12
+R,2022,Operating Conditions,683,12
+R,2022,Police & Medical,622,12
+R,2022,Infrastructure & Equipment,548,12
+R,2022,Crew Availability,246,12
+R,2022,Planned ROW Work,222,12
+R,2022,External Factors,10,12
+S 42nd,2022,Police & Medical,40,12
+S 42nd,2022,Infrastructure & Equipment,25,12
+S 42nd,2022,Planned ROW Work,3,12
+S 42nd,2022,Crew Availability,3,12
+S 42nd,2022,Operating Conditions,2,12
+S 42nd,2022,External Factors,0,12
+S Fkln,2022,Infrastructure & Equipment,26,12
+S Fkln,2022,Police & Medical,17,12
+S Fkln,2022,Crew Availability,10,12
+S Fkln,2022,Planned ROW Work,4,12
+S Fkln,2022,External Factors,4,12
+S Fkln,2022,Operating Conditions,1,12
+S Rock,2022,External Factors,233,12
+S Rock,2022,Operating Conditions,76,12
+S Rock,2022,Infrastructure & Equipment,49,12
+S Rock,2022,Police & Medical,40,12
+S Rock,2022,Planned ROW Work,16,12
+S Rock,2022,Crew Availability,8,12
+1,2023,Operating Conditions,1206,12
+1,2023,Police & Medical,1067,12
+1,2023,Infrastructure & Equipment,593,12
+1,2023,Planned ROW Work,538,12
+1,2023,Crew Availability,258,12
+1,2023,External Factors,29,12
+2,2023,Operating Conditions,1328,12
+2,2023,Police & Medical,795,12
+2,2023,Infrastructure & Equipment,613,12
+2,2023,Planned ROW Work,515,12
+2,2023,Crew Availability,292,12
+2,2023,External Factors,18,12
+3,2023,Operating Conditions,674,12
+3,2023,Police & Medical,439,12
+3,2023,Infrastructure & Equipment,303,12
+3,2023,Crew Availability,212,12
+3,2023,Planned ROW Work,118,12
+3,2023,External Factors,13,12
+4,2023,Police & Medical,807,12
+4,2023,Operating Conditions,693,12
+4,2023,Infrastructure & Equipment,589,12
+4,2023,Planned ROW Work,361,12
+4,2023,Crew Availability,322,12
+4,2023,External Factors,5,12
+5,2023,Operating Conditions,883,12
+5,2023,Police & Medical,519,12
+5,2023,Infrastructure & Equipment,412,12
+5,2023,Crew Availability,173,12
+5,2023,Planned ROW Work,142,12
+5,2023,External Factors,12,12
+6,2023,Operating Conditions,1674,12
+6,2023,Police & Medical,1393,12
+6,2023,Infrastructure & Equipment,689,12
+6,2023,Planned ROW Work,499,12
+6,2023,Crew Availability,278,12
+6,2023,External Factors,24,12
+7,2023,Police & Medical,570,12
+7,2023,Infrastructure & Equipment,510,12
+7,2023,Planned ROW Work,340,12
+7,2023,Crew Availability,304,12
+7,2023,Operating Conditions,111,12
+7,2023,External Factors,25,12
+A,2023,Infrastructure & Equipment,1173,12
+A,2023,Police & Medical,964,12
+A,2023,Operating Conditions,920,12
+A,2023,Planned ROW Work,670,12
+A,2023,External Factors,583,12
+A,2023,Crew Availability,310,12
+B,2023,Operating Conditions,657,12
+B,2023,Infrastructure & Equipment,401,12
+B,2023,Police & Medical,394,12
+B,2023,Crew Availability,108,12
+B,2023,Planned ROW Work,85,12
+B,2023,External Factors,16,12
+C,2023,Operating Conditions,862,12
+C,2023,Police & Medical,585,12
+C,2023,Infrastructure & Equipment,390,12
+C,2023,Crew Availability,122,12
+C,2023,Planned ROW Work,117,12
+C,2023,External Factors,6,12
+D,2023,Police & Medical,1054,12
+D,2023,Operating Conditions,792,12
+D,2023,Infrastructure & Equipment,587,12
+D,2023,Planned ROW Work,557,12
+D,2023,Crew Availability,247,12
+D,2023,External Factors,13,12
+E,2023,Operating Conditions,835,12
+E,2023,Planned ROW Work,798,12
+E,2023,Infrastructure & Equipment,766,12
+E,2023,Police & Medical,608,12
+E,2023,Crew Availability,200,12
+E,2023,External Factors,10,12
+F,2023,Infrastructure & Equipment,1114,12
+F,2023,Police & Medical,1019,12
+F,2023,Operating Conditions,992,12
+F,2023,Planned ROW Work,890,12
+F,2023,Crew Availability,259,12
+F,2023,External Factors,18,12
+G,2023,Operating Conditions,574,12
+G,2023,Planned ROW Work,516,12
+G,2023,Infrastructure & Equipment,251,12
+G,2023,Police & Medical,190,12
+G,2023,Crew Availability,90,12
+G,2023,External Factors,7,12
+JZ,2023,Operating Conditions,490,12
+JZ,2023,Police & Medical,444,12
+JZ,2023,Infrastructure & Equipment,320,12
+JZ,2023,Planned ROW Work,299,12
+JZ,2023,Crew Availability,111,12
+JZ,2023,External Factors,33,12
+L,2023,Planned ROW Work,366,12
+L,2023,Infrastructure & Equipment,324,12
+L,2023,Police & Medical,234,12
+L,2023,Crew Availability,115,12
+L,2023,Operating Conditions,42,12
+L,2023,External Factors,8,12
+M,2023,Operating Conditions,454,12
+M,2023,Infrastructure & Equipment,373,12
+M,2023,Police & Medical,297,12
+M,2023,Crew Availability,118,12
+M,2023,Planned ROW Work,90,12
+M,2023,External Factors,7,12
+NW,2023,Operating Conditions,1284,12
+NW,2023,Police & Medical,1118,12
+NW,2023,Infrastructure & Equipment,914,12
+NW,2023,Planned ROW Work,621,12
+NW,2023,Crew Availability,262,12
+NW,2023,External Factors,33,12
+Q,2023,Operating Conditions,868,12
+Q,2023,Police & Medical,730,12
+Q,2023,Infrastructure & Equipment,615,12
+Q,2023,Planned ROW Work,476,12
+Q,2023,Crew Availability,210,12
+Q,2023,External Factors,35,12
+R,2023,Operating Conditions,742,12
+R,2023,Police & Medical,663,12
+R,2023,Infrastructure & Equipment,575,12
+R,2023,Planned ROW Work,259,12
+R,2023,Crew Availability,186,12
+R,2023,External Factors,11,12
+S 42nd,2023,Police & Medical,40,12
+S 42nd,2023,Infrastructure & Equipment,19,12
+S 42nd,2023,Crew Availability,5,12
+S 42nd,2023,Planned ROW Work,1,12
+S 42nd,2023,Operating Conditions,0,12
+S 42nd,2023,External Factors,0,12
+S Fkln,2023,Infrastructure & Equipment,28,12
+S Fkln,2023,Police & Medical,19,12
+S Fkln,2023,Planned ROW Work,6,12
+S Fkln,2023,External Factors,3,12
+S Fkln,2023,Operating Conditions,2,12
+S Fkln,2023,Crew Availability,1,12
+S Rock,2023,External Factors,211,12
+S Rock,2023,Infrastructure & Equipment,39,12
+S Rock,2023,Police & Medical,34,12
+S Rock,2023,Planned ROW Work,30,12
+S Rock,2023,Operating Conditions,28,12
+S Rock,2023,Crew Availability,11,12
+1,2024,Police & Medical,1022,12
+1,2024,Infrastructure & Equipment,855,12
+1,2024,Operating Conditions,711,12
+1,2024,Planned ROW Work,576,12
+1,2024,Crew Availability,237,12
+1,2024,External Factors,24,12
+2,2024,Operating Conditions,1199,12
+2,2024,Police & Medical,976,12
+2,2024,Infrastructure & Equipment,760,12
+2,2024,Planned ROW Work,655,12
+2,2024,Crew Availability,271,12
+2,2024,External Factors,16,12
+3,2024,Operating Conditions,794,12
+3,2024,Police & Medical,617,12
+3,2024,Infrastructure & Equipment,381,12
+3,2024,Crew Availability,153,12
+3,2024,Planned ROW Work,134,12
+3,2024,External Factors,8,12
+4,2024,Police & Medical,950,12
+4,2024,Operating Conditions,731,12
+4,2024,Infrastructure & Equipment,673,12
+4,2024,Planned ROW Work,400,12
+4,2024,Crew Availability,243,12
+4,2024,External Factors,11,12
+5,2024,Police & Medical,777,12
+5,2024,Operating Conditions,704,12
+5,2024,Infrastructure & Equipment,454,12
+5,2024,Crew Availability,182,12
+5,2024,Planned ROW Work,169,12
+5,2024,External Factors,20,12
+6,2024,Operating Conditions,1671,12
+6,2024,Police & Medical,1628,12
+6,2024,Infrastructure & Equipment,857,12
+6,2024,Planned ROW Work,627,12
+6,2024,Crew Availability,232,12
+6,2024,External Factors,23,12
+7,2024,Infrastructure & Equipment,533,12
+7,2024,Police & Medical,476,12
+7,2024,Planned ROW Work,337,12
+7,2024,Crew Availability,252,12
+7,2024,Operating Conditions,111,12
+7,2024,External Factors,11,12
+A,2024,Police & Medical,1101,12
+A,2024,Infrastructure & Equipment,1093,12
+A,2024,Planned ROW Work,776,12
+A,2024,Operating Conditions,745,12
+A,2024,External Factors,566,12
+A,2024,Crew Availability,323,12
+B,2024,Police & Medical,634,12
+B,2024,Operating Conditions,620,12
+B,2024,Infrastructure & Equipment,527,12
+B,2024,Planned ROW Work,236,12
+B,2024,Crew Availability,164,12
+B,2024,External Factors,15,12
+C,2024,Operating Conditions,1017,12
+C,2024,Police & Medical,1015,12
+C,2024,Infrastructure & Equipment,467,12
+C,2024,Planned ROW Work,224,12
+C,2024,Crew Availability,119,12
+C,2024,External Factors,10,12
+D,2024,Police & Medical,984,12
+D,2024,Planned ROW Work,792,12
+D,2024,Infrastructure & Equipment,769,12
+D,2024,Operating Conditions,630,12
+D,2024,Crew Availability,256,12
+D,2024,External Factors,12,12
+E,2024,Planned ROW Work,836,12
+E,2024,Infrastructure & Equipment,776,12
+E,2024,Police & Medical,653,12
+E,2024,Operating Conditions,325,12
+E,2024,Crew Availability,157,12
+E,2024,External Factors,7,12
+F,2024,Infrastructure & Equipment,1319,12
+F,2024,Police & Medical,1091,12
+F,2024,Planned ROW Work,1015,12
+F,2024,Operating Conditions,648,12
+F,2024,Crew Availability,306,12
+F,2024,External Factors,16,12
+G,2024,Planned ROW Work,614,12
+G,2024,Operating Conditions,368,12
+G,2024,Infrastructure & Equipment,359,12
+G,2024,Police & Medical,325,12
+G,2024,Crew Availability,111,12
+G,2024,External Factors,3,12
+JZ,2024,Police & Medical,829,12
+JZ,2024,Planned ROW Work,551,12
+JZ,2024,Operating Conditions,541,12
+JZ,2024,Infrastructure & Equipment,486,12
+JZ,2024,Crew Availability,114,12
+JZ,2024,External Factors,27,12
+L,2024,Infrastructure & Equipment,450,12
+L,2024,Planned ROW Work,365,12
+L,2024,Police & Medical,289,12
+L,2024,Crew Availability,107,12
+L,2024,Operating Conditions,42,12
+L,2024,External Factors,10,12
+M,2024,Police & Medical,458,12
+M,2024,Infrastructure & Equipment,412,12
+M,2024,Operating Conditions,343,12
+M,2024,Planned ROW Work,204,12
+M,2024,Crew Availability,145,12
+M,2024,External Factors,12,12
+NW,2024,Police & Medical,1070,12
+NW,2024,Operating Conditions,1026,12
+NW,2024,Infrastructure & Equipment,1008,12
+NW,2024,Planned ROW Work,863,12
+NW,2024,Crew Availability,294,12
+NW,2024,External Factors,24,12
+Q,2024,Police & Medical,893,12
+Q,2024,Infrastructure & Equipment,655,12
+Q,2024,Operating Conditions,597,12
+Q,2024,Planned ROW Work,568,12
+Q,2024,Crew Availability,174,12
+Q,2024,External Factors,43,12
+R,2024,Police & Medical,867,12
+R,2024,Infrastructure & Equipment,620,12
+R,2024,Planned ROW Work,472,12
+R,2024,Operating Conditions,393,12
+R,2024,Crew Availability,183,12
+R,2024,External Factors,13,12
+S 42nd,2024,Police & Medical,26,12
+S 42nd,2024,Infrastructure & Equipment,22,12
+S 42nd,2024,Operating Conditions,2,12
+S 42nd,2024,Crew Availability,2,12
+S 42nd,2024,Planned ROW Work,1,12
+S 42nd,2024,External Factors,0,12
+S Fkln,2024,Infrastructure & Equipment,25,12
+S Fkln,2024,Police & Medical,18,12
+S Fkln,2024,Planned ROW Work,17,12
+S Fkln,2024,Crew Availability,4,12
+S Fkln,2024,External Factors,3,12
+S Fkln,2024,Operating Conditions,1,12
+S Rock,2024,External Factors,338,12
+S Rock,2024,Planned ROW Work,50,12
+S Rock,2024,Police & Medical,36,12
+S Rock,2024,Infrastructure & Equipment,33,12
+S Rock,2024,Operating Conditions,21,12
+S Rock,2024,Crew Availability,1,12
+1,2025,Police & Medical,1067,12
+1,2025,Infrastructure & Equipment,763,12
+1,2025,Planned ROW Work,543,12
+1,2025,Operating Conditions,515,12
+1,2025,Crew Availability,290,12
+1,2025,External Factors,34,12
+2,2025,Police & Medical,1091,12
+2,2025,Operating Conditions,761,12
+2,2025,Infrastructure & Equipment,736,12
+2,2025,Planned ROW Work,653,12
+2,2025,Crew Availability,361,12
+2,2025,External Factors,11,12
+3,2025,Police & Medical,662,12
+3,2025,Infrastructure & Equipment,460,12
+3,2025,Operating Conditions,399,12
+3,2025,Planned ROW Work,291,12
+3,2025,Crew Availability,208,12
+3,2025,External Factors,7,12
+4,2025,Police & Medical,1081,12
+4,2025,Infrastructure & Equipment,636,12
+4,2025,Planned ROW Work,456,12
+4,2025,Operating Conditions,304,12
+4,2025,Crew Availability,283,12
+4,2025,External Factors,7,12
+5,2025,Police & Medical,869,12
+5,2025,Infrastructure & Equipment,469,12
+5,2025,Operating Conditions,454,12
+5,2025,Planned ROW Work,213,12
+5,2025,Crew Availability,188,12
+5,2025,External Factors,21,12
+6,2025,Police & Medical,1562,12
+6,2025,Infrastructure & Equipment,826,12
+6,2025,Operating Conditions,813,12
+6,2025,Planned ROW Work,557,12
+6,2025,Crew Availability,277,12
+6,2025,External Factors,21,12
+7,2025,Infrastructure & Equipment,538,12
+7,2025,Police & Medical,410,12
+7,2025,Planned ROW Work,392,12
+7,2025,Crew Availability,389,12
+7,2025,Operating Conditions,177,12
+7,2025,External Factors,15,12
+A,2025,Infrastructure & Equipment,966,12
+A,2025,Police & Medical,776,12
+A,2025,Planned ROW Work,621,12
+A,2025,External Factors,465,12
+A,2025,Operating Conditions,302,12
+A,2025,Crew Availability,282,12
+B,2025,Police & Medical,692,12
+B,2025,Infrastructure & Equipment,596,12
+B,2025,Operating Conditions,407,12
+B,2025,Planned ROW Work,221,12
+B,2025,Crew Availability,156,12
+B,2025,External Factors,15,12
+C,2025,Police & Medical,697,12
+C,2025,Operating Conditions,567,12
+C,2025,Infrastructure & Equipment,426,12
+C,2025,Planned ROW Work,188,12
+C,2025,Crew Availability,148,12
+C,2025,External Factors,6,12
+D,2025,Police & Medical,843,12
+D,2025,Infrastructure & Equipment,803,12
+D,2025,Planned ROW Work,591,12
+D,2025,Crew Availability,286,12
+D,2025,Operating Conditions,234,12
+D,2025,External Factors,17,12
+E,2025,Infrastructure & Equipment,772,12
+E,2025,Planned ROW Work,748,12
+E,2025,Police & Medical,602,12
+E,2025,Operating Conditions,313,12
+E,2025,Crew Availability,105,12
+E,2025,External Factors,8,12
+F,2025,Infrastructure & Equipment,1306,12
+F,2025,Police & Medical,1125,12
+F,2025,Planned ROW Work,895,12
+F,2025,Operating Conditions,456,12
+F,2025,Crew Availability,213,12
+F,2025,External Factors,26,12
+G,2025,Planned ROW Work,693,12
+G,2025,Infrastructure & Equipment,485,12
+G,2025,Police & Medical,463,12
+G,2025,Operating Conditions,382,12
+G,2025,Crew Availability,97,12
+G,2025,External Factors,3,12
+JZ,2025,Police & Medical,591,12
+JZ,2025,Infrastructure & Equipment,378,12
+JZ,2025,Planned ROW Work,326,12
+JZ,2025,Operating Conditions,292,12
+JZ,2025,Crew Availability,109,12
+JZ,2025,External Factors,15,12
+L,2025,Infrastructure & Equipment,591,12
+L,2025,Planned ROW Work,416,12
+L,2025,Police & Medical,404,12
+L,2025,Crew Availability,118,12
+L,2025,Operating Conditions,84,12
+L,2025,External Factors,13,12
+M,2025,Infrastructure & Equipment,580,12
+M,2025,Police & Medical,488,12
+M,2025,Operating Conditions,356,12
+M,2025,Crew Availability,166,12
+M,2025,Planned ROW Work,117,12
+M,2025,External Factors,12,12
+NW,2025,Infrastructure & Equipment,1033,12
+NW,2025,Police & Medical,1031,12
+NW,2025,Planned ROW Work,750,12
+NW,2025,Operating Conditions,579,12
+NW,2025,Crew Availability,224,12
+NW,2025,External Factors,23,12
+Q,2025,Police & Medical,1068,12
+Q,2025,Infrastructure & Equipment,626,12
+Q,2025,Planned ROW Work,555,12
+Q,2025,Operating Conditions,394,12
+Q,2025,Crew Availability,157,12
+Q,2025,External Factors,23,12
+R,2025,Police & Medical,594,12
+R,2025,Infrastructure & Equipment,594,12
+R,2025,Planned ROW Work,268,12
+R,2025,Operating Conditions,239,12
+R,2025,Crew Availability,148,12
+R,2025,External Factors,12,12
+S 42nd,2025,Police & Medical,22,11
+S 42nd,2025,Infrastructure & Equipment,13,11
+S 42nd,2025,External Factors,0,11
+S 42nd,2025,Operating Conditions,0,11
+S 42nd,2025,Planned ROW Work,0,11
+S 42nd,2025,Crew Availability,0,11
+S Fkln,2025,Infrastructure & Equipment,35,12
+S Fkln,2025,Police & Medical,19,12
+S Fkln,2025,Planned ROW Work,10,12
+S Fkln,2025,Operating Conditions,1,12
+S Fkln,2025,External Factors,1,12
+S Fkln,2025,Crew Availability,0,12
+S Rock,2025,External Factors,223,12
+S Rock,2025,Planned ROW Work,65,12
+S Rock,2025,Infrastructure & Equipment,60,12
+S Rock,2025,Police & Medical,58,12
+S Rock,2025,Operating Conditions,22,12
+S Rock,2025,Crew Availability,5,12

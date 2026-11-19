@@ -1,0 +1,38 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.9.0/schema.json",
+  "name": "505324ede32e5d438bb0",
+  "position": {
+    "x": 52,
+    "y": 112,
+    "z": 2000,
+    "height": 48,
+    "width": 1220,
+    "tabOrder": 2
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Incident patterns and service delivery are diagnostic evidence",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI",
+                      "fontSize": "17px",
+                      "color": "#507188"
+                    }
+                  }
+                ],
+                "horizontalTextAlignment": "left"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

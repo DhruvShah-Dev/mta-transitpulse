@@ -1,0 +1,38 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.9.0/schema.json",
+  "name": "3a74d8f2d150573c9fe8",
+  "position": {
+    "x": 50,
+    "y": 1000,
+    "z": 7000,
+    "height": 50,
+    "width": 1810,
+    "tabOrder": 7
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "F, B, Q lead first review; D needs targeted reliability review. Quadrant medians: 84.95% CJTP / 161.36M net minutes. Proposed ranks are not MTA weights.",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI",
+                      "fontSize": "15px",
+                      "color": "#5D7182"
+                    }
+                  }
+                ],
+                "horizontalTextAlignment": "left"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

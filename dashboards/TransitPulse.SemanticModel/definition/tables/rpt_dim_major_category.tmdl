@@ -1,0 +1,22 @@
+table rpt_dim_major_category
+	lineageTag: 17299eb0-5b4c-481c-9e98-927c1c969a68
+
+	column major_category
+		dataType: string
+		lineageTag: 42756a89-7508-4c56-a5ab-ad7ff7d8fb11
+		summarizeBy: none
+		sourceColumn: major_category
+
+	partition rpt_dim_major_category = m
+		mode: import
+		source =
+				let
+				    Encoded = Text.Combine({
+				        "H4sIAAAAAAACCh2MQQqDMBBF94HcITfwEF2XCrqX72SwqTEDkwnF2xvdPR6Pd+AnuhCMN9HTu499Wb0bWauUGqSEWUH7ynEYJSfi4c0xEbJ3U9oKcu1gsHTXKDFMpo2sKXff1j/O8EIfPhfvLipt9khvAAAA"
+				    }, ""),
+				    Source = Csv.Document(Binary.Decompress(Binary.FromText(Encoded, BinaryEncoding.Base64), Compression.GZip), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Headers, {{"major_category", type text}}, "en-US")
+				in
+				    Typed
+

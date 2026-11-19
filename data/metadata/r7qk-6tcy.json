@@ -1,0 +1,1268 @@
+{
+  "id": "r7qk-6tcy",
+  "name": "MTA Subway Customer Journey-Focused Metrics: Beginning 2015",
+  "assetType": "dataset",
+  "attribution": "Metropolitan Transportation Authority",
+  "attributionLink": "https://www.mta.info/open-data",
+  "averageRating": 0,
+  "category": "Transportation",
+  "createdAt": 1641505144,
+  "description": "Additional Platform Time (APT) is the estimated average extra time that customers spend waiting on the platform for a train, compared with their scheduled wait time.\n\nAdditional Train Time (ATT) is the estimated average extra time that customers spend onboard a train, compared to the time they would have spent onboard a train if trains were running according to schedule.\n\nAdditional Journey Time (AJT) is the estimated average extra time that customers spend on their journey, compared with the scheduled time. It is the sum of the additional time spent waiting on platforms (APT) and the additional time spent onboard a train (ATT).\n\nJourney Time is the average total time a customer spends on their journey waiting for and riding a specific train line. \n\nCustomer Journey Time Performance (CJTP) is the estimated percentage of rider trips that are completed within 5 minutes of their scheduled time.\n\nThese measures are estimated for each individual train a customer uses in their journey, also known as an unlinked trip, not all trains in their journey combined.",
+  "diciBackend": false,
+  "displayType": "table",
+  "downloadCount": 14641,
+  "hideFromCatalog": false,
+  "hideFromDataJson": false,
+  "locked": false,
+  "newBackend": true,
+  "numberOfComments": 0,
+  "oid": 40837742,
+  "provenance": "official",
+  "publicationAppendEnabled": false,
+  "publicationDate": 1724867982,
+  "publicationGroup": 18548493,
+  "publicationStage": "published",
+  "rowClass": "",
+  "rowsUpdatedAt": 1794588279,
+  "rowsUpdatedBy": "xzik-pf59",
+  "tableId": 19637933,
+  "totalTimesRated": 0,
+  "viewCount": 8231,
+  "viewLastModified": 1794588269,
+  "viewType": "tabular",
+  "approvals": [
+    {
+      "reviewedAt": 1642192753,
+      "reviewedAutomatically": true,
+      "state": "approved",
+      "submissionId": 6530552,
+      "submissionObject": "public_audience_request",
+      "submissionOutcome": "change_audience",
+      "submittedAt": 1642192753,
+      "targetAudience": "public",
+      "workflowId": 2254,
+      "submissionDetails": {
+        "permissionType": "READ"
+      },
+      "submissionOutcomeApplication": {
+        "endedAt": 1642192753,
+        "failureCount": 0,
+        "startedAt": 1642192753,
+        "status": "success"
+      },
+      "submitter": {
+        "id": "28jg-4c4u",
+        "displayName": "Open Data Administrator 1"
+      }
+    }
+  ],
+  "clientContext": {
+    "clientContextVariables": [],
+    "inheritedVariables": {}
+  },
+  "columns": [
+    {
+      "id": 598900244,
+      "name": "month",
+      "dataTypeName": "calendar_date",
+      "description": "The month in which the metrics are being calculated (yyyy-mm-dd).",
+      "fieldName": "month",
+      "position": 1,
+      "renderTypeName": "calendar_date",
+      "tableColumnId": 154669136,
+      "cachedContents": {
+        "non_null": "5960",
+        "largest": "2026-10-01T00:00:00.000",
+        "null": "0",
+        "top": [
+          {
+            "item": "2017-04-01T00:00:00.000",
+            "count": "48"
+          },
+          {
+            "item": "2017-10-01T00:00:00.000",
+            "count": "48"
+          },
+          {
+            "item": "2022-12-01T00:00:00.000",
+            "count": "48"
+          },
+          {
+            "item": "2018-06-01T00:00:00.000",
+            "count": "48"
+          },
+          {
+            "item": "2026-04-01T00:00:00.000",
+            "count": "48"
+          },
+          {
+            "item": "2022-11-01T00:00:00.000",
+            "count": "48"
+          },
+          {
+            "item": "2024-06-01T00:00:00.000",
+            "count": "48"
+          },
+          {
+            "item": "2025-02-01T00:00:00.000",
+            "count": "48"
+          },
+          {
+            "item": "2023-09-01T00:00:00.000",
+            "count": "48"
+          },
+          {
+            "item": "2025-04-01T00:00:00.000",
+            "count": "48"
+          },
+          {
+            "item": "2026-06-01T00:00:00.000",
+            "count": "48"
+          },
+          {
+            "item": "2019-11-01T00:00:00.000",
+            "count": "48"
+          },
+          {
+            "item": "2024-12-01T00:00:00.000",
+            "count": "48"
+          },
+          {
+            "item": "2018-12-01T00:00:00.000",
+            "count": "48"
+          },
+          {
+            "item": "2023-05-01T00:00:00.000",
+            "count": "48"
+          },
+          {
+            "item": "2020-09-01T00:00:00.000",
+            "count": "48"
+          },
+          {
+            "item": "2023-08-01T00:00:00.000",
+            "count": "48"
+          },
+          {
+            "item": "2026-03-01T00:00:00.000",
+            "count": "48"
+          },
+          {
+            "item": "2025-03-01T00:00:00.000",
+            "count": "48"
+          },
+          {
+            "item": "2025-09-01T00:00:00.000",
+            "count": "48"
+          }
+        ],
+        "smallest": "2015-01-01T00:00:00.000",
+        "count": "5960",
+        "cardinality": "5960"
+      },
+      "format": {
+        "view": "iso_8601_date",
+        "align": "center"
+      }
+    },
+    {
+      "id": 598900228,
+      "name": "division",
+      "dataTypeName": "text",
+      "description": "The division of the subway line: A Division (numbered subway lines and S 42nd) and B Division (lettered subway lines).",
+      "fieldName": "division",
+      "position": 2,
+      "renderTypeName": "text",
+      "tableColumnId": 140462278,
+      "cachedContents": {
+        "non_null": "5960",
+        "largest": "B DIVISION",
+        "null": "0",
+        "top": [
+          {
+            "item": "B DIVISION",
+            "count": "3702"
+          },
+          {
+            "item": "A DIVISION",
+            "count": "2258"
+          }
+        ],
+        "smallest": "A DIVISION",
+        "count": "5960",
+        "cardinality": "5960"
+      },
+      "format": {
+        "align": "center"
+      }
+    },
+    {
+      "id": 598900229,
+      "name": "line",
+      "dataTypeName": "text",
+      "description": "Each subway line (1, 2, 3, 4, 5, 6, 7, A, C, E, B, D, F, M, G, JZ, L, N, Q, R, W, S 42nd, S Rock, S Fkln).",
+      "fieldName": "line",
+      "position": 3,
+      "renderTypeName": "text",
+      "tableColumnId": 140462279,
+      "cachedContents": {
+        "non_null": "5960",
+        "largest": "W",
+        "null": "0",
+        "top": [
+          {
+            "item": "6",
+            "count": "284"
+          },
+          {
+            "item": "2",
+            "count": "284"
+          },
+          {
+            "item": "7",
+            "count": "284"
+          },
+          {
+            "item": "4",
+            "count": "284"
+          },
+          {
+            "item": "1",
+            "count": "284"
+          },
+          {
+            "item": "3",
+            "count": "284"
+          },
+          {
+            "item": "5",
+            "count": "284"
+          },
+          {
+            "item": "S 42nd",
+            "count": "270"
+          },
+          {
+            "item": "S Fkln",
+            "count": "232"
+          },
+          {
+            "item": "E",
+            "count": "232"
+          },
+          {
+            "item": "D",
+            "count": "232"
+          },
+          {
+            "item": "N",
+            "count": "232"
+          },
+          {
+            "item": "G",
+            "count": "232"
+          },
+          {
+            "item": "Q",
+            "count": "232"
+          },
+          {
+            "item": "R",
+            "count": "232"
+          },
+          {
+            "item": "S Rock",
+            "count": "232"
+          },
+          {
+            "item": "A",
+            "count": "232"
+          },
+          {
+            "item": "L",
+            "count": "232"
+          },
+          {
+            "item": "JZ",
+            "count": "232"
+          },
+          {
+            "item": "F",
+            "count": "232"
+          }
+        ],
+        "smallest": "1",
+        "count": "5960",
+        "cardinality": "5960"
+      },
+      "format": {
+        "align": "center"
+      }
+    },
+    {
+      "id": 598900231,
+      "name": "period",
+      "dataTypeName": "text",
+      "description": "Represents both the peak and off-peak service periods.",
+      "fieldName": "period",
+      "position": 4,
+      "renderTypeName": "text",
+      "tableColumnId": 140462280,
+      "cachedContents": {
+        "non_null": "5960",
+        "largest": "peak",
+        "null": "0",
+        "top": [
+          {
+            "item": "offpeak",
+            "count": "2980"
+          },
+          {
+            "item": "peak",
+            "count": "2980"
+          }
+        ],
+        "smallest": "offpeak",
+        "count": "5960",
+        "cardinality": "5960"
+      },
+      "format": {
+        "align": "center"
+      }
+    },
+    {
+      "id": 598900232,
+      "name": "num_passengers",
+      "dataTypeName": "number",
+      "description": "Total number of estimated passengers reported each month and on each line.",
+      "fieldName": "num_passengers",
+      "position": 5,
+      "renderTypeName": "number",
+      "tableColumnId": 140462275,
+      "cachedContents": {
+        "non_null": "5960",
+        "largest": "10183072.484375",
+        "null": "0",
+        "top": [
+          {
+            "item": "1341073.7946166992",
+            "count": "1"
+          },
+          {
+            "item": "1771151.99609375",
+            "count": "1"
+          },
+          {
+            "item": "2952364.365234375",
+            "count": "1"
+          },
+          {
+            "item": "4783331.841796875",
+            "count": "1"
+          },
+          {
+            "item": "194860.36569213867",
+            "count": "1"
+          },
+          {
+            "item": "3026424.0810546875",
+            "count": "1"
+          },
+          {
+            "item": "1544778.6079101562",
+            "count": "1"
+          },
+          {
+            "item": "873603.0986328125",
+            "count": "1"
+          },
+          {
+            "item": "1798488.875",
+            "count": "1"
+          },
+          {
+            "item": "1674214.796989441",
+            "count": "1"
+          },
+          {
+            "item": "2541592.0063476562",
+            "count": "1"
+          },
+          {
+            "item": "4839217.3759765625",
+            "count": "1"
+          },
+          {
+            "item": "984103.296585083",
+            "count": "1"
+          },
+          {
+            "item": "7566485.202636719",
+            "count": "1"
+          },
+          {
+            "item": "1929463.5944824219",
+            "count": "1"
+          },
+          {
+            "item": "1870291.5185546875",
+            "count": "1"
+          },
+          {
+            "item": "5423734.3125",
+            "count": "1"
+          },
+          {
+            "item": "8172768.686626434",
+            "count": "1"
+          },
+          {
+            "item": "5748607.1171875",
+            "count": "1"
+          },
+          {
+            "item": "2895849.5881347656",
+            "count": "1"
+          }
+        ],
+        "smallest": "3017.299980163574",
+        "count": "5960",
+        "cardinality": "5960"
+      },
+      "format": {
+        "align": "right"
+      }
+    },
+    {
+      "id": 598900233,
+      "name": "additional platform time",
+      "dataTypeName": "number",
+      "description": "The average estimated additional time in minutes (above scheduled time) customers wait for their train, reported each month and on each line.",
+      "fieldName": "additional_platform_time",
+      "position": 6,
+      "renderTypeName": "number",
+      "tableColumnId": 140462276,
+      "cachedContents": {
+        "non_null": "5960",
+        "largest": "3.506891822074864",
+        "null": "0",
+        "top": [
+          {
+            "item": "1.7238970943347074",
+            "count": "1"
+          },
+          {
+            "item": "1.0628967615341043",
+            "count": "1"
+          },
+          {
+            "item": "1.8784823263048362",
+            "count": "1"
+          },
+          {
+            "item": "1.807403410243614",
+            "count": "1"
+          },
+          {
+            "item": "1.6064542766455745",
+            "count": "1"
+          },
+          {
+            "item": "1.4647722737007967",
+            "count": "1"
+          },
+          {
+            "item": "1.6399625146761243",
+            "count": "1"
+          },
+          {
+            "item": "1.4033973349857203",
+            "count": "1"
+          },
+          {
+            "item": "1.5038655906587584",
+            "count": "1"
+          },
+          {
+            "item": "1.4903309582966993",
+            "count": "1"
+          },
+          {
+            "item": "1.6576538748310323",
+            "count": "1"
+          },
+          {
+            "item": "0.25136562874600793",
+            "count": "1"
+          },
+          {
+            "item": "0.5038089858832857",
+            "count": "1"
+          },
+          {
+            "item": "1.0904981238374858",
+            "count": "1"
+          },
+          {
+            "item": "1.0884866768657178",
+            "count": "1"
+          },
+          {
+            "item": "1.6369675094598815",
+            "count": "1"
+          },
+          {
+            "item": "0.928129368074566",
+            "count": "1"
+          },
+          {
+            "item": "0.7689270773319828",
+            "count": "1"
+          },
+          {
+            "item": "0.8454684273018866",
+            "count": "1"
+          },
+          {
+            "item": "0.42664823812013813",
+            "count": "1"
+          }
+        ],
+        "smallest": "-0.4314961444491831",
+        "count": "5960",
+        "cardinality": "5960"
+      },
+      "format": {
+        "align": "center"
+      }
+    },
+    {
+      "id": 598900234,
+      "name": "additional train time",
+      "dataTypeName": "number",
+      "description": "The average estimated additional time in minutes (above scheduled time) customers spend onboard a train, reported each month and on each line.",
+      "fieldName": "additional_train_time",
+      "position": 7,
+      "renderTypeName": "number",
+      "tableColumnId": 140462277,
+      "cachedContents": {
+        "non_null": "5960",
+        "largest": "3.0487870359486102",
+        "null": "0",
+        "top": [
+          {
+            "item": "0.9452944611472951",
+            "count": "1"
+          },
+          {
+            "item": "1.223552310331965",
+            "count": "1"
+          },
+          {
+            "item": "0.511084518771746",
+            "count": "1"
+          },
+          {
+            "item": "0.16857505092201522",
+            "count": "1"
+          },
+          {
+            "item": "0.3397695483225319",
+            "count": "1"
+          },
+          {
+            "item": "1.7158835257965808",
+            "count": "1"
+          },
+          {
+            "item": "1.3713663309367108",
+            "count": "1"
+          },
+          {
+            "item": "-0.14072402207512047",
+            "count": "1"
+          },
+          {
+            "item": "0.46634604625330167",
+            "count": "1"
+          },
+          {
+            "item": "0.057721909968783555",
+            "count": "1"
+          },
+          {
+            "item": "0.2489734698609717",
+            "count": "1"
+          },
+          {
+            "item": "0.9731354246667365",
+            "count": "1"
+          },
+          {
+            "item": "-0.13703107575721823",
+            "count": "1"
+          },
+          {
+            "item": "0.4612118740949194",
+            "count": "1"
+          },
+          {
+            "item": "0.527402958031068",
+            "count": "1"
+          },
+          {
+            "item": "0.9657184130182641",
+            "count": "1"
+          },
+          {
+            "item": "0.8954314942731266",
+            "count": "1"
+          },
+          {
+            "item": "0.2315989845702167",
+            "count": "1"
+          },
+          {
+            "item": "0.028766526909475426",
+            "count": "1"
+          },
+          {
+            "item": "0.7774019546290447",
+            "count": "1"
+          }
+        ],
+        "smallest": "-2.213688003498771",
+        "count": "5960",
+        "cardinality": "5960"
+      },
+      "format": {
+        "align": "center"
+      }
+    },
+    {
+      "id": 598900235,
+      "name": "total_apt",
+      "dataTypeName": "number",
+      "description": "The total number of estimated additional time in minutes (above scheduled time) customers wait for their train, reported each month and on each line.",
+      "fieldName": "total_apt",
+      "position": 8,
+      "renderTypeName": "number",
+      "tableColumnId": 145577532,
+      "cachedContents": {
+        "non_null": "5960",
+        "largest": "18581697.836607933",
+        "null": "0",
+        "top": [
+          {
+            "item": "79138.88496696949",
+            "count": "1"
+          },
+          {
+            "item": "3604652.42175436",
+            "count": "1"
+          },
+          {
+            "item": "1445059.4444007874",
+            "count": "1"
+          },
+          {
+            "item": "5084937.4912109375",
+            "count": "1"
+          },
+          {
+            "item": "4785003.536743164",
+            "count": "1"
+          },
+          {
+            "item": "3873648.0205078125",
+            "count": "1"
+          },
+          {
+            "item": "7435966.3466796875",
+            "count": "1"
+          },
+          {
+            "item": "4694992.919189453",
+            "count": "1"
+          },
+          {
+            "item": "1453219.7197265625",
+            "count": "1"
+          },
+          {
+            "item": "768477.9820709229",
+            "count": "1"
+          },
+          {
+            "item": "276117.56036376953",
+            "count": "1"
+          },
+          {
+            "item": "6391023.9775390625",
+            "count": "1"
+          },
+          {
+            "item": "3792617.6767765284",
+            "count": "1"
+          },
+          {
+            "item": "9573216.44543171",
+            "count": "1"
+          },
+          {
+            "item": "3715879.652191162",
+            "count": "1"
+          },
+          {
+            "item": "5294872.04296875",
+            "count": "1"
+          },
+          {
+            "item": "3669014.8671875",
+            "count": "1"
+          },
+          {
+            "item": "5470311.1142578125",
+            "count": "1"
+          },
+          {
+            "item": "6802614.251569152",
+            "count": "1"
+          },
+          {
+            "item": "4244906.896728516",
+            "count": "1"
+          }
+        ],
+        "smallest": "-7396.448021613061",
+        "count": "5960",
+        "cardinality": "5960"
+      },
+      "format": {
+        "align": "right"
+      }
+    },
+    {
+      "id": 598900237,
+      "name": "total_att",
+      "dataTypeName": "number",
+      "description": "The total number of average additional time in minutes (above scheduled time) customers spend onboard a train, reported each month and on each line.",
+      "fieldName": "total_att",
+      "position": 9,
+      "renderTypeName": "number",
+      "tableColumnId": 145577531,
+      "cachedContents": {
+        "non_null": "5960",
+        "largest": "18797697.924316406",
+        "null": "0",
+        "top": [
+          {
+            "item": "6757513.331387997",
+            "count": "1"
+          },
+          {
+            "item": "-562158.8870239258",
+            "count": "1"
+          },
+          {
+            "item": "4299001.756505489",
+            "count": "1"
+          },
+          {
+            "item": "1555745.2229452133",
+            "count": "1"
+          },
+          {
+            "item": "-687856.6776828766",
+            "count": "1"
+          },
+          {
+            "item": "1102659.873085022",
+            "count": "1"
+          },
+          {
+            "item": "358036.13694763184",
+            "count": "1"
+          },
+          {
+            "item": "89249.78334894031",
+            "count": "1"
+          },
+          {
+            "item": "-1227416.16223526",
+            "count": "1"
+          },
+          {
+            "item": "636572.3841080666",
+            "count": "1"
+          },
+          {
+            "item": "4102249.4412841797",
+            "count": "1"
+          },
+          {
+            "item": "2242297.613861084",
+            "count": "1"
+          },
+          {
+            "item": "-27699.4629945755",
+            "count": "1"
+          },
+          {
+            "item": "356723.30802060664",
+            "count": "1"
+          },
+          {
+            "item": "-13030.715144008398",
+            "count": "1"
+          },
+          {
+            "item": "1609486.458984375",
+            "count": "1"
+          },
+          {
+            "item": "-36705.9072599411",
+            "count": "1"
+          },
+          {
+            "item": "1687889.2921153754",
+            "count": "1"
+          },
+          {
+            "item": "-35174.34896397591",
+            "count": "1"
+          },
+          {
+            "item": "1141298.461991787",
+            "count": "1"
+          }
+        ],
+        "smallest": "-3060991.90725708",
+        "count": "5960",
+        "cardinality": "5960"
+      },
+      "format": {
+        "align": "right"
+      }
+    },
+    {
+      "id": 598900238,
+      "name": "over_five_mins",
+      "dataTypeName": "number",
+      "description": "The estimated total number of customers whose journeys are not completed within 5 minutes of the scheduled time, reported each month and on each line.",
+      "fieldName": "over_five_mins",
+      "position": 10,
+      "renderTypeName": "number",
+      "tableColumnId": 145577530,
+      "cachedContents": {
+        "non_null": "5960",
+        "largest": "2326755.602294922",
+        "null": "0",
+        "top": [
+          {
+            "item": "736850.3005514145",
+            "count": "1"
+          },
+          {
+            "item": "415075.9970703125",
+            "count": "1"
+          },
+          {
+            "item": "495963.79912638664",
+            "count": "1"
+          },
+          {
+            "item": "471457.29919433594",
+            "count": "1"
+          },
+          {
+            "item": "383519.499420166",
+            "count": "1"
+          },
+          {
+            "item": "596317.4996979237",
+            "count": "1"
+          },
+          {
+            "item": "566808.3995478153",
+            "count": "1"
+          },
+          {
+            "item": "438399.5998916626",
+            "count": "1"
+          },
+          {
+            "item": "8613.499998092651",
+            "count": "1"
+          },
+          {
+            "item": "376663.29988098145",
+            "count": "1"
+          },
+          {
+            "item": "132566.4002788067",
+            "count": "1"
+          },
+          {
+            "item": "224365.5993347168",
+            "count": "1"
+          },
+          {
+            "item": "639279.9990700483",
+            "count": "1"
+          },
+          {
+            "item": "56222.50021672249",
+            "count": "1"
+          },
+          {
+            "item": "679402.9000244141",
+            "count": "1"
+          },
+          {
+            "item": "343607.8244781494",
+            "count": "1"
+          },
+          {
+            "item": "1515332.9989624023",
+            "count": "1"
+          },
+          {
+            "item": "781335.1994991302",
+            "count": "1"
+          },
+          {
+            "item": "359432.1997680664",
+            "count": "1"
+          },
+          {
+            "item": "260515.70017814636",
+            "count": "1"
+          }
+        ],
+        "smallest": "0.0",
+        "count": "5960",
+        "cardinality": "5960"
+      },
+      "format": {
+        "align": "right"
+      }
+    },
+    {
+      "id": 598900239,
+      "name": "over_five_mins_perc",
+      "dataTypeName": "number",
+      "description": "The estimated percentage of customers whose journeys are not completed within 5 minutes of the scheduled time, reported each month and on each line.",
+      "fieldName": "over_five_mins_perc",
+      "position": 11,
+      "renderTypeName": "number",
+      "tableColumnId": 145577529,
+      "cachedContents": {
+        "non_null": "5960",
+        "largest": "0.38072753621317634",
+        "null": "0",
+        "top": [
+          {
+            "item": "0.1551579924434098",
+            "count": "1"
+          },
+          {
+            "item": "0.23533514388047294",
+            "count": "1"
+          },
+          {
+            "item": "0.08835483224178341",
+            "count": "1"
+          },
+          {
+            "item": "0.17891722526498063",
+            "count": "1"
+          },
+          {
+            "item": "0.18387380053708618",
+            "count": "1"
+          },
+          {
+            "item": "0.24489991545339945",
+            "count": "1"
+          },
+          {
+            "item": "0.23853349620223255",
+            "count": "1"
+          },
+          {
+            "item": "0.25890129670864626",
+            "count": "1"
+          },
+          {
+            "item": "0.16592079082759534",
+            "count": "1"
+          },
+          {
+            "item": "0.016153778922274535",
+            "count": "1"
+          },
+          {
+            "item": "0.1693072751126035",
+            "count": "1"
+          },
+          {
+            "item": "0.1158917593540967",
+            "count": "1"
+          },
+          {
+            "item": "0.20088381170166933",
+            "count": "1"
+          },
+          {
+            "item": "0.21614022348572562",
+            "count": "1"
+          },
+          {
+            "item": "0.15075554640930033",
+            "count": "1"
+          },
+          {
+            "item": "0.17530808447329663",
+            "count": "1"
+          },
+          {
+            "item": "0.03902531217172777",
+            "count": "1"
+          },
+          {
+            "item": "0.11060346595339818",
+            "count": "1"
+          },
+          {
+            "item": "0.18128271550535782",
+            "count": "1"
+          },
+          {
+            "item": "0.07519973633945314",
+            "count": "1"
+          }
+        ],
+        "smallest": "0.0",
+        "count": "5960",
+        "cardinality": "5960"
+      },
+      "format": {
+        "precisionStyle": "percentage",
+        "percentScale": "1",
+        "align": "right"
+      }
+    },
+    {
+      "id": 598900240,
+      "name": "customer journey time performance",
+      "dataTypeName": "number",
+      "description": "The estimated percentage of customers whose journeys are completed within 5 minutes of the scheduled time, reported each month and on each line.",
+      "fieldName": "customer_journey_time",
+      "position": 12,
+      "renderTypeName": "number",
+      "tableColumnId": 140462274,
+      "cachedContents": {
+        "non_null": "5960",
+        "largest": "1.0",
+        "null": "0",
+        "top": [
+          {
+            "item": "0.8203522810023322",
+            "count": "1"
+          },
+          {
+            "item": "0.8117106273606725",
+            "count": "1"
+          },
+          {
+            "item": "0.785968655058754",
+            "count": "1"
+          },
+          {
+            "item": "0.7961561913708393",
+            "count": "1"
+          },
+          {
+            "item": "0.7292993132460603",
+            "count": "1"
+          },
+          {
+            "item": "0.7740076271583752",
+            "count": "1"
+          },
+          {
+            "item": "0.8208645130161388",
+            "count": "1"
+          },
+          {
+            "item": "0.8341254422532438",
+            "count": "1"
+          },
+          {
+            "item": "0.846355385271184",
+            "count": "1"
+          },
+          {
+            "item": "0.8662080902291187",
+            "count": "1"
+          },
+          {
+            "item": "0.8315135845762605",
+            "count": "1"
+          },
+          {
+            "item": "0.922186495951432",
+            "count": "1"
+          },
+          {
+            "item": "0.815904737083285",
+            "count": "1"
+          },
+          {
+            "item": "0.8884226358025472",
+            "count": "1"
+          },
+          {
+            "item": "0.8849682658817212",
+            "count": "1"
+          },
+          {
+            "item": "0.8797016056140279",
+            "count": "1"
+          },
+          {
+            "item": "0.7777507878318368",
+            "count": "1"
+          },
+          {
+            "item": "0.7714811789920833",
+            "count": "1"
+          },
+          {
+            "item": "0.8172332331314027",
+            "count": "1"
+          },
+          {
+            "item": "0.8254404848183846",
+            "count": "1"
+          }
+        ],
+        "smallest": "0.6192724637868237",
+        "count": "5960",
+        "cardinality": "5960"
+      },
+      "format": {
+        "precisionStyle": "percentage",
+        "percentScale": "1",
+        "align": "right"
+      }
+    }
+  ],
+  "grants": [
+    {
+      "inherited": false,
+      "type": "viewer",
+      "flags": [
+        "public"
+      ]
+    }
+  ],
+  "metadata": {
+    "rdfSubject": "0",
+    "rdfClass": "",
+    "attachments": [
+      {
+        "filename": "MTA_SubwayCustomerJourneyFocusedMetrics_Overview.pdf",
+        "assetId": "6df4aa7f-70eb-4e44-b1ce-bc4a1ad3379a",
+        "name": "MTA_SubwayCustomerJourneyFocusedMetrics_Overview.pdf"
+      },
+      {
+        "filename": "MTA_SubwayCustomerJourneyFocusedMetrics_DataDictionary.pdf",
+        "assetId": "b916d86e-edb6-4c4c-90a2-d392ce54236b",
+        "name": "MTA_SubwayCustomerJourneyFocusedMetrics_DataDictionary.pdf"
+      }
+    ],
+    "custom_fields": {
+      "Dataset Summary": {
+        "Posting Frequency": "Monthly",
+        "Organization": "New York City Transit",
+        "Contact Information": "OpenData@mtahq.org",
+        "Time Period": "Beginning 2015",
+        "Coverage": "New York City",
+        "Granularity": "Subway line, month",
+        "Dataset Owner": "Metropolitan Transportation Authority"
+      },
+      "Additional Resources": {
+        "See Also": "https://metrics.mta.info/"
+      },
+      "Dataset Information": {
+        "Agency": "Metropolitan Transportation Authority"
+      }
+    },
+    "availableDisplayTypes": [
+      "table",
+      "fatrow",
+      "page"
+    ]
+  },
+  "owner": {
+    "id": "xzik-pf59",
+    "displayName": "NY Open Data",
+    "profileImageUrlLarge": "/api/users/xzik-pf59/profile_images/LARGE",
+    "profileImageUrlMedium": "/api/users/xzik-pf59/profile_images/THUMB",
+    "profileImageUrlSmall": "/api/users/xzik-pf59/profile_images/TINY",
+    "screenName": "NY Open Data",
+    "type": "interactive",
+    "flags": [
+      "acceptedEula",
+      "mayBeStoriesCoOwner"
+    ]
+  },
+  "query": {},
+  "rights": [
+    "read"
+  ],
+  "tableAuthor": {
+    "id": "xzik-pf59",
+    "displayName": "NY Open Data",
+    "profileImageUrlLarge": "/api/users/xzik-pf59/profile_images/LARGE",
+    "profileImageUrlMedium": "/api/users/xzik-pf59/profile_images/THUMB",
+    "profileImageUrlSmall": "/api/users/xzik-pf59/profile_images/TINY",
+    "screenName": "NY Open Data",
+    "type": "interactive",
+    "flags": [
+      "acceptedEula",
+      "mayBeStoriesCoOwner"
+    ]
+  },
+  "tags": [
+    "new york city transit",
+    "nyct",
+    "subway",
+    "line",
+    "subway line",
+    "monthly",
+    "service",
+    "waiting time",
+    "wait time",
+    "travel time",
+    "train time",
+    "platform time",
+    "journey time",
+    "performance",
+    "customer journey time",
+    "customer journey time performance",
+    "customers",
+    "passengers",
+    "delays",
+    "reliability",
+    "ridership"
+  ],
+  "flags": [
+    "default",
+    "ownerMayBeContacted",
+    "restorable",
+    "restorePossibleForType"
+  ]
+}

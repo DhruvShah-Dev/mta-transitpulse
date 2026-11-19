@@ -1,0 +1,22 @@
+table rpt_dim_delay_category
+	lineageTag: 6f32d2e7-81ff-4fd1-bbae-141cbdbe6a52
+
+	column delay_category
+		dataType: string
+		lineageTag: 33ab999b-4a5b-4f91-a053-c70c35f1714e
+		summarizeBy: none
+		sourceColumn: delay_category
+
+	partition rpt_dim_delay_category = m
+		mode: import
+		source =
+				let
+				    Encoded = Text.Combine({
+				        "H4sIAAAAAAACChXLQQrCQAxA0f3A3CEr0WNIqeBCKoJ0KXEmLcGYGdNU7e2t289/mQSXW0KnsdgSw/aqU6XEA1PexdAYfWD/Rha8s7CvR/t1MkWBAyYvNsVw1MFwcpuTz0awgfY1c32SegxdJUNnHaEpmtm56CrOgqqU4dL10Bd7rKUIp789UeaEEsMPzoIOoJoAAAA="
+				    }, ""),
+				    Source = Csv.Document(Binary.Decompress(Binary.FromText(Encoded, BinaryEncoding.Base64), Compression.GZip), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Headers, {{"delay_category", type text}}, "en-US")
+				in
+				    Typed
+

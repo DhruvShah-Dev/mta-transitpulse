@@ -1,0 +1,73 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
+  "name": "5ea3b8ffe4bb580c8019",
+  "position": {
+    "x": 1625,
+    "y": 50,
+    "z": 5000,
+    "height": 84,
+    "width": 235,
+    "tabOrder": 5
+  },
+  "visual": {
+    "visualType": "slicer",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "rpt_dim_delay_category"
+                    }
+                  },
+                  "Property": "delay_category"
+                }
+              },
+              "queryRef": "rpt_dim_delay_category.delay_category",
+              "nativeQueryRef": "delay_category",
+              "active": true
+            }
+          ]
+        }
+      }
+    },
+    "objects": {
+      "data": [
+        {
+          "properties": {
+            "mode": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Dropdown'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "header": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Delay category'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

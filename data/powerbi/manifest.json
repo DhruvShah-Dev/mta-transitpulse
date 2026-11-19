@@ -1,0 +1,143 @@
+{
+  "source_period": "2022-01 through 2025-12",
+  "mode": "PostgreSQL views with CSV mirror",
+  "2025_cjt_percent": 85.40243028952472,
+  "2025_net_additional_passenger_minutes": 3240546696.0872755,
+  "tables": {
+    "rpt_dim_month": {
+      "rows": 48,
+      "columns": [
+        "month",
+        "year",
+        "month_number",
+        "month_label"
+      ],
+      "sha256": "d5f3e7112ed799766b8a8fe2aae01c404118cb5715a287e38f23e51e735e8fee"
+    },
+    "rpt_dim_line": {
+      "rows": 23,
+      "columns": [
+        "line_id",
+        "line_label",
+        "is_shuttle"
+      ],
+      "sha256": "501f6cfafdf9f2d0f0583899d523be4097019c805494b9d7e8a2a87467409474"
+    },
+    "rpt_dim_delay_category": {
+      "rows": 7,
+      "columns": [
+        "delay_category"
+      ],
+      "sha256": "7e17bacb0e6da8749a7a8e06325770303bda29a94c8a989d646094499701b443"
+    },
+    "rpt_dim_major_category": {
+      "rows": 6,
+      "columns": [
+        "major_category"
+      ],
+      "sha256": "603c860633eee51fad5459dde784d117fec4acb1e42cdf10a25e0a004a3c6cc1"
+    },
+    "rpt_customer_month_line_period": {
+      "rows": 2204,
+      "columns": [
+        "month",
+        "line_id",
+        "period",
+        "passenger_trips",
+        "over_five_trips",
+        "platform_minutes",
+        "train_minutes",
+        "net_additional_passenger_minutes"
+      ],
+      "sha256": "b15714cb141bf44a71e5d096cfdacab6c3cf7c8d87739134499b058c4cdfbf22"
+    },
+    "rpt_delay_month_line_category": {
+      "rows": 15043,
+      "columns": [
+        "month",
+        "line_id",
+        "day_type",
+        "delay_category",
+        "delay_incidents"
+      ],
+      "sha256": "a7865444b1607400414122bfb137a3d675bd2438ecebc1b42891e4a1b758de16"
+    },
+    "rpt_major_month_line_category": {
+      "rows": 1912,
+      "columns": [
+        "month",
+        "line_id",
+        "day_type",
+        "major_category",
+        "major_incidents"
+      ],
+      "sha256": "0eda228396b3af62980cb0d0b4c31815f9c4ff8061e09c1a698174717d437d54"
+    },
+    "rpt_service_month_line_daytype": {
+      "rows": 2153,
+      "columns": [
+        "month",
+        "line_id",
+        "day_type",
+        "scheduled_peak_trains",
+        "actual_peak_trains",
+        "rows_over_100_percent"
+      ],
+      "sha256": "41990054d482f9c59061df4a760dc1ba267a053a07da96083251dc081d7b699c"
+    },
+    "rpt_priority_2025": {
+      "rows": 23,
+      "columns": [
+        "line_id",
+        "customer_months",
+        "passenger_trips",
+        "trips_over_five_minutes",
+        "cjt_percent",
+        "platform_minutes",
+        "train_minutes",
+        "net_additional_passenger_minutes",
+        "ajt_minutes_per_trip",
+        "cjt_2022_percent",
+        "cjt_2023_percent",
+        "cjt_2024_percent",
+        "ajt_2022_minutes_per_trip",
+        "ajt_2023_minutes_per_trip",
+        "ajt_2024_minutes_per_trip",
+        "cjt_yoy_change_pp",
+        "cjt_since_2022_change_pp",
+        "incident_months",
+        "weekday_delay_incidents",
+        "major_incident_record_months",
+        "weekday_major_incidents",
+        "service_months",
+        "scheduled_peak_trains",
+        "actual_peak_trains",
+        "service_delivered_percent",
+        "service_rows_over_100_percent",
+        "reliability_concern_score",
+        "passenger_burden_score",
+        "operational_risk_score",
+        "incident_coverage_complete",
+        "service_coverage_complete",
+        "priority_quadrant",
+        "pareto_customer_frontier",
+        "score_baseline",
+        "rank_baseline",
+        "score_equal",
+        "rank_equal",
+        "score_reliability_focused",
+        "rank_reliability_focused",
+        "score_burden_focused",
+        "rank_burden_focused",
+        "score_service_focused",
+        "rank_service_focused",
+        "rank_best_case",
+        "rank_worst_case",
+        "rank_range",
+        "score_year",
+        "review_status"
+      ],
+      "sha256": "29ef4f441c41ebb59de1ee2474300580aacc3727d836ce73aa0a0e7054b70fa3"
+    }
+  }
+}

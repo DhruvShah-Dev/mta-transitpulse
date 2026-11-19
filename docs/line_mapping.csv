@@ -1,0 +1,99 @@
+source_dataset,original_line,canonical_line,comparison_line,mapping_status,evidence
+customer_journey,1,1,1,verified_direct,MTA dataset dictionary; comparison group combines N and W
+customer_journey,2,2,2,verified_direct,MTA dataset dictionary; comparison group combines N and W
+customer_journey,3,3,3,verified_direct,MTA dataset dictionary; comparison group combines N and W
+customer_journey,4,4,4,verified_direct,MTA dataset dictionary; comparison group combines N and W
+customer_journey,5,5,5,verified_direct,MTA dataset dictionary; comparison group combines N and W
+customer_journey,6,6,6,verified_direct,MTA dataset dictionary; comparison group combines N and W
+customer_journey,7,7,7,verified_direct,MTA dataset dictionary; comparison group combines N and W
+customer_journey,A,A,A,verified_direct,MTA dataset dictionary; comparison group combines N and W
+customer_journey,B,B,B,verified_direct,MTA dataset dictionary; comparison group combines N and W
+customer_journey,C,C,C,verified_direct,MTA dataset dictionary; comparison group combines N and W
+customer_journey,D,D,D,verified_direct,MTA dataset dictionary; comparison group combines N and W
+customer_journey,E,E,E,verified_direct,MTA dataset dictionary; comparison group combines N and W
+customer_journey,F,F,F,verified_direct,MTA dataset dictionary; comparison group combines N and W
+customer_journey,G,G,G,verified_direct,MTA dataset dictionary; comparison group combines N and W
+customer_journey,JZ,JZ,JZ,verified_direct,MTA dataset dictionary; comparison group combines N and W
+customer_journey,L,L,L,verified_direct,MTA dataset dictionary; comparison group combines N and W
+customer_journey,M,M,M,verified_direct,MTA dataset dictionary; comparison group combines N and W
+customer_journey,N,N,NW,combined_for_comparison,MTA dataset dictionary; comparison group combines N and W
+customer_journey,Q,Q,Q,verified_direct,MTA dataset dictionary; comparison group combines N and W
+customer_journey,R,R,R,verified_direct,MTA dataset dictionary; comparison group combines N and W
+customer_journey,S 42nd,S 42nd,S 42nd,verified_direct,MTA dataset dictionary; comparison group combines N and W
+customer_journey,S Fkln,S Fkln,S Fkln,verified_direct,MTA dataset dictionary; comparison group combines N and W
+customer_journey,S Rock,S Rock,S Rock,verified_direct,MTA dataset dictionary; comparison group combines N and W
+customer_journey,W,W,NW,combined_for_comparison,MTA dataset dictionary; comparison group combines N and W
+delay_incidents,1,1,1,verified_direct,MTA dataset dictionary; comparison group combines N and W
+delay_incidents,2,2,2,verified_direct,MTA dataset dictionary; comparison group combines N and W
+delay_incidents,3,3,3,verified_direct,MTA dataset dictionary; comparison group combines N and W
+delay_incidents,4,4,4,verified_direct,MTA dataset dictionary; comparison group combines N and W
+delay_incidents,5,5,5,verified_direct,MTA dataset dictionary; comparison group combines N and W
+delay_incidents,6,6,6,verified_direct,MTA dataset dictionary; comparison group combines N and W
+delay_incidents,7,7,7,verified_direct,MTA dataset dictionary; comparison group combines N and W
+delay_incidents,A,A,A,verified_direct,MTA dataset dictionary; comparison group combines N and W
+delay_incidents,B,B,B,verified_direct,MTA dataset dictionary; comparison group combines N and W
+delay_incidents,C,C,C,verified_direct,MTA dataset dictionary; comparison group combines N and W
+delay_incidents,D,D,D,verified_direct,MTA dataset dictionary; comparison group combines N and W
+delay_incidents,E,E,E,verified_direct,MTA dataset dictionary; comparison group combines N and W
+delay_incidents,F,F,F,verified_direct,MTA dataset dictionary; comparison group combines N and W
+delay_incidents,G,G,G,verified_direct,MTA dataset dictionary; comparison group combines N and W
+delay_incidents,JZ,JZ,JZ,verified_direct,MTA dataset dictionary; comparison group combines N and W
+delay_incidents,L,L,L,verified_direct,MTA dataset dictionary; comparison group combines N and W
+delay_incidents,M,M,M,verified_direct,MTA dataset dictionary; comparison group combines N and W
+delay_incidents,N,NW,NW,combined_source,MTA source overview: N and W combined under N
+delay_incidents,Q,Q,Q,verified_direct,MTA dataset dictionary; comparison group combines N and W
+delay_incidents,R,R,R,verified_direct,MTA dataset dictionary; comparison group combines N and W
+delay_incidents,S 42nd,S 42nd,S 42nd,verified_direct,MTA dataset dictionary; comparison group combines N and W
+delay_incidents,S Fkln,S Fkln,S Fkln,verified_direct,MTA dataset dictionary; comparison group combines N and W
+delay_incidents,S Rock,S Rock,S Rock,verified_direct,MTA dataset dictionary; comparison group combines N and W
+major_incidents,,UNASSIGNED,,excluded_unassigned,MTA major-incident overview: non-revenue incidents may lack a line
+major_incidents,1,1,1,verified_direct,MTA dataset dictionary; comparison group combines N and W
+major_incidents,2,2,2,verified_direct,MTA dataset dictionary; comparison group combines N and W
+major_incidents,3,3,3,verified_direct,MTA dataset dictionary; comparison group combines N and W
+major_incidents,4,4,4,verified_direct,MTA dataset dictionary; comparison group combines N and W
+major_incidents,5,5,5,verified_direct,MTA dataset dictionary; comparison group combines N and W
+major_incidents,6,6,6,verified_direct,MTA dataset dictionary; comparison group combines N and W
+major_incidents,7,7,7,verified_direct,MTA dataset dictionary; comparison group combines N and W
+major_incidents,A,A,A,verified_direct,MTA dataset dictionary; comparison group combines N and W
+major_incidents,B,B,B,verified_direct,MTA dataset dictionary; comparison group combines N and W
+major_incidents,C,C,C,verified_direct,MTA dataset dictionary; comparison group combines N and W
+major_incidents,D,D,D,verified_direct,MTA dataset dictionary; comparison group combines N and W
+major_incidents,E,E,E,verified_direct,MTA dataset dictionary; comparison group combines N and W
+major_incidents,F,F,F,verified_direct,MTA dataset dictionary; comparison group combines N and W
+major_incidents,G,G,G,verified_direct,MTA dataset dictionary; comparison group combines N and W
+major_incidents,JZ,JZ,JZ,verified_direct,MTA dataset dictionary; comparison group combines N and W
+major_incidents,L,L,L,verified_direct,MTA dataset dictionary; comparison group combines N and W
+major_incidents,M,M,M,verified_direct,MTA dataset dictionary; comparison group combines N and W
+major_incidents,N,NW,NW,combined_source,MTA source overview: N and W combined under N
+major_incidents,Q,Q,Q,verified_direct,MTA dataset dictionary; comparison group combines N and W
+major_incidents,R,R,R,verified_direct,MTA dataset dictionary; comparison group combines N and W
+major_incidents,S 42nd,S 42nd,S 42nd,verified_direct,MTA dataset dictionary; comparison group combines N and W
+major_incidents,S Fkln,S Fkln,S Fkln,verified_direct,MTA dataset dictionary; comparison group combines N and W
+major_incidents,S Rock,S Rock,S Rock,verified_direct,MTA dataset dictionary; comparison group combines N and W
+service_delivered,1,1,1,verified_direct,MTA dataset dictionary; comparison group combines N and W
+service_delivered,2,2,2,verified_direct,MTA dataset dictionary; comparison group combines N and W
+service_delivered,3,3,3,verified_direct,MTA dataset dictionary; comparison group combines N and W
+service_delivered,4,4,4,verified_direct,MTA dataset dictionary; comparison group combines N and W
+service_delivered,5,5,5,verified_direct,MTA dataset dictionary; comparison group combines N and W
+service_delivered,6,6,6,verified_direct,MTA dataset dictionary; comparison group combines N and W
+service_delivered,7,7,7,verified_direct,MTA dataset dictionary; comparison group combines N and W
+service_delivered,A,A,A,verified_direct,MTA dataset dictionary; comparison group combines N and W
+service_delivered,B,B,B,verified_direct,MTA dataset dictionary; comparison group combines N and W
+service_delivered,C,C,C,verified_direct,MTA dataset dictionary; comparison group combines N and W
+service_delivered,D,D,D,verified_direct,MTA dataset dictionary; comparison group combines N and W
+service_delivered,E,E,E,verified_direct,MTA dataset dictionary; comparison group combines N and W
+service_delivered,F,F,F,verified_direct,MTA dataset dictionary; comparison group combines N and W
+service_delivered,FS,S Fkln,S Fkln,verified_alias,MTA GTFS subway routes.txt route ID and route long name
+service_delivered,G,G,G,verified_direct,MTA dataset dictionary; comparison group combines N and W
+service_delivered,GS,S 42nd,S 42nd,verified_alias,MTA GTFS subway routes.txt route ID and route long name
+service_delivered,H,S Rock,S Rock,verified_alias,MTA GTFS subway routes.txt route ID and route long name
+service_delivered,JZ,JZ,JZ,verified_direct,MTA dataset dictionary; comparison group combines N and W
+service_delivered,L,L,L,verified_direct,MTA dataset dictionary; comparison group combines N and W
+service_delivered,M,M,M,verified_direct,MTA dataset dictionary; comparison group combines N and W
+service_delivered,N,N,NW,combined_for_comparison,MTA dataset dictionary; comparison group combines N and W
+service_delivered,Q,Q,Q,verified_direct,MTA dataset dictionary; comparison group combines N and W
+service_delivered,R,R,R,verified_direct,MTA dataset dictionary; comparison group combines N and W
+service_delivered,S 42nd,S 42nd,S 42nd,verified_direct,MTA dataset dictionary; comparison group combines N and W
+service_delivered,S Fkln,S Fkln,S Fkln,verified_direct,MTA dataset dictionary; comparison group combines N and W
+service_delivered,S Rock,S Rock,S Rock,verified_direct,MTA dataset dictionary; comparison group combines N and W
+service_delivered,W,W,NW,combined_for_comparison,MTA dataset dictionary; comparison group combines N and W

@@ -1,0 +1,175 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
+  "name": "46469893033759fbaffa",
+  "position": {
+    "x": 50,
+    "y": 750,
+    "z": 6000,
+    "height": 230,
+    "width": 1810,
+    "tabOrder": 6
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "rpt_priority_2025"
+                    }
+                  },
+                  "Property": "line_id"
+                }
+              },
+              "queryRef": "rpt_priority_2025.line_id",
+              "nativeQueryRef": "line_id"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "rpt_priority_2025"
+                    }
+                  },
+                  "Property": "rank_baseline"
+                }
+              },
+              "queryRef": "rpt_priority_2025.rank_baseline",
+              "nativeQueryRef": "rank_baseline"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "rpt_priority_2025"
+                    }
+                  },
+                  "Property": "rank_equal"
+                }
+              },
+              "queryRef": "rpt_priority_2025.rank_equal",
+              "nativeQueryRef": "rank_equal"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "rpt_priority_2025"
+                    }
+                  },
+                  "Property": "rank_reliability_focused"
+                }
+              },
+              "queryRef": "rpt_priority_2025.rank_reliability_focused",
+              "nativeQueryRef": "rank_reliability_focused"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "rpt_priority_2025"
+                    }
+                  },
+                  "Property": "rank_burden_focused"
+                }
+              },
+              "queryRef": "rpt_priority_2025.rank_burden_focused",
+              "nativeQueryRef": "rank_burden_focused"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "rpt_priority_2025"
+                    }
+                  },
+                  "Property": "rank_service_focused"
+                }
+              },
+              "queryRef": "rpt_priority_2025.rank_service_focused",
+              "nativeQueryRef": "rank_service_focused"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "rpt_priority_2025"
+                  }
+                },
+                "Property": "rank_baseline"
+              }
+            },
+            "direction": "Ascending"
+          }
+        ]
+      }
+    },
+    "objects": {
+      "columnHeaders": [
+        {
+          "properties": {
+            "autoSizeColumnWidth": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "columnAdjustment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'growToFit'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Rank sensitivity across proposed weights'"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "13D"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

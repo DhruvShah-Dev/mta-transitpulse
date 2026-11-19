@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "checks": {
+    "one_row_per_eligible_group": true,
+    "inputs_documented_and_reconciled": true,
+    "missing_distinct_from_zero": true,
+    "components_bounded": true,
+    "weights_reproduce_ranks": true,
+    "four_lines_compared": true,
+    "recommendations_and_visual_evidence": true
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
+  "name": "ef97b6861b9f53879063",
+  "position": {
+    "x": 960,
+    "y": 175,
+    "z": 5000,
+    "height": 550,
+    "width": 900,
+    "tabOrder": 5
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "rpt_priority_2025"
+                    }
+                  },
+                  "Property": "line_id"
+                }
+              },
+              "queryRef": "rpt_priority_2025.line_id",
+              "nativeQueryRef": "line_id"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "rpt_priority_2025"
+                    }
+                  },
+                  "Property": "rank_baseline"
+                }
+              },
+              "queryRef": "rpt_priority_2025.rank_baseline",
+              "nativeQueryRef": "rank_baseline"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "rpt_priority_2025"
+                    }
+                  },
+                  "Property": "review_status"
+                }
+              },
+              "queryRef": "rpt_priority_2025.review_status",
+              "nativeQueryRef": "review_status"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "rpt_priority_2025"
+                    }
+                  },
+                  "Property": "cjt_percent"
+                }
+              },
+              "queryRef": "rpt_priority_2025.cjt_percent",
+              "nativeQueryRef": "cjt_percent"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "rpt_customer_month_line_period"
+                    }
+                  },
+                  "Property": "2025 Priority Net Minutes (M)"
+                }
+              },
+              "queryRef": "rpt_customer_month_line_period.2025 Priority Net Minutes (M)",
+              "nativeQueryRef": "2025 Priority Net Minutes (M)"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "rpt_priority_2025"
+                    }
+                  },
+                  "Property": "score_baseline"
+                }
+              },
+              "queryRef": "rpt_priority_2025.score_baseline",
+              "nativeQueryRef": "score_baseline"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "rpt_priority_2025"
+                  }
+                },
+                "Property": "rank_baseline"
+              }
+            },
+            "direction": "Ascending"
+          }
+        ]
+      }
+    },
+    "objects": {
+      "columnHeaders": [
+        {
+          "properties": {
+            "autoSizeColumnWidth": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "columnAdjustment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'growToFit'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "total": [
+        {
+          "properties": {
+            "totals": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'2025 line priority scorecard'"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "13D"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}
