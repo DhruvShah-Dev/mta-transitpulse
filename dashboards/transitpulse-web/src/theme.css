@@ -12,7 +12,7 @@
   --interaction-hover: var(--muted);
   --interaction-active: var(--control-hover);
   --text: light-dark(#102b49, #ecf5fc);
-  --secondary: light-dark(#627a90, #a8bfd2);
+  --secondary: light-dark(#425c73, #c5d6e5);
   --border: light-dark(#dce7f1, #35516b);
   --border-strong: var(--color-border-heavy, light-dark(#dfdfdf, #414141));
   --accent: light-dark(#005da9, #75b8ef);
