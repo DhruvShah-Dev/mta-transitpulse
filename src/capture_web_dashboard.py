@@ -19,6 +19,12 @@ VIEWS = [
     ("Diagnostics", "diagnostics"),
     ("Priorities", "priorities"),
 ]
+CHARTS = {
+    "overview": "reliability-trend",
+    "line-performance": "lowest-line-reliability",
+    "diagnostics": "delay-incidents-by-category",
+    "priorities": "reliability-vs-passenger-time",
+}
 
 
 def check(page, name: str) -> None:
@@ -64,6 +70,8 @@ def check_text_contrast(page, name: str) -> None:
 
 def main() -> None:
     OUTPUT.mkdir(parents=True, exist_ok=True)
+    chart_output = OUTPUT / "charts"
+    chart_output.mkdir(parents=True, exist_ok=True)
     with sync_playwright() as playwright:
         browser = playwright.chromium.launch(headless=True, executable_path=CHROME)
         desktop = browser.new_page(viewport={"width": 1440, "height": 900}, device_scale_factor=1)
@@ -84,6 +92,8 @@ def main() -> None:
                 desktop.locator(".tp-panel__heading select").select_option("F")
             desktop.screenshot(path=str(OUTPUT / f"{slug}.png"), full_page=True)
             print(f"Captured {slug}.png")
+            desktop.locator(".tp-panel").first.screenshot(path=str(chart_output / f"{CHARTS[slug]}.png"))
+            print(f"Captured charts/{CHARTS[slug]}.png")
         dark = browser.new_page(viewport={"width": 1440, "height": 900}, device_scale_factor=1, color_scheme="dark")
         dark.goto(URL, wait_until="networkidle")
         for label, slug in VIEWS:

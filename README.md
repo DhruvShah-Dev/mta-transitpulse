@@ -1,8 +1,14 @@
 # MTA TransitPulse
 
+[![Publish TransitPulse dashboard](https://github.com/DhruvShah-Dev/mta-transitpulse/actions/workflows/pages.yml/badge.svg)](https://github.com/DhruvShah-Dev/mta-transitpulse/actions/workflows/pages.yml)
+
 **A reproducible analysis of NYC subway reliability, passenger-time burden, and where to investigate next.** The evidence covers January 2022 through December 2025 using four MTA datasets downloaded from the [New York State Open Data portal](https://data.ny.gov/). The source snapshot was retrieved on 19 November 2026; this is a historical portfolio analysis, not a live operations feed or an official MTA recommendation.
 
 **[Open the interactive dashboard](https://dhruvshah-dev.github.io/mta-transitpulse/)** · [Executive case study PDF](reports/EXECUTIVE_CASE_STUDY.pdf) · [Power BI project](dashboards/TransitPulse.pbip)
+
+**Stack:** Python · PostgreSQL · React · Power BI · GitHub Pages
+
+**Explore:** [Featured charts](#featured-charts) · [Findings](#the-decision-in-three-findings) · [Reproduction](#run-the-browser-dashboard) · [Sources](#project-files-and-sources)
 
 [![TransitPulse browser dashboard overview](dashboards/screenshots/web/overview.png)](https://dhruvshah-dev.github.io/mta-transitpulse/)
 
@@ -17,6 +23,34 @@ The browser dashboard has four views: [Overview](dashboards/screenshots/web/over
 | Investigations can be sequenced | Under proposed 40% reliability, 40% burden, and 20% peak service weights, **F, B, Q** rank 1–3. **D** has the second-lowest CJTP and warrants a separate reliability review. | Investigate the shortlisted lines before choosing an intervention; the weights are analytical choices. |
 
 See the [executive PDF](reports/EXECUTIVE_CASE_STUDY.pdf), [full case study with sources](reports/EXECUTIVE_CASE_STUDY.md), and [recruiter-friendly narrative](portfolio/CASE_STUDY.md).
+
+## Featured charts
+
+These chart captures come from the same validated snapshot as the [interactive dashboard](https://dhruvshah-dev.github.io/mta-transitpulse/). Open the dashboard to inspect sources and change the selected line.
+
+### Reliability improved across four years
+
+![Line chart showing annual weekday customer journey reliability rising from 83.88% in 2022 to 85.40% in 2025, with a dip in 2024](dashboards/screenshots/web/charts/reliability-trend.png)
+
+Passenger-weighted weekday CJTP increased **1.52 percentage points**. The 42nd Street Shuttle has incomplete 2022 coverage; the like-for-like gain excluding it is **1.43 points**.
+
+### B and D have the lowest 2025 journey reliability
+
+![Sorted horizontal bars of the ten lowest line-group reliability rates in 2025, led by B at 78.74% and D at 79.63%](dashboards/screenshots/web/charts/lowest-line-reliability.png)
+
+Bars start at zero to preserve percentage scale. The first two rates are **78.74% for B** and **79.63% for D**; the close bar lengths should be read with those values.
+
+### Delay incidents show reported workload
+
+![Sorted horizontal bars of 2025 weekday delay incidents by category; Police and Medical is highest at 16,215](dashboards/screenshots/web/charts/delay-incidents-by-category.png)
+
+**Police & Medical: 16,215** incidents; **Infrastructure & Equipment: 13,692**. These are counts across weekday hours, not exposure-adjusted risk or evidence of a cause of poor reliability.
+
+### Reliability and passenger-time burden are separate dimensions
+
+![Scatterplot of 23 line comparison groups by 2025 reliability and net additional passenger minutes](dashboards/screenshots/web/charts/reliability-vs-passenger-time.png)
+
+The reliability axis begins at **75%** to show the observed spread; passenger-time burden starts at zero. The proposed score puts **F, B, Q** first for investigation, while **D** receives a separate reliability review. Exact values and line identities are in the [2025 scorecard](data/analysis/line_priority_2025.csv).
 
 ## How the analysis works
 
@@ -49,7 +83,7 @@ npm.cmd run build
 python -m http.server 4173 --bind 127.0.0.1 --directory dist
 ```
 
-Open `http://127.0.0.1:4173/`. From the repository root, `python src/build_web_dashboard_data.py` regenerates the web snapshot and updates the app's reviewed data from the committed analysis files. Rebuild the app after that command. To regenerate the ten screenshots, install Python Playwright (`python -m pip install playwright`), provide a local Chrome installation, and run `python src/capture_web_dashboard.py` while the local server is running. The screenshot script checks the headline KPIs, route selector, chart rendering, light/dark chart-text contrast, and mobile overflow.
+Open `http://127.0.0.1:4173/`. From the repository root, `python src/build_web_dashboard_data.py` regenerates the web snapshot and updates the app's reviewed data from the committed analysis files. Rebuild the app after that command. To regenerate the ten full-view screenshots and four featured chart captures, install Python Playwright (`python -m pip install playwright`), provide a local Chrome installation, and run `python src/capture_web_dashboard.py` while the local server is running. The screenshot script checks the headline KPIs, route selector, chart rendering, light/dark chart-text contrast, and mobile overflow.
 
 GitHub Pages builds the same app through [the deployment workflow](.github/workflows/pages.yml). The published page is a historical snapshot and does not refresh when the MTA portal changes.
 
