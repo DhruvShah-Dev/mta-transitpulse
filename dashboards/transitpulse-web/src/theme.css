@@ -23,7 +23,7 @@
   --chart-3: light-dark(#1d8a71, #5dc4ad);
   --chart-4: light-dark(#fccc0a, #f8d95f);
   --chart-5: light-dark(#ff66ad, #ff8cc1);
-  --chart-6: light-dark(#ffc300, #ffd240);
+  --chart-6: light-dark(#9a6500, #ffd240);
   --chart-7: light-dark(#fa423e, #ff6764);
   --chart-8: light-dark(#8f8f8f, #afafaf);
   --chart-neutral-fill: color-mix(in srgb, var(--text) 3%, var(--surface));

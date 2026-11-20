@@ -6,7 +6,7 @@
 
 [![TransitPulse browser dashboard overview](dashboards/screenshots/web/overview.png)](https://dhruvshah-dev.github.io/mta-transitpulse/)
 
-The browser dashboard has four views: [Overview](dashboards/screenshots/web/overview.png), [Line performance](dashboards/screenshots/web/line-performance.png), [Diagnostics](dashboards/screenshots/web/diagnostics.png), and [Priorities](dashboards/screenshots/web/priorities.png). A [mobile capture](dashboards/screenshots/web/overview-mobile.png) shows the responsive opening view.
+The browser dashboard has four views: [Overview](dashboards/screenshots/web/overview.png), [Line performance](dashboards/screenshots/web/line-performance.png), [Diagnostics](dashboards/screenshots/web/diagnostics.png), and [Priorities](dashboards/screenshots/web/priorities.png). [Light](dashboards/screenshots/web/overview-mobile.png) and [dark](dashboards/screenshots/web/overview-mobile-dark.png) mobile captures show the responsive opening view. The [dark-theme Overview](dashboards/screenshots/web/overview-dark.png), [Line performance](dashboards/screenshots/web/line-performance-dark.png), [Diagnostics](dashboards/screenshots/web/diagnostics-dark.png), and [Priorities](dashboards/screenshots/web/priorities-dark.png) captures document the alternate theme.
 
 ## The decision in three findings
 
@@ -34,6 +34,8 @@ The browser dashboard is built from the checked 2022–2025 analysis outputs and
 
 The dashboard follows Cole Nussbaumer Knaflic's *[Storytelling with Data](https://www.storytellingwithdata.com/book/downloads)* approach: lead with the decision and takeaway, choose familiar comparisons, remove visual clutter, and use emphasis sparingly. The chart titles and short notes distinguish observed customer outcomes from proposed investigation priorities.
 
+Chart review: line charts show the 2022–2025 time trend; sorted horizontal bars show ordered line and incident comparisons from zero; and the scatterplot shows how reliability and passenger-time burden vary together. Its reliability axis begins at 75% to make the observed 78.74%–99.18% range legible, with the nonzero start stated beside the chart. The shortlist and comparison table keep exact values and line identities available without relying on color or hover.
+
 The customer metric covers weekday estimated unlinked train trips from 6 a.m. to 11 p.m. Incident counts cover all weekday hours, while Service Delivered covers selected peaks. A line-month association is diagnostic evidence, not a causal estimate. Missing incident records remain missing; the separate major-incident source is never added to delay incidents. [KPI definitions](reports/KPI_DEFINITIONS.md), [limitations](reports/ANALYTICAL_LIMITATIONS.md), and [priority method](reports/PRIORITIZATION_METHOD.md) explain the rules.
 
 ## Run the browser dashboard
@@ -47,7 +49,7 @@ npm.cmd run build
 python -m http.server 4173 --bind 127.0.0.1 --directory dist
 ```
 
-Open `http://127.0.0.1:4173/`. From the repository root, `python src/build_web_dashboard_data.py` regenerates the web snapshot and updates the app's reviewed data from the committed analysis files. Rebuild the app after that command. To regenerate the five screenshots, install Python Playwright (`python -m pip install playwright`), provide a local Chrome installation, and run `python src/capture_web_dashboard.py` while the local server is running. The screenshot script checks the headline KPIs, route selector, chart rendering, and mobile overflow.
+Open `http://127.0.0.1:4173/`. From the repository root, `python src/build_web_dashboard_data.py` regenerates the web snapshot and updates the app's reviewed data from the committed analysis files. Rebuild the app after that command. To regenerate the ten screenshots, install Python Playwright (`python -m pip install playwright`), provide a local Chrome installation, and run `python src/capture_web_dashboard.py` while the local server is running. The screenshot script checks the headline KPIs, route selector, chart rendering, light/dark chart-text contrast, and mobile overflow.
 
 GitHub Pages builds the same app through [the deployment workflow](.github/workflows/pages.yml). The published page is a historical snapshot and does not refresh when the MTA portal changes.
 

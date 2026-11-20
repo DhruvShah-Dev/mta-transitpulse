@@ -12,7 +12,7 @@ function Route({ line }) {
   return <span className={`tp-route tp-route--${group}`}>{line}</span>;
 }
 function Panel({ id, queryId, title, rows, spec, height = 290, note }) {
-  const chart = spec.yDomain ? chartConfigEntries({ id, title, rows, spec })[0] : { id, title, rows, spec };
+  const chart = spec.yDomain || spec.xDomain ? chartConfigEntries({ id, title, rows, spec })[0] : { id, title, rows, spec };
   return <div className="tp-panel"><EvidenceChart {...chart} queryId={queryId} sourceRows={rows} height={height} variant="plain" />{note && <p className="tp-note">{note}</p>}</div>;
 }
 
@@ -39,7 +39,7 @@ export function DashboardContent() {
     id: "lines-history", title: `${line} journey reliability, 2022–2025`, rows: selectedHistory,
     spec: { type: "line", x: "year", y: "cjtPercent", xScale: "category",
       yDomain: lineDomain,
-      yLabel: "Journey reliability (%)", showXAxisLabel: false, colors: { cjtPercent: "#005da9" } },
+      yLabel: "Journey reliability (%)", showXAxisLabel: false, colors: { cjtPercent: "var(--chart-1)" } },
   });
   const tab = activeTabId || "overview";
   const titles = {
@@ -58,15 +58,15 @@ export function DashboardContent() {
         <MetricCard id="overview-burden" queryId="annual_system" title="2025 net additional time" value={`${(latest?.netMinutes / 1e9).toFixed(2)}B min`} sourceRows={annual} description="Signed estimate across measured weekday unlinked trips." />
       </section>
       <div className="tp-grid">
-        <Panel id="overview-trend" queryId="annual_system" title="Journey reliability rose from 83.88% to 85.40%" rows={annual} spec={{ type: "line", x: "year", y: "cjtPercent", xScale: "category", yDomain: [82, 87], yLabel: "Journey reliability (%)", showXAxisLabel: false, colors: { cjtPercent: "#005da9" } }} note="Passenger-weighted annual rate. The 42nd Street Shuttle has incomplete 2022 coverage." />
-        <Panel id="overview-priority" queryId="priority_2025" title="Proposed investigation order" rows={ranked.slice(0, 6)} spec={{ type: "horizontalBar", x: "line", y: "score", yLabel: "Priority score", showXAxisLabel: false, colors: { score: "#005da9" } }} note="F, B, Q rank 1–3. D warrants a separate reliability review. The score does not predict intervention impact." />
+        <Panel id="overview-trend" queryId="annual_system" title="Journey reliability rose from 83.88% to 85.40%" rows={annual} spec={{ type: "line", x: "year", y: "cjtPercent", xScale: "category", yDomain: [82, 87], yLabel: "Journey reliability (%)", showXAxisLabel: false, colors: { cjtPercent: "var(--chart-1)" } }} note="Passenger-weighted annual rate. The 42nd Street Shuttle has incomplete 2022 coverage." />
+        <Panel id="overview-priority" queryId="priority_2025" title="Proposed investigation order" rows={ranked.slice(0, 6)} spec={{ type: "horizontalBar", x: "line", y: "score", yLabel: "Priority score", showXAxisLabel: false, colors: { score: "var(--chart-1)" } }} note="F, B, Q rank 1–3. D warrants a separate reliability review. The score does not predict intervention impact." />
       </div>
       <div className="tp-callout"><Route line="F" /><Route line="B" /><Route line="Q" /><span>High burden and poor reliability</span><Route line="D" /><span>Separate reliability review</span></div>
     </>}
 
     {tab === "lines" && <>
       <div className="tp-grid">
-        <Panel id="lines-lowest" queryId="priority_2025" title="Lowest 2025 journey reliability" rows={weak.slice(0, 10)} height={350} spec={{ type: "horizontalBar", x: "line", y: "cjtPercent", yLabel: "Journey reliability (%)", showXAxisLabel: false, colors: { cjtPercent: "#005da9" } }} note="B is lowest at 78.74%; D is second lowest at 79.63%." />
+        <Panel id="lines-lowest" queryId="priority_2025" title="Lowest 2025 journey reliability" rows={weak.slice(0, 10)} height={350} spec={{ type: "horizontalBar", x: "line", y: "cjtPercent", yLabel: "Journey reliability (%)", showXAxisLabel: false, colors: { cjtPercent: "var(--chart-1)" } }} note="B is lowest at 78.74%; D is second lowest at 79.63%." />
         <div className="tp-panel"><div className="tp-panel__heading"><h2>Line history</h2><label>Line <select value={line} onChange={(event) => setLine(event.target.value)}>{[...priority].sort((a, b) => a.line.localeCompare(b.line)).map((row) => <option key={row.line} value={row.line}>{row.line}</option>)}</select></label></div>
           <div className="tp-line-stat"><Route line={selected?.line} /><strong>{pct(selected?.cjtPercent)}</strong><span>2025 reliability</span></div>
           <EvidenceChart {...lineChart} queryId="line_history" sourceRows={selectedHistory} height={220} variant="plain" />
@@ -77,8 +77,8 @@ export function DashboardContent() {
 
     {tab === "diagnostics" && <>
       <div className="tp-grid">
-        <Panel id="diag-categories" queryId="delay_categories_2025" title="2025 weekday delay incidents by category" rows={categories} height={330} spec={{ type: "horizontalBar", x: "category", y: "incidents", yLabel: "Incidents", showXAxisLabel: false, colors: { incidents: "#005da9" } }} note="Counts show reported workload, not exposure-adjusted risk." />
-        <Panel id="diag-service" queryId="priority_2025" title="Lowest 2025 peak service delivered" rows={service.slice(0, 10)} height={330} spec={{ type: "horizontalBar", x: "line", y: "servicePercent", yLabel: "Scheduled trains delivered (%)", showXAxisLabel: false, colors: { servicePercent: "#005da9" } }} note="Selected weekday peak timepoints only. Source ratios can exceed 100%." />
+        <Panel id="diag-categories" queryId="delay_categories_2025" title="2025 weekday delay incidents by category" rows={categories} height={330} spec={{ type: "horizontalBar", x: "category", y: "incidents", yLabel: "Incidents", showXAxisLabel: false, colors: { incidents: "var(--chart-1)" } }} note="Counts show reported workload, not exposure-adjusted risk." />
+        <Panel id="diag-service" queryId="priority_2025" title="Lowest 2025 peak service delivered" rows={service.slice(0, 10)} height={330} spec={{ type: "horizontalBar", x: "line", y: "servicePercent", yLabel: "Scheduled trains delivered (%)", showXAxisLabel: false, colors: { servicePercent: "var(--chart-1)" } }} note="Selected weekday peak timepoints only. Source ratios can exceed 100%." />
       </div>
       <div className="tp-callout"><Route line="F" /><strong>{priority.find((row) => row.line === "F")?.delayIncidents.toLocaleString("en-US")}</strong><span>weekday delay incidents</span><strong>{pct(priority.find((row) => row.line === "F")?.servicePercent)}</strong><span>peak service delivered</span></div>
       <p className="tp-note">Customer journeys, incidents, and peak service cover different hours. Co-movement is a lead for investigation, not causality.</p>
@@ -87,7 +87,7 @@ export function DashboardContent() {
     {tab === "priorities" && <>
       <section className="tp-metrics" aria-label="Priority lines">{ranked.slice(0, 3).map((row) => <MetricCard key={row.line} id={`priority-${row.line}`} queryId="priority_2025" title={`#${row.rank} · ${row.line} line`} value={mins(row.netMinutesM)} sourceRows={[row]} description={`${pct(row.cjtPercent)} reliability · rank ${row.rankBest}–${row.rankWorst} across five weight scenarios`} />)}</section>
       <div className="tp-grid">
-        <Panel id="priority-matrix" queryId="priority_2025" title="Reliability vs net passenger-time burden" rows={priority} height={350} spec={{ type: "scatter", x: "cjtPercent", y: "netMinutesM", series: "quadrant", xLabel: "Journey reliability (%)", yLabel: "Net minutes (millions)" }} note="The high-burden, poor-reliability lines sit toward the upper left. Medians: 161.36M minutes and 84.95% reliability." />
+        <Panel id="priority-matrix" queryId="priority_2025" title="Reliability vs net passenger-time burden" rows={priority} height={350} spec={{ type: "scatter", x: "cjtPercent", y: "netMinutesM", series: "quadrant", xDomain: [75, 100], xLabel: "Journey reliability (%)", yLabel: "Net minutes (millions)" }} note="The horizontal axis starts at 75% to show differences among the 23 lines; vertical position starts at zero. Medians: 161.36M minutes and 84.95% reliability." />
         <div className="tp-panel tp-priority-list"><h2>What to review next</h2>{[["F", "Highest net burden; inspect poor months and peak delivery."], ["B", "Lowest reliability; test whether recent improvement continued."], ["Q", "High burden; locate platform and train-time drivers."], ["D", "Second-lowest reliability; targeted review despite lower burden."]].map(([route, detail]) => <div className="tp-priority-item" key={route}><Route line={route} /><span>{detail}</span></div>)}<p className="tp-note">Proposed weights: 40% reliability · 40% passenger burden · 20% peak service.</p></div>
       </div>
       <DataComponent id="priority-table" queryId="priority_2025" title="2025 comparison groups" kind="table" variant="card" displayRows={ranked} sourceRows={ranked}>
